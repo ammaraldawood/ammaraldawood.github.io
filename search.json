@@ -7,6 +7,20 @@
     "text": "About this site"
   },
   {
+    "objectID": "blog/welcome.html",
+    "href": "blog/welcome.html",
+    "title": "Blog",
+    "section": "",
+    "text": "This is my very first blog post! I’m excited to share my thoughts and experiences here."
+  },
+  {
+    "objectID": "blog/welcome.html#getting-started",
+    "href": "blog/welcome.html#getting-started",
+    "title": "Blog",
+    "section": "Getting Started",
+    "text": "Getting Started\nYou can add more posts by creating new .qmd files in the blog/ directory. Remember to include the YAML front matter at the top of each post with title, author, date, and categories."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ammaraldawood.github.io",
