@@ -1,7 +1,5 @@
 ---
-title: "ammaraldawood.github.io"
+title: "Ammar Aldawood"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Graduate Student from Jordan University of Science and Technology. Aspiring Computational Biologist with a highly diverse skill set.
