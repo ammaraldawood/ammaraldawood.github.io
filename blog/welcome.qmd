@@ -7,8 +7,4 @@ listing:
   categories: true
 ---
 
-This is my very first blog post! I'm excited to share my thoughts and experiences here.
-
-## Getting Started
-
-You can add more posts by creating new `.qmd` files in the `blog/` directory. Remember to include the YAML front matter at the top of each post with `title`, `author`, `date`, and `categories`.
+Welcome to my blog! This is where I talk about my experiences and share my point of view.

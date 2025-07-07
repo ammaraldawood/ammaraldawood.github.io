@@ -1,5 +1,64 @@
 ---
-title: "Ammar Aldawood"
+title: "About Me"
+about:
+  template: jolla
 ---
 
-Graduate Student from Jordan University of Science and Technology. Aspiring Computational Biologist with a highly diverse skill set.
+### Hi, I’m Ammar Aldawood 👋
+I'm a medical laboratory scientist hoping to make a career shift into computational biology  
+based on the conviction that mathematics will be pivotal in an upcoming biological revolution,  
+and that the best way to apply it to biology is through computation.
+
+---
+
+## 🎓 Education
+
+**B.Sc. in Medical Laboratory Sciences**, Jordan University of Science and Technology — *Oct 2017 – Jul 2021*  
+
+**M.Sc. in Microbiology and Immunology**, Jordan University of Science and Technology - *Aug 2021 - present*
+
+---
+
+## 🧰 Skills
+
+### 🧬 Core Computational Biology Skills
+
+**Data Analysis** – ★★★★  
+
+**Next-Generation Sequencing** – ★★★  
+
+**Machine Learning** – ★★★  
+
+**Reproducible Research** – ★★★ 
+
+---
+
+### 🛠 Programming & Tools
+
+**Python** – ★★★★  
+
+**R** – ★★★  
+
+**Shell** – ★★★  
+
+**Swift** – ★★  
+
+**SQL** – ★★  
+
+**Version Control** – ★★  
+
+**Containerization** – ★★  
+
+**Data Structures & Algorithms** – ★★ 
+
+---
+
+### 💬 Scientific Communication & Languages
+
+**Scientific Writing** – ★★★★  
+
+**English** – ★★★★★  
+
+**Arabic** – ★★★★★  
+
+**Mandarin** – ★

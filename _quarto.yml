@@ -5,16 +5,28 @@ website:
   title: "Ammar Aldawood"
   navbar:
     left:
-      - href: about.qmd
+      - href: index.qmd
         text: About
       - href: blog/welcome.qmd
         text: Blog
-      - href: projects.qmd
+      - href: projects/projects.qmd
         text: Projects
-      - href: services.qmd
-        text: Services
-      - href: contact.qmd
-        text: Contact
+    tools:
+      - icon: github
+        href: https://github.com/ammaraldawood
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ammar-aldawood/
+        target: _blank
+      - icon: twitter-x
+        href: https://x.com/aldawood_ammar
+        target: _blank
+      - icon: youtube
+        href: https://www.youtube.com/@Ammar_Aldawood
+        target: _blank
+      - icon: envelope-at-fill
+        href: mailto:aldawoodammar@gmail.com
+        target: _blank
 
 format:
   html:

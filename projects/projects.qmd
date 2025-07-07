@@ -1,0 +1,8 @@
+---
+title: "Projects"
+listing:
+  contents: "."
+  sort: "date desc"
+  type: grid
+  categories: true
+---

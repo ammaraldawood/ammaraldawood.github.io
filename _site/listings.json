@@ -4,5 +4,16 @@
     "items": [
       "/blog/2025-07-05.html"
     ]
+  },
+  {
+    "listing": "/projects/projects.html",
+    "items": [
+      "/projects/thesis.html",
+      "/projects/algorithm.html",
+      "/projects/model.html",
+      "/projects/package.html",
+      "/projects/app.html",
+      "/projects/pipeline.html"
+    ]
   }
 ]

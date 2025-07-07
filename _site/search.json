@@ -1,30 +1,37 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "ammaraldawood.github.io",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
     "objectID": "blog/welcome.html",
     "href": "blog/welcome.html",
     "title": "Blog",
     "section": "",
-    "text": "This is my very first blog post! I’m excited to share my thoughts and experiences here."
+    "text": "Welcome to my blog! This is where I talk about my experiences and share my point of view.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Post\n\n\n\nQuarto\n\nBlog\n\n\n\n\n\n\n\n\n\nJul 5, 2025\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/welcome.html#getting-started",
-    "href": "blog/welcome.html#getting-started",
-    "title": "Blog",
-    "section": "Getting Started",
-    "text": "Getting Started\nYou can add more posts by creating new .qmd files in the blog/ directory. Remember to include the YAML front matter at the top of each post with title, author, date, and categories."
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m a medical laboratory scientist hoping to make a career shift into computational biology\nbased on the conviction that mathematics will be pivotal in an upcoming biological revolution,\nand that the best way to apply it to biology is through computation."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "About Me",
+    "section": "🎓 Education",
+    "text": "🎓 Education\nB.Sc. in Medical Laboratory Sciences, Jordan University of Science and Technology — Oct 2017 – Jul 2021\nM.Sc. in Microbiology and Immunology, Jordan University of Science and Technology - Aug 2021 - present"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "About Me",
+    "section": "🧰 Skills",
+    "text": "🧰 Skills\n\n🧬 Core Computational Biology Skills\nData Analysis – ★★★★\nNext-Generation Sequencing – ★★★\nMachine Learning – ★★★\nReproducible Research – ★★★\n\n\n\n🛠 Programming & Tools\nPython – ★★★★\nR – ★★★\nShell – ★★★\nSwift – ★★\nSQL – ★★\nVersion Control – ★★\nContainerization – ★★\nData Structures & Algorithms – ★★\n\n\n\n💬 Scientific Communication & Languages\nScientific Writing – ★★★★\nEnglish – ★★★★★\nArabic – ★★★★★\nMandarin – ★"
+  },
+  {
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "No matching items"
   }
 ]
