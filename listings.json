@@ -1,5 +1,16 @@
 [
   {
+    "listing": "/projects/projects.html",
+    "items": [
+      "/projects/package.html",
+      "/projects/model.html",
+      "/projects/app.html",
+      "/projects/pipeline.html",
+      "/projects/thesis.html",
+      "/projects/algorithm.html"
+    ]
+  },
+  {
     "listing": "/blog/welcome.html",
     "items": [
       "/blog/2025-07-05.html"
