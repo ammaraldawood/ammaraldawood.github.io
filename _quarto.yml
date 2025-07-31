@@ -1,6 +1,7 @@
 project:
   type: website
-  resources: ads.txt
+  resources:
+    - ads.txt
 
 website:
   title: "Ammar Aldawood"
@@ -40,4 +41,5 @@ format:
 adsense:
   publisher-id: ca-pub-4576710901770304
 
-filters: adsense
+filters:
+  - adsense
