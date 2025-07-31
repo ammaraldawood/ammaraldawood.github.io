@@ -40,5 +40,6 @@ format:
 
 adsense:
   publisher-id: ca-pub-4576710901770304
-  filters:
-    - adsense
+
+filters:
+  - adsense
