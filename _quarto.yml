@@ -29,6 +29,7 @@ website:
       - icon: envelope-at-fill
         href: mailto:aldawoodammar@gmail.com
         target: _blank
+  google-analytics: "G-QC859BHLY4"
 
 format:
   html:
