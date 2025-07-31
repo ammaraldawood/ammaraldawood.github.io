@@ -7,13 +7,6 @@
     "text": "No matching items"
   },
   {
-    "objectID": "blog/welcome.html",
-    "href": "blog/welcome.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Welcome to my blog! This is where I talk about my experiences and share my point of view.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Post\n\n\n\nQuarto\n\nBlog\n\n\n\n\n\n\n\n\n\nJul 5, 2025\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "About Me",
@@ -33,5 +26,12 @@
     "title": "About Me",
     "section": "🧰 Skills",
     "text": "🧰 Skills\n\n🧬 Core Computational Biology Skills\nData Analysis – ★★★★\nNext-Generation Sequencing – ★★★\nMachine Learning – ★★★\nReproducible Research – ★★★\n\n\n\n🛠 Programming & Tools\nPython – ★★★★\nR – ★★★\nShell – ★★★\nSwift – ★★\nSQL – ★★\nVersion Control – ★★\nContainerization – ★★\nData Structures & Algorithms – ★★\n\n\n\n💬 Scientific Communication & Languages\nScientific Writing – ★★★★\nEnglish – ★★★★★\nArabic – ★★★★★\nMandarin – ★"
+  },
+  {
+    "objectID": "blog/welcome.html",
+    "href": "blog/welcome.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my blog! This is where I talk about my experiences and share my point of view.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Post\n\n\n\nQuarto\n\nBlog\n\n\n\n\n\n\n\n\n\nJul 5, 2025\n\n\n\n\n\nNo matching items"
   }
 ]

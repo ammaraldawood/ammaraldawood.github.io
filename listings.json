@@ -2,12 +2,12 @@
   {
     "listing": "/projects/projects.html",
     "items": [
-      "/projects/package.html",
-      "/projects/model.html",
-      "/projects/app.html",
       "/projects/pipeline.html",
-      "/projects/thesis.html",
-      "/projects/algorithm.html"
+      "/projects/app.html",
+      "/projects/model.html",
+      "/projects/package.html",
+      "/projects/algorithm.html",
+      "/projects/thesis.html"
     ]
   },
   {
