@@ -7,7 +7,7 @@ website:
   title: "Ammar Aldawood"
   navbar:
     left:
-      - href: index.qmd
+      - href: about.qmd
         text: About
       - href: blog/welcome.qmd
         text: Blog
