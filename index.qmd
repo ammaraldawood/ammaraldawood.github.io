@@ -37,13 +37,17 @@ and that the best way to apply it to biology is through computation.
 
 **Python** – ★★★★  
 
-**R** – ★★★  
+**R** – ★★★★
 
-**Shell** – ★★★  
+**Shell** – ★★★
 
-**Swift** – ★★  
+**Swift** – ★★★
 
-**SQL** – ★★  
+**SQL** – ★★
+
+**C/C++** - ★★
+
+**Assembly (AArch64)** - ★
 
 **Version Control** – ★★  
 
