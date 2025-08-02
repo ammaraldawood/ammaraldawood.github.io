@@ -18,7 +18,7 @@ website:
         text: Projects
       - href: blog/welcome.qmd
         text: Blog
-      - href: index.xml
+      - href: _site/blog/welcome.xml
         icon: rss
   google-analytics: "G-QC859BHLY4"
 

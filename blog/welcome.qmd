@@ -5,8 +5,7 @@ listing:
   sort: "date desc"
   type: default
   categories: true
-  feed:
-    categories: [posts, news]
+  feed: true
 
 comments:
   giscus:

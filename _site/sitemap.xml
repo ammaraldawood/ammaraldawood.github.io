@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ammaraldawood.com/blog/blog/welcome.html</loc>
-    <lastmod>2025-08-02T06:32:09.075Z</lastmod>
+    <lastmod>2025-08-02T07:22:10.156Z</lastmod>
   </url>
   <url>
     <loc>https://ammaraldawood.com/blog/index.html</loc>
@@ -11,5 +11,13 @@
   <url>
     <loc>https://ammaraldawood.com/blog/blog/2025-07-05.html</loc>
     <lastmod>2025-07-05T16:56:16.254Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ammaraldawood.com/blog/about.html</loc>
+    <lastmod>2025-08-02T05:56:43.784Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ammaraldawood.com/blog/projects/projects.html</loc>
+    <lastmod>2025-07-06T21:03:58.295Z</lastmod>
   </url>
 </urlset>
