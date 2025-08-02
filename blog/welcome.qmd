@@ -9,7 +9,7 @@ listing:
 
 comments:
   giscus:
-    repo: ammaraldawood\ammaraldawood.github.io
+    repo: ammaraldawood/ammaraldawood.github.io
 
 ---
 
