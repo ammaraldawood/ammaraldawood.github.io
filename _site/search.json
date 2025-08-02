@@ -1,31 +1,24 @@
 [
   {
-    "objectID": "blog/welcome.html",
-    "href": "blog/welcome.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Welcome to my blog! This is where I talk about my experiences and share my point of view.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Post\n\n\n\nQuarto\n\nBlog\n\n\n\n\n\n\n\n\n\nJul 5, 2025\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "about.html",
+    "href": "about.html",
     "title": "About Me",
     "section": "",
     "text": "I’m a medical laboratory scientist hoping to make a career shift into computational biology\nbased on the conviction that mathematics will be pivotal in an upcoming biological revolution,\nand that the best way to apply it to biology is through computation."
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
+    "objectID": "about.html#education",
+    "href": "about.html#education",
     "title": "About Me",
     "section": "🎓 Education",
-    "text": "🎓 Education\nB.Sc. in Medical Laboratory Sciences, Jordan University of Science and Technology — Oct 2017 – Jul 2021\nM.Sc. in Microbiology and Immunology, Jordan University of Science and Technology - Aug 2021 - present"
+    "text": "🎓 Education"
   },
   {
-    "objectID": "index.html#skills",
-    "href": "index.html#skills",
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
     "title": "About Me",
     "section": "🧰 Skills",
-    "text": "🧰 Skills\n\n🧬 Core Computational Biology Skills\nData Analysis – ★★★★\nNext-Generation Sequencing – ★★★\nMachine Learning – ★★★\nReproducible Research – ★★★\n\n\n\n🛠 Programming & Tools\nPython – ★★★★\nR – ★★★\nShell – ★★★\nSwift – ★★\nSQL – ★★\nVersion Control – ★★\nContainerization – ★★\nData Structures & Algorithms – ★★\n\n\n\n💬 Scientific Communication & Languages\nScientific Writing – ★★★★\nEnglish – ★★★★★\nArabic – ★★★★★\nMandarin – ★"
+    "text": "🧰 Skills\n\n🧬 Core Computational Biology Skills\nData Analysis – ★★★★\nNext-Generation Sequencing – ★★★\nMachine Learning – ★★★\nReproducible Research – ★★★\n\n\n\n🛠 Programming & Tools\n\n\n\n\n\n\n\n\n\n\n\n\n💬 Scientific Communication & Languages\nScientific Writing – ★★★★\nEnglish – ★★★★★\nArabic – ★★★★★\nMandarin – ★"
   },
   {
     "objectID": "projects/projects.html",
@@ -33,5 +26,26 @@
     "title": "Projects",
     "section": "",
     "text": "No matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ahlan to Affluent* Ammar’s Almanac!",
+    "section": "",
+    "text": "*Intellectually, Not Financially So…"
+  },
+  {
+    "objectID": "blog/welcome.html",
+    "href": "blog/welcome.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my blog! This is where I talk about my experiences and share my point of view.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy First Post\n\n\n\nQuarto\n\nBlog\n\n\n\n\n\n\n\n\n\nJul 5, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html#programming-tools",
+    "href": "about.html#programming-tools",
+    "title": "About Me",
+    "section": "🛠 Programming & Tools",
+    "text": "🛠 Programming & Tools"
   }
 ]

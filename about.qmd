@@ -2,6 +2,8 @@
 title: "About Me"
 about:
   template: jolla
+execute:
+    echo: false
 ---
 
 ### Hi, I’m Ammar Aldawood 👋
@@ -13,56 +15,69 @@ and that the best way to apply it to biology is through computation.
 
 ## 🎓 Education
 
-**B.Sc. in Medical Laboratory Sciences**, Jordan University of Science and Technology — *Oct 2017 – Jul 2021*  
+```{r}
+library(vistime)
 
-**M.Sc. in Microbiology and Immunology**, Jordan University of Science and Technology - *Aug 2021 - present*
+timeline_data <- data.frame(event = c("", "", "", ""),
+                            name = c("Born", "BSc in Medical Laboratory Sciences", "MSc in Microbiology and Immunology", "Self-directed Learning of Mathematics and Computation"),
+                            start = c("1999-11-02", "2017-10-01", "2021-10-01", "2022-07-01"), 
+                            end   = c("1999-11-02", "2021-07-21", "2025-09-01", "2025-09-01"),
+                            color = c('#89CFF0', '#7CB9E8', '#1560bd', '#000080')
+                            )
+                            
+gg_vistime(timeline_data, col.group = "name")
 
----
-
-## 🧰 Skills
-
-### 🧬 Core Computational Biology Skills
-
-**Data Analysis** – ★★★★  
-
-**Next-Generation Sequencing** – ★★★  
-
-**Machine Learning** – ★★★  
-
-**Reproducible Research** – ★★★ 
+```
 
 ---
 
-### 🛠 Programming & Tools
+## 🛠 Programming & Tools
 
-**Python** – ★★★★  
+```{r}
+library(eulerr)
 
-**R** – ★★★★
+fit1 <- euler(c(
+  "Python" = 100,
+  "R" = 100, 
+  "SQL" = 50,
+  "Swift" = 75,
+  "C" = 35,
+  "C++" = 25,
+  "ASM" = 15,
+  "Shell" = 75,
+  "Git" = 75,
+  "Docker" = 50,
+  "Python&R" = 15,
+  "Python&SQL" = 7.5,
+  "R&SQL" = 7.5,
+  "C&C++" = 3.25,
+  "C&ASM" = 1.5,
+  "C&Python" = 3.25,
+  "C&Swift" = 3.25,
+  "C++&Swift" = 3.25,
+  "C++&R" = 3.25,
+  "Shell&Docker" = 5,
+  "Shell&Git" = 5
+), shape = "ellipse"
+)
 
-**Shell** – ★★★
+p <- plot(fit1,
+          fill = list(fill = c("steelblue","steelblue","steelblue","tomato","gray","gray","gray","khaki","khaki","khaki"),
+                      alpha = 0.6),
+          labels = list(col="black", fontsize=10, fontface="light"),
+          legend = list(
+                   side    = "bottom",
+                   labels  = c("Data Science, Machine Learning & Visualization",
+                                "Optimization & High Performance Computing",
+                                "Native App Development",
+                                "Scripting / Version Control / Containerization"),
+                    fill    = c("steelblue", "gray", "tomato", "khaki"),
+                    col     = "black",
+                    nrow    = 4,
+                    ncol    = 1
+                  )
+)
 
-**Swift** – ★★★
+print(p)
+```
 
-**SQL** – ★★
-
-**C/C++** - ★★
-
-**Assembly (AArch64)** - ★
-
-**Version Control** – ★★  
-
-**Containerization** – ★★  
-
-**Data Structures & Algorithms** – ★★ 
-
----
-
-### 💬 Scientific Communication & Languages
-
-**Scientific Writing** – ★★★★  
-
-**English** – ★★★★★  
-
-**Arabic** – ★★★★★  
-
-**Mandarin** – ★

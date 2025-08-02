@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About Me – Ammar Aldawood</title>
+<title>Ahlan to Affluent Ammar’s Almanac! – Ammar Aldawood</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,12 +70,22 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-QC859BHLY4"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-QC859BHLY4', { 'anonymize_ip': true});
+</script>
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=pub-4576710901770304" crossorigin="anonymous"></script>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -218,7 +228,8 @@ ul.task-list li input[type="checkbox"] {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -231,6 +242,14 @@ ul.task-list li input[type="checkbox"] {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -253,27 +272,27 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./blog/welcome.html"> 
-<span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./projects/projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog/welcome.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools tools-wide">
-    <a href="https://github.com/ammaraldawood" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-github"></i></a>
-    <a href="https://www.linkedin.com/in/ammar-aldawood/" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-linkedin"></i></a>
-    <a href="https://x.com/aldawood_ammar" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-twitter-x"></i></a>
-    <a href="https://www.youtube.com/@Ammar_Aldawood" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-youtube"></i></a>
-    <a href="mailto:aldawoodammar@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-envelope-at-fill"></i></a>
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -283,78 +302,47 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#hi-im-ammar-aldawood" id="toc-hi-im-ammar-aldawood" class="nav-link active" data-scroll-target="#hi-im-ammar-aldawood">Hi, I’m Ammar Aldawood 👋</a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">🎓 Education</a></li>
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">🧰 Skills</a>
-  <ul class="collapse">
-  <li><a href="#core-computational-biology-skills" id="toc-core-computational-biology-skills" class="nav-link" data-scroll-target="#core-computational-biology-skills">🧬 Core Computational Biology Skills</a></li>
-  <li><a href="#programming-tools" id="toc-programming-tools" class="nav-link" data-scroll-target="#programming-tools">🛠 Programming &amp; Tools</a></li>
-  <li><a href="#scientific-communication-languages" id="toc-scientific-communication-languages" class="nav-link" data-scroll-target="#scientific-communication-languages">💬 Scientific Communication &amp; Languages</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<div class="quarto-about-jolla">
- <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="gimme.png" class="about-image
+  rounded " style="width: 20em;">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About Me</h1>
+<h1 class="title">Ahlan to Affluent Ammar’s Almanac!</h1>
 </div>
 <div class="quarto-title-meta">
   </div>
-</header><main class="content" id="quarto-document-content">
+</header>
+    <div class="about-links">
+  <a href="https://github.com/ammaraldawood" class="about-link" rel="" target="_blank">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text"></span>
+  </a>
+  <a href="https://www.linkedin.com/in/ammar-aldawood/" class="about-link" rel="" target="_blank">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text"></span>
+  </a>
+  <a href="https://x.com/aldawood_ammar" class="about-link" rel="" target="_blank">
+    <i class="bi bi-twitter-x"></i>
+     <span class="about-link-text"></span>
+  </a>
+  <a href="https://www.youtube.com/@Ammar_Aldawood" class="about-link" rel="" target="_blank">
+    <i class="bi bi-youtube"></i>
+     <span class="about-link-text"></span>
+  </a>
+  <a href="mailto:aldawoodammar@gmail.com" class="about-link" rel="" target="_blank">
+    <i class="bi bi-envelope-at-fill"></i>
+     <span class="about-link-text"></span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
 
 
-<section id="hi-im-ammar-aldawood" class="level3">
-<h3 data-anchor-id="hi-im-ammar-aldawood">Hi, I’m Ammar Aldawood 👋</h3>
-<p>I’m a medical laboratory scientist hoping to make a career shift into computational biology<br>
-based on the conviction that mathematics will be pivotal in an upcoming biological revolution,<br>
-and that the best way to apply it to biology is through computation.</p>
-<hr>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">🎓 Education</h2>
-<p><strong>B.Sc. in Medical Laboratory Sciences</strong>, Jordan University of Science and Technology — <em>Oct 2017 – Jul 2021</em></p>
-<p><strong>M.Sc. in Microbiology and Immunology</strong>, Jordan University of Science and Technology - <em>Aug 2021 - present</em></p>
-<hr>
-</section>
-<section id="skills" class="level2">
-<h2 data-anchor-id="skills">🧰 Skills</h2>
-<section id="core-computational-biology-skills" class="level3">
-<h3 data-anchor-id="core-computational-biology-skills">🧬 Core Computational Biology Skills</h3>
-<p><strong>Data Analysis</strong> – ★★★★</p>
-<p><strong>Next-Generation Sequencing</strong> – ★★★</p>
-<p><strong>Machine Learning</strong> – ★★★</p>
-<p><strong>Reproducible Research</strong> – ★★★</p>
-<hr>
-</section>
-<section id="programming-tools" class="level3">
-<h3 data-anchor-id="programming-tools">🛠 Programming &amp; Tools</h3>
-<p><strong>Python</strong> – ★★★★</p>
-<p><strong>R</strong> – ★★★</p>
-<p><strong>Shell</strong> – ★★★</p>
-<p><strong>Swift</strong> – ★★</p>
-<p><strong>SQL</strong> – ★★</p>
-<p><strong>Version Control</strong> – ★★</p>
-<p><strong>Containerization</strong> – ★★</p>
-<p><strong>Data Structures &amp; Algorithms</strong> – ★★</p>
-<hr>
-</section>
-<section id="scientific-communication-languages" class="level3">
-<h3 data-anchor-id="scientific-communication-languages">💬 Scientific Communication &amp; Languages</h3>
-<p><strong>Scientific Writing</strong> – ★★★★</p>
-<p><strong>English</strong> – ★★★★★</p>
-<p><strong>Arabic</strong> – ★★★★★</p>
-<p><strong>Mandarin</strong> – ★</p>
 
-
-</section>
-</section>
-</main>  
+</main></div>
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -435,7 +423,7 @@ and that the best way to apply it to biology is through computation.</p>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/ammaraldawood\.com\/blog");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

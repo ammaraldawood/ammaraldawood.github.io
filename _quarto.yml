@@ -2,33 +2,24 @@ project:
   type: website
   resources:
     - ads.txt
+    - CNAME
+execute:
+  echo: false
 
 website:
   title: "Ammar Aldawood"
+  site-url: https://ammaraldawood.com/blog
+  description: "Blog"
   navbar:
-    left:
+    right:
       - href: about.qmd
         text: About
-      - href: blog/welcome.qmd
-        text: Blog
       - href: projects/projects.qmd
         text: Projects
-    tools:
-      - icon: github
-        href: https://github.com/ammaraldawood
-        target: _blank
-      - icon: linkedin
-        href: https://www.linkedin.com/in/ammar-aldawood/
-        target: _blank
-      - icon: twitter-x
-        href: https://x.com/aldawood_ammar
-        target: _blank
-      - icon: youtube
-        href: https://www.youtube.com/@Ammar_Aldawood
-        target: _blank
-      - icon: envelope-at-fill
-        href: mailto:aldawoodammar@gmail.com
-        target: _blank
+      - href: blog/welcome.qmd
+        text: Blog
+      - href: index.xml
+        icon: rss
   google-analytics: "G-QC859BHLY4"
 
 format:
@@ -36,6 +27,7 @@ format:
     theme:
       light: flatly
       dark: darkly
+    respect-user-color-scheme: true
     css: styles.css
     toc: true
 

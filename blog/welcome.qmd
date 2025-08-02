@@ -5,6 +5,13 @@ listing:
   sort: "date desc"
   type: default
   categories: true
+  feed:
+    categories: [posts, news]
+
+comments:
+  giscus:
+    repo: ammaraldawood\ammaraldawood.github.io
+
 ---
 
 Welcome to my blog! This is where I talk about my experiences and share my point of view.

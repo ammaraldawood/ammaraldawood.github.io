@@ -1,7 +1,22 @@
 ---
-title: "Welcome to my website!"
+title: "Ahlan to Affluent Ammar's Almanac!"
 about:
-  template: jolla
+  template: trestles
+  image: gimme.png
+  links:
+      - icon: github
+        href: https://github.com/ammaraldawood
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ammar-aldawood/
+        target: _blank
+      - icon: twitter-x
+        href: https://x.com/aldawood_ammar
+        target: _blank
+      - icon: youtube
+        href: https://www.youtube.com/@Ammar_Aldawood
+        target: _blank
+      - icon: envelope-at-fill
+        href: mailto:aldawoodammar@gmail.com
+        target: _blank
 ---
-
-# Hello and Welcome!
