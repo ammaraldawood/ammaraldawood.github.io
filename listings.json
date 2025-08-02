@@ -3,9 +3,6 @@
     "listing": "/projects/projects.html",
     "items": [
       "/projects/pipeline.html",
-      "/projects/app.html",
-      "/projects/model.html",
-      "/projects/package.html",
       "/projects/algorithm.html",
       "/projects/thesis.html"
     ]
