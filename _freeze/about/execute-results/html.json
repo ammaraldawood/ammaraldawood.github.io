@@ -1,0 +1,17 @@
+{
+  "hash": "65681195eafd3f350c1e0a3efcd85523",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"About Me\"\nabout:\n  template: jolla\nexecute:\n    echo: false\n---\n\n### Hi, I’m Ammar Aldawood 👋\nI'm a medical laboratory scientist hoping to make a career shift into computational biology  \nbased on the conviction that mathematics will be pivotal in an upcoming biological revolution,  \nand that the best way to apply it to biology is through computation.\n\n---\n\n## 🎓 Education\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](about_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n---\n\n## 🛠 Programming & Tools\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](about_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n",
+    "supporting": [
+      "about_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

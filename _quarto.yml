@@ -5,6 +5,7 @@ project:
     - CNAME
 execute:
   echo: false
+  freeze: true
 
 website:
   title: "Ammar Aldawood"
