@@ -228,7 +228,8 @@ gtag('config', 'G-QC859BHLY4', { 'anonymize_ip': true});
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -241,6 +242,14 @@ gtag('config', 'G-QC859BHLY4', { 'anonymize_ip': true});
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -263,27 +272,27 @@ gtag('config', 'G-QC859BHLY4', { 'anonymize_ip': true});
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/welcome.html"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./projects/projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog/welcome.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./_site/blog/welcome.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools tools-wide">
-    <a href="https://github.com/ammaraldawood" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-github"></i></a>
-    <a href="https://www.linkedin.com/in/ammar-aldawood/" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-linkedin"></i></a>
-    <a href="https://x.com/aldawood_ammar" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-twitter-x"></i></a>
-    <a href="https://www.youtube.com/@Ammar_Aldawood" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-youtube"></i></a>
-    <a href="mailto:aldawoodammar@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-envelope-at-fill"></i></a>
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -299,12 +308,7 @@ gtag('config', 'G-QC859BHLY4', { 'anonymize_ip': true});
   <ul>
   <li><a href="#hi-im-ammar-aldawood" id="toc-hi-im-ammar-aldawood" class="nav-link active" data-scroll-target="#hi-im-ammar-aldawood">Hi, I’m Ammar Aldawood 👋</a></li>
   <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">🎓 Education</a></li>
-  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">🧰 Skills</a>
-  <ul class="collapse">
-  <li><a href="#core-computational-biology-skills" id="toc-core-computational-biology-skills" class="nav-link" data-scroll-target="#core-computational-biology-skills">🧬 Core Computational Biology Skills</a></li>
   <li><a href="#programming-tools" id="toc-programming-tools" class="nav-link" data-scroll-target="#programming-tools">🛠 Programming &amp; Tools</a></li>
-  <li><a href="#scientific-communication-languages" id="toc-scientific-communication-languages" class="nav-link" data-scroll-target="#scientific-communication-languages">💬 Scientific Communication &amp; Languages</a></li>
-  </ul></li>
   </ul>
 </nav>
     </div>
@@ -328,43 +332,30 @@ and that the best way to apply it to biology is through computation.</p>
 </section>
 <section id="education" class="level2">
 <h2 data-anchor-id="education">🎓 Education</h2>
-<p><strong>B.Sc. in Medical Laboratory Sciences</strong>, Jordan University of Science and Technology — <em>Oct 2017 – Jul 2021</em></p>
-<p><strong>M.Sc. in Microbiology and Immunology</strong>, Jordan University of Science and Technology - <em>Aug 2021 - present</em></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="about_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 <hr>
 </section>
-<section id="skills" class="level2">
-<h2 data-anchor-id="skills">🧰 Skills</h2>
-<section id="core-computational-biology-skills" class="level3">
-<h3 data-anchor-id="core-computational-biology-skills">🧬 Core Computational Biology Skills</h3>
-<p><strong>Data Analysis</strong> – ★★★★</p>
-<p><strong>Next-Generation Sequencing</strong> – ★★★</p>
-<p><strong>Machine Learning</strong> – ★★★</p>
-<p><strong>Reproducible Research</strong> – ★★★</p>
-<hr>
-</section>
-<section id="programming-tools" class="level3">
-<h3 data-anchor-id="programming-tools">🛠 Programming &amp; Tools</h3>
-<p><strong>Python</strong> – ★★★★</p>
-<p><strong>R</strong> – ★★★★</p>
-<p><strong>Shell</strong> – ★★★</p>
-<p><strong>Swift</strong> – ★★★</p>
-<p><strong>SQL</strong> – ★★</p>
-<p><strong>C/C++</strong> - ★★</p>
-<p><strong>Assembly (AArch64)</strong> - ★</p>
-<p><strong>Version Control</strong> – ★★</p>
-<p><strong>Containerization</strong> – ★★</p>
-<p><strong>Data Structures &amp; Algorithms</strong> – ★★</p>
-<hr>
-</section>
-<section id="scientific-communication-languages" class="level3">
-<h3 data-anchor-id="scientific-communication-languages">💬 Scientific Communication &amp; Languages</h3>
-<p><strong>Scientific Writing</strong> – ★★★★</p>
-<p><strong>English</strong> – ★★★★★</p>
-<p><strong>Arabic</strong> – ★★★★★</p>
-<p><strong>Mandarin</strong> – ★</p>
+<section id="programming-tools" class="level2">
+<h2 data-anchor-id="programming-tools">🛠 Programming &amp; Tools</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="about_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 
 
-</section>
 </section>
 </main>  
 </div>
@@ -447,7 +438,7 @@ and that the best way to apply it to biology is through computation.</p>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/ammaraldawood\.github\.io\/");
+        var filterRegex = new RegExp("https:\/\/ammaraldawood\.com\/blog");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
