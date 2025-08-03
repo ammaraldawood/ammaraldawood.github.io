@@ -19,3 +19,19 @@
 .quarto-dark-mode .html-widget {
   color: white !important;
 }
+
+/*-- scss:rules --*/
+.navbar-brand,
+.navbar-logo {
+  /* adjust container if needed: vertical align */
+  align-items: center;
+}
+
+.navbar-brand img,
+.navbar-logo img {
+  max-height: 90px !important;  // scale up/down
+  width: auto !important;
+  /* if you want increased padding
+     padding-top: 5px;
+     padding-bottom: 5px; */
+}

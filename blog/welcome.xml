@@ -10,7 +10,7 @@
 <atom:link href="https://ammaraldawood.com/blog/blog/welcome.xml" rel="self" type="application/rss+xml"/>
 <description>Blog</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Sat, 05 Jul 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 04 Jul 2025 21:00:00 GMT</lastBuildDate>
 <item>
   <title>My First Post</title>
   <link>https://ammaraldawood.com/blog/blog/2025-07-05.html</link>
@@ -26,7 +26,7 @@
   <category>Quarto</category>
   <category>Blog</category>
   <guid>https://ammaraldawood.com/blog/blog/2025-07-05.html</guid>
-  <pubDate>Sat, 05 Jul 2025 00:00:00 GMT</pubDate>
+  <pubDate>Fri, 04 Jul 2025 21:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
