@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "reading/book1.html",
+    "href": "reading/book1.html",
+    "title": "",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "reading/book2.html",
+    "href": "reading/book2.html",
+    "title": "",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
     "objectID": "projects/project3.html",
     "href": "projects/project3.html",
     "title": "Coming Soon!",
@@ -23,28 +37,28 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Me",
+    "title": "Who Am I?",
     "section": "",
-    "text": "I’m a medical laboratory scientist hoping to make a career shift into computational biology\nbased on the conviction that mathematics will be pivotal in an upcoming biological revolution,\nand that the best way to apply it to biology is through computation."
+    "text": "I’m Ammar Aldawood, an aspiring computational biologist. A medical laboratory sciences alumnus from Jordan Univeristy of Science and Technology, I became increasingly aware of how indespensible mathematics and computation are for understanding biology."
   },
   {
     "objectID": "about.html#education-learning",
     "href": "about.html#education-learning",
-    "title": "About Me",
+    "title": "Who Am I?",
     "section": "Education & Learning",
     "text": "Education & Learning\n\n\n\n\n\n\n\n\n\n\nGantt chart generated using ggplot2 in R"
   },
   {
     "objectID": "about.html#my-tech-stack",
     "href": "about.html#my-tech-stack",
-    "title": "About Me",
+    "title": "Who Am I?",
     "section": "My Tech Stack",
     "text": "My Tech Stack\n\nHover over nodes to see more info!\n\n\n\n\n\n\n\nSankey diagram generated using Plotly in R"
   },
   {
     "objectID": "about.html#interests-and-hobbies",
     "href": "about.html#interests-and-hobbies",
-    "title": "About Me",
+    "title": "Who Am I?",
     "section": "Interests and Hobbies",
     "text": "Interests and Hobbies\n\nZoom in to see more!\n\n\n\n\n\n\n\n\n\n\n\n\n\nCircle packing generated using circlepackeR in R"
   },
@@ -61,6 +75,20 @@
     "title": "Projects",
     "section": "",
     "text": "Coming Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "reading/book3.html",
+    "href": "reading/book3.html",
+    "title": "",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "reading/readinglist.html",
+    "href": "reading/readinglist.html",
+    "title": "Reading List",
+    "section": "",
+    "text": "No matching items"
   },
   {
     "objectID": "blog/welcome.html",

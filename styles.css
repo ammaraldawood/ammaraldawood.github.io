@@ -54,3 +54,8 @@ h1.text-center {
 .card-hover:hover {
   background-color: darkorange !important; /* Changes to dark orange on hover */
 }
+
+.card-link {
+  display: inline-block; /* Makes the <a> tag only as wide as the card */
+  text-decoration: none; /* Redundant with text-decoration-none class, but ensures consistency */
+}

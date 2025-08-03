@@ -8,6 +8,14 @@
     ]
   },
   {
+    "listing": "/reading/readinglist.html",
+    "items": [
+      "/reading/book3.html",
+      "/reading/book2.html",
+      "/reading/book1.html"
+    ]
+  },
+  {
     "listing": "/blog/welcome.html",
     "items": [
       "/blog/2025-07-05.html"
