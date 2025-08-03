@@ -21,18 +21,25 @@
     "text": "I’m a medical laboratory scientist hoping to make a career shift into computational biology\nbased on the conviction that mathematics will be pivotal in an upcoming biological revolution,\nand that the best way to apply it to biology is through computation."
   },
   {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
+    "objectID": "about.html#education-learning",
+    "href": "about.html#education-learning",
     "title": "About Me",
-    "section": "🎓 Education",
-    "text": "🎓 Education"
+    "section": "Education & Learning",
+    "text": "Education & Learning\n\n\n\n\n\n\n\n\n\n\nGantt chart generated using ggplot2 in R"
   },
   {
-    "objectID": "about.html#programming-tools",
-    "href": "about.html#programming-tools",
+    "objectID": "about.html#my-tech-stack",
+    "href": "about.html#my-tech-stack",
     "title": "About Me",
-    "section": "🛠 Programming & Tools",
-    "text": "🛠 Programming & Tools"
+    "section": "My Tech Stack",
+    "text": "My Tech Stack\n\nHover over nodes to see more info!\n\n\n\n\n\n\n\nSankey diagram generated using Plotly in R"
+  },
+  {
+    "objectID": "about.html#interests-and-hobbies",
+    "href": "about.html#interests-and-hobbies",
+    "title": "About Me",
+    "section": "Interests and Hobbies",
+    "text": "Interests and Hobbies\n\nZoom in to see more!\n\n\n\n\n\n\n\n\n\n\n\n\n\nCircle packing generated using circlepackeR in R"
   },
   {
     "objectID": "projects/pipeline.html",

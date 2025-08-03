@@ -1,1 +1,21 @@
-/* css styles */
+/* This file is for styling the Quarto website.
+ * Add custom CSS rules here.
+ */
+
+/* Sets plot backgrounds to transparent */
+.html-widget-container {
+  background-color: transparent !important;
+}
+
+/* * This is an optional rule to make sure text is readable on different themes.
+ * Quarto's built-in themes should handle this, but you can override if needed.
+ */
+.quarto-dark-mode-enable .plotly,
+.quarto-dark-mode-enable .html-widget {
+  color: black !important;
+}
+
+.quarto-dark-mode .plotly,
+.quarto-dark-mode .html-widget {
+  color: white !important;
+}

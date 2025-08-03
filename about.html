@@ -35,14 +35,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3fced2653c1411365395c6308d7f7025.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-1e815c4c50043f7e8fc9161d15dcdabb.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-3fced2653c1411365395c6308d7f7025.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d37a41727e4f93f30118ee0bfac05f63.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,184 +75,25 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-QC859BHLY4', { 'anonymize_ip': true});
 </script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/plotly-binding-4.11.0/plotly.js"></script>
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+<script src="site_libs/d3-3.5.6/./d3.min.js"></script>
+<link href="site_libs/circlepackeR-0.1/./style.css" rel="stylesheet">
+<script src="site_libs/circlepackeR-binding-0.0.0.9000/circlepackeR.js"></script>
 <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=pub-4576710901770304" crossorigin="anonymous"></script>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-    const darkModeDefault = queryPrefersDark.matches;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    queryPrefersDark.addEventListener("change", e => {
-      if(window.localStorage.getItem("quarto-color-scheme") !== null)
-        return;
-      const alternate = e.matches
-      toggleColorMode(alternate);
-      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
-      toggleGiscusIfUsed(alternate, darkModeDefault);
-    });
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -293,7 +130,6 @@ gtag('config', 'G-QC859BHLY4', { 'anonymize_ip': true});
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -307,8 +143,9 @@ gtag('config', 'G-QC859BHLY4', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
   <ul>
   <li><a href="#hi-im-ammar-aldawood" id="toc-hi-im-ammar-aldawood" class="nav-link active" data-scroll-target="#hi-im-ammar-aldawood">Hi, I’m Ammar Aldawood 👋</a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">🎓 Education</a></li>
-  <li><a href="#programming-tools" id="toc-programming-tools" class="nav-link" data-scroll-target="#programming-tools">🛠 Programming &amp; Tools</a></li>
+  <li><a href="#education-learning" id="toc-education-learning" class="nav-link" data-scroll-target="#education-learning">Education &amp; Learning</a></li>
+  <li><a href="#my-tech-stack" id="toc-my-tech-stack" class="nav-link" data-scroll-target="#my-tech-stack">My Tech Stack</a></li>
+  <li><a href="#interests-and-hobbies" id="toc-interests-and-hobbies" class="nav-link" data-scroll-target="#interests-and-hobbies">Interests and Hobbies</a></li>
   </ul>
 </nav>
     </div>
@@ -322,59 +159,76 @@ gtag('config', 'G-QC859BHLY4', { 'anonymize_ip': true});
   </div>
 </header><main class="content" id="quarto-document-content">
 
-
 <section id="hi-im-ammar-aldawood" class="level3">
 <h3 data-anchor-id="hi-im-ammar-aldawood">Hi, I’m Ammar Aldawood 👋</h3>
 <p>I’m a medical laboratory scientist hoping to make a career shift into computational biology<br>
 based on the conviction that mathematics will be pivotal in an upcoming biological revolution,<br>
 and that the best way to apply it to biology is through computation.</p>
+<p><br>
+<br>
+</p>
 <hr>
 </section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">🎓 Education</h2>
+<section id="education-learning" class="level2">
+<h2 data-anchor-id="education-learning">Education &amp; Learning</h2>
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="about_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="about_files/figure-html/unnamed-chunk-1-1.svg" class="img-fluid figure-img" width="672"></p>
 </figure>
 </div>
 </div>
 </div>
+<section id="gantt-chart-generated-using-ggplot2-in-r" class="level6">
+<h6 data-anchor-id="gantt-chart-generated-using-ggplot2-in-r">Gantt chart generated using ggplot2 in R</h6>
 <hr>
 </section>
-<section id="programming-tools" class="level2">
-<h2 data-anchor-id="programming-tools">🛠 Programming &amp; Tools</h2>
+</section>
+<section id="my-tech-stack" class="level2">
+<h2 data-anchor-id="my-tech-stack">My Tech Stack</h2>
+<section id="hover-over-nodes-to-see-more-info" class="level5">
+<h5 data-anchor-id="hover-over-nodes-to-see-more-info">Hover over nodes to see more info!</h5>
 <div class="cell">
 <div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="about_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
+<div class="plotly html-widget html-fill-item" id="htmlwidget-52aa1eaadfd14925f9c4" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-52aa1eaadfd14925f9c4">{"x":{"visdat":{"103d5fe1ed":["function () ","plotlyVisDat"]},"cur_data":"103d5fe1ed","attrs":{"103d5fe1ed":{"arrangement":"snap","orientation":"v","node":{"label":["Assembly","C","C++","Python","R","Swift","SQL","Shell","Docker","Git"],"color":["lightgray","lightblue","royalblue","yellow","cornflowerblue","orange","peachpuff","lightgreen","dodgerblue","white"],"pad":15,"customdata":["Low level programming.<br />Learned it purely to become<br />more grounded in computation and<br />understand the full picture down to hardware.<br />Skill level: ★","Mid level programming.<br />Useful for optimization and<br />high performance computing.<br />Gives the best control over embedded systems.<br />Skill level: ★★","Mid level programming.<br />A superset of C that is relevant for<br />interoperability with higher level languages.<br />Skill level: ★","High level programming.<br />Gives access to mature machine learning<br />packages such as XGBoost & PyTorch.<br />Contains the package Biopython.<br />Skill level: ★★★★","High level programming.<br />Specialized in data visualization and<br />statistical data analysis.<br />Contains the library Bioconductor.<br />Skill level: ★★★★","High level programming.<br />Native app development for more than five different platforms<br />in iOS, iPadOS, macOS, watchOS, visionOS..etc.<br />Skill level: ★★★★","Structured query language.<br />Essential for any meaningful work using big data.<br />Best way to interact with relational databases.<br />Skill level: ★★★","Command line interface.<br />Provides broad access over the system you're working on.<br />Essential for scripting and SSH-ing.<br />Skill level: ★★★★","Containerization and Reproducibility.<br />Skill level: ★★","Version Control and Reproducibility.<br />Skill level: ★★★★"],"hovertemplate":"<b>Node:<\/b> %{label}<br><b>Info:<\/b> %{customdata}<extra><\/extra>"},"link":{"source":[0,1,1,1,1,2,2,2,6,6,7,7],"target":[1,2,3,4,5,3,4,5,3,4,8,9],"value":[6,3,1,1,1,1,1,1,1,1,1,1],"color":["lightgray","lightblue","lightblue","lightblue","lightblue","royalblue","royalblue","royalblue","peachpuff","peachpuff","lightgreen","lightgreen"],"hoverinfo":"none"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"sankey"}},"layout":{"margin":{"b":60,"l":60,"t":75,"r":60},"title":"","paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","font":{"color":"#000000","size":12,"family":"Arial"},"hoverlabel":{"bgcolor":"rgba(255, 255, 255, 1)","bordercolor":"rgba(0, 0, 0, 1)","font":{"color":"black"}},"hovermode":"closest","showlegend":false},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"arrangement":"snap","orientation":"v","node":{"label":["Assembly","C","C++","Python","R","Swift","SQL","Shell","Docker","Git"],"color":["lightgray","lightblue","royalblue","yellow","cornflowerblue","orange","peachpuff","lightgreen","dodgerblue","white"],"pad":15,"customdata":["Low level programming.<br />Learned it purely to become<br />more grounded in computation and<br />understand the full picture down to hardware.<br />Skill level: ★","Mid level programming.<br />Useful for optimization and<br />high performance computing.<br />Gives the best control over embedded systems.<br />Skill level: ★★","Mid level programming.<br />A superset of C that is relevant for<br />interoperability with higher level languages.<br />Skill level: ★","High level programming.<br />Gives access to mature machine learning<br />packages such as XGBoost & PyTorch.<br />Contains the package Biopython.<br />Skill level: ★★★★","High level programming.<br />Specialized in data visualization and<br />statistical data analysis.<br />Contains the library Bioconductor.<br />Skill level: ★★★★","High level programming.<br />Native app development for more than five different platforms<br />in iOS, iPadOS, macOS, watchOS, visionOS..etc.<br />Skill level: ★★★★","Structured query language.<br />Essential for any meaningful work using big data.<br />Best way to interact with relational databases.<br />Skill level: ★★★","Command line interface.<br />Provides broad access over the system you're working on.<br />Essential for scripting and SSH-ing.<br />Skill level: ★★★★","Containerization and Reproducibility.<br />Skill level: ★★","Version Control and Reproducibility.<br />Skill level: ★★★★"],"hovertemplate":"<b>Node:<\/b> %{label}<br><b>Info:<\/b> %{customdata}<extra><\/extra>"},"link":{"source":[0,1,1,1,1,2,2,2,6,6,7,7],"target":[1,2,3,4,5,3,4,5,3,4,8,9],"value":[6,3,1,1,1,1,1,1,1,1,1,1],"color":["lightgray","lightblue","lightblue","lightblue","lightblue","royalblue","royalblue","royalblue","peachpuff","peachpuff","lightgreen","lightgreen"],"hoverinfo":"none"},"type":"sankey","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
+<section id="sankey-diagram-generated-using-plotly-in-r" class="level6">
+<h6 data-anchor-id="sankey-diagram-generated-using-plotly-in-r">Sankey diagram generated using Plotly in R</h6>
+<hr>
+</section>
+</section>
+</section>
+<section id="interests-and-hobbies" class="level2">
+<h2 data-anchor-id="interests-and-hobbies">Interests and Hobbies</h2>
+<section id="zoom-in-to-see-more" class="level5">
+<h5 data-anchor-id="zoom-in-to-see-more">Zoom in to see more!</h5>
+<p><br>
+<br>
+</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="circlepackeR html-widget html-fill-item" id="htmlwidget-bab4679ab9c567e2a40b" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-bab4679ab9c567e2a40b">{"x":{"data":{"name":"world","children":[{"name":"Sports","children":[{"name":"Calisthenics","group":"Sports","subgroup":"Calisthenics","value":100},{"name":"Running","group":"Sports","subgroup":"Running","value":25},{"name":"Swimming","group":"Sports","subgroup":"Swimming","value":25}]},{"name":"Languages","children":[{"name":"Arabic","group":"Languages","subgroup":"Arabic","value":100},{"name":"English","group":"Languages","subgroup":"English","value":100},{"name":"Mandarin","group":"Languages","subgroup":"Mandarin","value":5}]},{"name":"Music","children":[{"name":"Playing Piano","group":"Music","subgroup":"Playing Piano","value":25},{"name":"Music Theory","group":"Music","subgroup":"Music Theory","value":25},{"name":"Listening","group":"Music","subgroup":"Listening","value":25}]},{"name":"Digital Creation","children":[{"name":"Vector Art","group":"Digital Creation","subgroup":"Vector Art","value":25},{"name":"3D Asset Creation","group":"Digital Creation","subgroup":"3D Asset Creation","value":5},{"name":"Animation","group":"Digital Creation","subgroup":"Animation","value":5},{"name":"Raster Art","group":"Digital Creation","subgroup":"Raster Art","value":25}]},{"name":"Learning","children":[{"name":"Reading","group":"Learning","subgroup":"Reading","value":100},{"name":"Research","group":"Learning","subgroup":"Research","value":100}]}]},"options":{"size":"value","color_min":"hsl(152,80%,80%)","color_max":"hsl(228,30%,40%)"}},"evals":[],"jsHooks":[]}</script>
 </div>
+</div>
+<p><br>
+<br>
+</p>
+<section id="circle-packing-generated-using-circlepacker-in-r" class="level6">
+<h6 data-anchor-id="circle-packing-generated-using-circlepacker-in-r">Circle packing generated using circlepackeR in R</h6>
 
 
+</section>
+</section>
 </section>
 </main>  
 </div>
  <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
