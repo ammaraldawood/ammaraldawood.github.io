@@ -14,32 +14,25 @@
     "text": "Status: Done."
   },
   {
-    "objectID": "projects/project3.html",
-    "href": "projects/project3.html",
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Coming Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
     "title": "Coming Soon!",
     "section": "",
     "text": "Coming Soon!"
-  },
-  {
-    "objectID": "projects/project1.html",
-    "href": "projects/project1.html",
-    "title": "Coming Soon!",
-    "section": "",
-    "text": "Coming Soon!"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ahlan to Affluent Ammar’s Almanac!",
-    "section": "",
-    "text": "Latest Post\n    \n  \n  \n    \n      Latest Project\n    \n  \n  \n    \n      Now Reading"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Who Am I?",
     "section": "",
-    "text": "I’m Ammar Aldawood, an aspiring computational biologist. A medical laboratory sciences alumnus from Jordan Univeristy of Science and Technology, I became increasingly aware of how indispensible mathematics and computation are for understanding biology."
+    "text": "I’m Ammar Aldawood, an aspiring computational biologist. A medical laboratory sciences alumnus from Jordan University of Science and Technology, I became increasingly aware of how indispensible mathematics and computation are for understanding biology."
   },
   {
     "objectID": "about.html#education-learning",
@@ -63,18 +56,25 @@
     "text": "Interests and Hobbies\n\nZoom in to see more!\n\n\n\n\n\n\n\n\n\n\n\n\n\nCircle packing generated using circlepackeR in R"
   },
   {
-    "objectID": "projects/project2.html",
-    "href": "projects/project2.html",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ahlan to Affluent Ammar’s Almanac!",
+    "section": "",
+    "text": "Latest Post\n    \n  \n  \n    \n      Latest Project\n    \n  \n  \n    \n      Now Reading"
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
     "title": "Coming Soon!",
     "section": "",
     "text": "Coming Soon!"
   },
   {
-    "objectID": "projects/projects.html",
-    "href": "projects/projects.html",
-    "title": "Projects",
+    "objectID": "projects/project3.html",
+    "href": "projects/project3.html",
+    "title": "Coming Soon!",
     "section": "",
-    "text": "Coming Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Coming Soon!"
   },
   {
     "objectID": "reading/book3.html",
@@ -88,7 +88,7 @@
     "href": "reading/readinglist.html",
     "title": "Reading List",
     "section": "",
-    "text": "A Tour of C++\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe C Programming Language\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a collection of books, papers and writings that I think are or might be particularly insightful. I read a lot more than what is listed here, but those are more deliberate readings compared to most of the reading that I do everyday, which can be quite arbitrary and hard to keep track of.\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Mathematics for Computational Biology\n\n\nBook\nMathematics\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBayes Rules!\n\n\nBook\nStatistics\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe StatQuest Illustrated Guide to Machine Learning\n\n\nBook\nMachine Learning\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Algorithms (CLRS)\n\n\nBook\nComputation\nActive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDesigning Data-Intensive Applications\n\n\nBook\nComputation\nUpcoming\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Tour of C++\n\n\nBook\nComputation\nActive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe C Programming Language\n\n\nBook\nComputation\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\n\n\nBook\nComputation\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/welcome.html",
