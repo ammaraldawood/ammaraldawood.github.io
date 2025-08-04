@@ -29,7 +29,7 @@
 
 .navbar-brand img,
 .navbar-logo img {
-  max-height: 90px !important;  // scale up/down
+  max-height: 75px !important;  // scale up/down
   width: auto !important;
   /* if you want increased padding
      padding-top: 5px;
