@@ -1,10 +1,8 @@
 [
   {
-    "listing": "/projects/projects.html",
+    "listing": "/blog/welcome.html",
     "items": [
-      "/projects/project2.html",
-      "/projects/project1.html",
-      "/projects/project3.html"
+      "/blog/posts/2025-07-05.html"
     ]
   },
   {
@@ -13,17 +11,26 @@
       "/reading/book7.html",
       "/reading/book8.html",
       "/reading/book6.html",
+      "/reading/paper3.html",
+      "/reading/book12.html",
       "/reading/book4.html",
+      "/reading/book9.html",
       "/reading/book5.html",
+      "/reading/book11.html",
       "/reading/book3.html",
+      "/reading/book10.html",
       "/reading/book2.html",
+      "/reading/paper2.html",
+      "/reading/paper1.html",
       "/reading/book1.html"
     ]
   },
   {
-    "listing": "/blog/welcome.html",
+    "listing": "/projects/projects.html",
     "items": [
-      "/blog/2025-07-05.html"
+      "/projects/project2.html",
+      "/projects/project1.html",
+      "/projects/project3.html"
     ]
   }
 ]

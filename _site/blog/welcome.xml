@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Ammar Aldawood</title>
+<link>https://ammaraldawood.com/blog/blog/welcome.html</link>
+<atom:link href="https://ammaraldawood.com/blog/blog/welcome.xml" rel="self" type="application/rss+xml"/>
+<description>Blog</description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Mon, 04 Aug 2025 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>Why Artificial Intelligence Didn’t Persuade Me Out of Learning to Code</title>
+  <dc:creator>Ammar Aldawood</dc:creator>
+  <link>https://ammaraldawood.com/blog/blog/posts/2025-07-05.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <category>Machine Learning</category>
+  <category>Artificial Intelligence</category>
+  <category>Learn to Code</category>
+  <category>Bioinformatics</category>
+  <guid>https://ammaraldawood.com/blog/blog/posts/2025-07-05.html</guid>
+  <pubDate>Mon, 04 Aug 2025 21:00:00 GMT</pubDate>
+  <media:content url="https://ammaraldawood.com/blog/blog/posts/woof.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+</channel>
+</rss>
