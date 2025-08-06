@@ -10,7 +10,7 @@
 <atom:link href="https://ammaraldawood.com/blog/blog/welcome.xml" rel="self" type="application/rss+xml"/>
 <description>Blog</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Mon, 04 Aug 2025 21:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 06 Aug 2025 21:00:00 GMT</lastBuildDate>
 <item>
   <title>Why Artificial Intelligence Didn’t Persuade Me Out of Learning to Code</title>
   <dc:creator>Ammar Aldawood</dc:creator>
@@ -24,13 +24,24 @@
 
 
 
- ]]></description>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{aldawood2025,
+  author = {Aldawood, Ammar},
+  title = {Why {Artificial} {Intelligence} {Didn’t} {Persuade} {Me}
+    {Out} of {Learning} to {Code}},
+  date = {2025-08-07},
+  url = {https://ammaraldawood.com/blog/posts/2025-08-05},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-aldawood2025" class="csl-entry quarto-appendix-citeas">
+Aldawood, Ammar. 2025. <span>“Why Artificial Intelligence Didn’t
+Persuade Me Out of Learning to Code.”</span> August 7, 2025. <a href="https://ammaraldawood.com/blog/posts/2025-08-05">https://ammaraldawood.com/blog/posts/2025-08-05</a>.
+</div></div></section></div> ]]></description>
   <category>Machine Learning</category>
   <category>Artificial Intelligence</category>
   <category>Learn to Code</category>
   <category>Bioinformatics</category>
   <guid>https://ammaraldawood.com/blog/blog/posts/2025-07-05.html</guid>
-  <pubDate>Mon, 04 Aug 2025 21:00:00 GMT</pubDate>
+  <pubDate>Wed, 06 Aug 2025 21:00:00 GMT</pubDate>
   <media:content url="https://ammaraldawood.com/blog/blog/posts/woof.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
