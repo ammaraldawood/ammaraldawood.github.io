@@ -1,15 +1,7 @@
-/* This file is for styling the Quarto website.
- * Add custom CSS rules here.
- */
-
-/* Sets plot backgrounds to transparent */
 .html-widget-container {
   background-color: transparent !important;
 }
 
-/* * This is an optional rule to make sure text is readable on different themes.
- * Quarto's built-in themes should handle this, but you can override if needed.
- */
 .quarto-dark-mode-enable .plotly,
 .quarto-dark-mode-enable .html-widget {
   color: black !important;
@@ -20,10 +12,10 @@
   color: white !important;
 }
 
-/*-- scss:rules --*/
+
 .navbar-brand,
 .navbar-logo {
-  /* adjust container if needed: vertical align */
+
   align-items: center;
 }
 
@@ -31,12 +23,13 @@
 .navbar-logo img {
   max-height: 75px !important;  // scale up/down
   width: auto !important;
-  /* if you want increased padding
-     padding-top: 5px;
-     padding-bottom: 5px; */
 }
 
 h1.title {
+  text-align: center;
+}
+
+p.subtitle, div.subtitle, h2.subtitle, h3.subtitle, h4.subtitle {
   text-align: center;
 }
 
@@ -48,14 +41,14 @@ h1.text-center {
 }
 
 .card-hover {
-  transition: background-color 0.3s ease; /* Smooth transition for hover */
+  transition: background-color 0.3s ease; 
 }
 
 .card-hover:hover {
-  background-color: darkorange !important; /* Changes to dark orange on hover */
+  background-color: darkorange !important; 
 }
 
 .card-link {
-  display: inline-block; /* Makes the <a> tag only as wide as the card */
-  text-decoration: none; /* Redundant with text-decoration-none class, but ensures consistency */
+  display: inline-block;
+  text-decoration: none; 
 }
