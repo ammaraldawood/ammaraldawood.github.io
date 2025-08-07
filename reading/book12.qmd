@@ -1,0 +1,5 @@
+---
+title: "Linear Algebra Done Right"
+image: ladr.png
+categories: [Book, Mathematics, Active]
+---

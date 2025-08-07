@@ -1,0 +1,9 @@
+---
+title: "What I've Built"
+listing:
+  contents: "."
+  sort: "date desc"
+  type: grid
+  categories: true
+title-block-banner: true
+---

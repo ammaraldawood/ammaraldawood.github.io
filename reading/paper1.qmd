@@ -1,0 +1,5 @@
+---
+title: "All Biology is Computational Biology"
+image: abcb.png
+categories: [Paper, Bioinformatics, Completed]
+---

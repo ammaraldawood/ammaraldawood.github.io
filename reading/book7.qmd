@@ -1,0 +1,5 @@
+---
+title: "Introduction to Mathematics for Computational Biology"
+image: imcb.png
+categories: [Book, Mathematics, Completed]
+---

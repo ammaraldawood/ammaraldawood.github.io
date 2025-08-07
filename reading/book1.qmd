@@ -1,0 +1,7 @@
+---
+title: "Code"
+image: code.png
+categories: [Book, Computation, Completed]
+---
+
+# Status: Done.

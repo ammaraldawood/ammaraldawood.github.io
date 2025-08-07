@@ -1,0 +1,13 @@
+---
+title: "What I'm Reading"
+listing:
+  contents: "."
+  sort: "date desc"
+  type: grid
+  categories: true
+title-block-banner: true
+---
+
+This is a collection of books, papers and writings that I think are particularly insightful. I read a lot more than what is listed here, but those are more deliberate readings compared to most of the reading that I do everyday, which can be quite arbitrary and hard to keep track of.
+
+---

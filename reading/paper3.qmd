@@ -1,0 +1,5 @@
+---
+title: "A Global Perspective on Evolving Bioinformatics and Data Science Training Needs"
+image: bd.png
+categories: [Paper, Bioinformatics, Completed]
+---

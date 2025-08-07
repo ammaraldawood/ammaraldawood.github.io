@@ -1,0 +1,22 @@
+---
+title: "Why Artificial Intelligence Didn't Persuade Me Out of Learning to Code"
+description: How complexity and chaos undermine machine learning models
+date: 2025-08-07
+categories: [Machine Learning, Artificial Intelligence, Learn to Code, Bioinformatics]
+draft: false
+image: woof.png
+comments:
+  giscus:
+    repo: ammaraldawood/ammaraldawood.github.io
+# author:
+#   - name: Ammar Aldawood
+#     url: https://ammaraldawood.github.io/
+#     orcid: 0009-0001-5777-482X
+date-modified: last-modified
+citation: 
+  url: https://ammaraldawood.com/blog/posts/2025-08-05
+
+format:
+    html:
+        css: styles.css
+---

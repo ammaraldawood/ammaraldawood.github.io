@@ -1,0 +1,5 @@
+---
+title: "The StatQuest Illustrated Guide to Machine Learning"
+image: sqml.png
+categories: [Book, Machine Learning, Completed]
+---

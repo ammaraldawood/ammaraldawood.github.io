@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Who Am I?",
+    "section": "",
+    "text": "I’m Ammar Aldawood, an aspiring computational biologist. A medical laboratory sciences alumnus from Jordan University of Science and Technology, I became increasingly aware of how indispensible mathematics and computation are for understanding biology."
+  },
+  {
+    "objectID": "about.html#education-learning",
+    "href": "about.html#education-learning",
+    "title": "Who Am I?",
+    "section": "Education & Learning",
+    "text": "Education & Learning\n\n\n\n\n\n\n\n\n\n\nGantt chart generated using ggplot2 in R"
+  },
+  {
+    "objectID": "about.html#my-tech-stack",
+    "href": "about.html#my-tech-stack",
+    "title": "Who Am I?",
+    "section": "My Tech Stack",
+    "text": "My Tech Stack\n\nHover over nodes to see more info!\n\n\n\n\n\n\n\nSankey diagram generated using Plotly in R"
+  },
+  {
+    "objectID": "about.html#interests-and-hobbies",
+    "href": "about.html#interests-and-hobbies",
+    "title": "Who Am I?",
+    "section": "Interests and Hobbies",
+    "text": "Interests and Hobbies\n\nZoom in to see more!\n\n\n\n\n\n\n\n\n\n\n\n\n\nCircle packing generated using circlepackeR in R"
+  },
+  {
+    "objectID": "blog/posts/2025-08-25.html",
+    "href": "blog/posts/2025-08-25.html",
+    "title": "Why Artificial Intelligence Didn’t Persuade Me Out of Learning to Code",
+    "section": "",
+    "text": "CitationBibTeX citation:@online{aldawood2025,\n  author = {Aldawood, Ammar},\n  title = {Why {Artificial} {Intelligence} {Didn’t} {Persuade} {Me}\n    {Out} of {Learning} to {Code}},\n  date = {2025-08-07},\n  url = {https://ammaraldawood.com/blog/posts/2025-08-25},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAldawood, Ammar. 2025. “Why Artificial Intelligence Didn’t\nPersuade Me Out of Learning to Code.” August 7, 2025. https://ammaraldawood.com/blog/posts/2025-08-25."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ahlan to Affluent Ammar’s Almanac!",
+    "section": "",
+    "text": "Latest Post\n    \n  \n  \n    \n      Latest Project\n    \n  \n  \n    \n      Now Reading"
+  },
+  {
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
+    "title": "Coming Soon!",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Coming Soon!",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "reading/book2.html",
+    "href": "reading/book2.html",
+    "title": "The C Programming Language",
+    "section": "",
+    "text": "Status: Done."
+  },
+  {
+    "objectID": "reading/book1.html",
+    "href": "reading/book1.html",
+    "title": "Code",
+    "section": "",
+    "text": "Status: Done."
+  },
+  {
+    "objectID": "reading/book3.html",
+    "href": "reading/book3.html",
+    "title": "A Tour of C++",
+    "section": "",
+    "text": "Status: Reading."
+  },
+  {
+    "objectID": "reading/readinglist.html",
+    "href": "reading/readinglist.html",
+    "title": "What I’m Reading",
+    "section": "",
+    "text": "This is a collection of books, papers and writings that I think are particularly insightful. I read a lot more than what is listed here, but those are more deliberate readings compared to most of the reading that I do everyday, which can be quite arbitrary and hard to keep track of.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\n\n\n\nBook\n\nComputation\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe C Programming Language\n\n\n\nBook\n\nComputation\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Tour of C++\n\n\n\nBook\n\nComputation\n\nActive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Mathematics for Computational Biology\n\n\n\nBook\n\nMathematics\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll Biology is Computational Biology\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe StatQuest Illustrated Guide to Machine Learning\n\n\n\nBook\n\nMachine Learning\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Algorithms (CLRS)\n\n\n\nBook\n\nComputation\n\nActive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Global Perspective on Evolving Bioinformatics and Data Science Training Needs\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBook of Proof\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBayes Rules!\n\n\n\nBook\n\nStatistics\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEssential Math for Data Science\n\n\n\nBook\n\nMathematics\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalculus\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrecalculus\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Algebra Done Right\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "What I’ve Built",
+    "section": "",
+    "text": "Coming Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/project3.html",
+    "href": "projects/project3.html",
+    "title": "Coming Soon!",
+    "section": "",
+    "text": "Coming Soon!"
+  },
+  {
+    "objectID": "blog/posts/2025-07-05.html",
+    "href": "blog/posts/2025-07-05.html",
+    "title": "Why Artificial Intelligence Didn’t Persuade Me Out of Learning to Code",
+    "section": "",
+    "text": "CitationBibTeX citation:@online{aldawood2025,\n  author = {Aldawood, Ammar},\n  title = {Why {Artificial} {Intelligence} {Didn’t} {Persuade} {Me}\n    {Out} of {Learning} to {Code}},\n  date = {2025-08-07},\n  url = {https://ammaraldawood.com/blog/posts/2025-08-05},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAldawood, Ammar. 2025. “Why Artificial Intelligence Didn’t\nPersuade Me Out of Learning to Code.” August 7, 2025. https://ammaraldawood.com/blog/posts/2025-08-05."
+  },
+  {
+    "objectID": "blog/welcome.html",
+    "href": "blog/welcome.html",
+    "title": "What’s On My Mind",
+    "section": "",
+    "text": "Welcome to my blog! This is where I talk about my experiences and share my point of view.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy Artificial Intelligence Didn’t Persuade Me Out of Learning to Code\n\n\n\nMachine Learning\n\nArtificial Intelligence\n\nLearn to Code\n\nBioinformatics\n\n\n\nHow complexity and chaos undermine machine learning models\n\n\n\n\n\nAug 7, 2025\n\n\nAmmar Aldawood\n\n\n\n\n\n\n\n\n\n\n\n\nWhy Artificial Intelligence Didn’t Persuade Me Out of Learning to Code\n\n\n\nMachine Learning\n\nArtificial Intelligence\n\nLearn to Code\n\nBioinformatics\n\n\n\nHow complexity and chaos undermine machine learning models\n\n\n\n\n\nAug 7, 2025\n\n\nAmmar Aldawood\n\n\n\n\n\nNo matching items"
+  }
+]

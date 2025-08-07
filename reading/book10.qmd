@@ -1,0 +1,5 @@
+---
+title: "Precalculus"
+image: pc.png
+categories: [Book, Mathematics, Active]
+---

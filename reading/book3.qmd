@@ -1,0 +1,7 @@
+---
+title: "A Tour of C++"
+image: cpp.png
+categories: [Book, Computation, Active]
+---
+
+# Status: Reading.
