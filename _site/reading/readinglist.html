@@ -81,9 +81,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -245,109 +245,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Qm9vayUyQ0NvbXB1dGF0aW9uJTJDQ29tcGxldGVk" data-listing-file-modified-sort="1754301528897" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../reading/book1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../reading/code.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Code
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHV0YXRpb24='); return false;">Computation</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcGxldGVk'); return false;">Completed</div>
-
-</div>
-<div class="card-text listing-description delink">
-
-
-
-
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Qm9vayUyQ0NvbXB1dGF0aW9uJTJDQ29tcGxldGVk" data-listing-file-modified-sort="1754301541332" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../reading/book2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../reading/k&amp;r.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The C Programming Language
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHV0YXRpb24='); return false;">Computation</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcGxldGVk'); return false;">Completed</div>
-
-</div>
-<div class="card-text listing-description delink">
-
-
-
-
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Qm9vayUyQ0NvbXB1dGF0aW9uJTJDQWN0aXZl" data-listing-file-modified-sort="1754301514976" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../reading/book3.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../reading/cpp.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-A Tour of C++
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHV0YXRpb24='); return false;">Computation</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QWN0aXZl'); return false;">Active</div>
-
-</div>
-<div class="card-text listing-description delink">
-
-
-
-
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Qm9vayUyQ01hdGhlbWF0aWNzJTJDQ29tcGxldGVk" data-listing-file-modified-sort="1754306336990" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="0" data-categories="Qm9vayUyQ01hdGhlbWF0aWNzJTJDQ29tcGxldGVk" data-listing-date-sort="1672520400000" data-listing-file-modified-sort="1754593255312" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../reading/book7.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -369,45 +267,18 @@ Introduction to Mathematics for Computational Biology
 <div class="card-text listing-description delink">
 
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-
+Bruno Carpentieri and Paola Lecca
+</div>
+<div class="listing-date">
+2023
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="UGFwZXIlMkNCaW9pbmZvcm1hdGljcyUyQ0NvbXBsZXRlZA==" data-listing-file-modified-sort="1754334345878" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../reading/paper1.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../reading/abcb.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-All Biology is Computational Biology
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGFwZXI='); return false;">Paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QmlvaW5mb3JtYXRpY3M='); return false;">Bioinformatics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcGxldGVk'); return false;">Completed</div>
-
-</div>
-<div class="card-text listing-description delink">
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="Qm9vayUyQ01hY2hpbmUlMjBMZWFybmluZyUyQ0NvbXBsZXRlZA==" data-listing-file-modified-sort="1754304033138" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="1" data-categories="Qm9vayUyQ01hY2hpbmUlMjBMZWFybmluZyUyQ0NvbXBsZXRlZA==" data-listing-date-sort="1640988000000" data-listing-file-modified-sort="1754593238300" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../reading/book6.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -429,165 +300,18 @@ The StatQuest Illustrated Guide to Machine Learning
 <div class="card-text listing-description delink">
 
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-
+Josh Starmer
+</div>
+<div class="listing-date">
+2022
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Qm9vayUyQ0NvbXB1dGF0aW9uJTJDQWN0aXZl" data-listing-file-modified-sort="1754301950782" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../reading/book4.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../reading/clrs.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Introduction to Algorithms (CLRS)
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHV0YXRpb24='); return false;">Computation</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QWN0aXZl'); return false;">Active</div>
-
-</div>
-<div class="card-text listing-description delink">
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="UGFwZXIlMkNCaW9pbmZvcm1hdGljcyUyQ0NvbXBsZXRlZA==" data-listing-file-modified-sort="1754334656389" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../reading/paper3.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../reading/bd.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-A Global Perspective on Evolving Bioinformatics and Data Science Training Needs
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGFwZXI='); return false;">Paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QmlvaW5mb3JtYXRpY3M='); return false;">Bioinformatics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcGxldGVk'); return false;">Completed</div>
-
-</div>
-<div class="card-text listing-description delink">
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="UGFwZXIlMkNCaW9pbmZvcm1hdGljcyUyQ0NvbXBsZXRlZA==" data-listing-file-modified-sort="1754334581920" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../reading/paper2.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../reading/mb.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Mathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGFwZXI='); return false;">Paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QmlvaW5mb3JtYXRpY3M='); return false;">Bioinformatics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcGxldGVk'); return false;">Completed</div>
-
-</div>
-<div class="card-text listing-description delink">
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="Qm9vayUyQ01hdGhlbWF0aWNzJTJDQWN0aXZl" data-listing-file-modified-sort="1754338002482" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../reading/book5.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../reading/bp.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Book of Proof
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWF0aGVtYXRpY3M='); return false;">Mathematics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QWN0aXZl'); return false;">Active</div>
-
-</div>
-<div class="card-text listing-description delink">
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="Qm9vayUyQ1N0YXRpc3RpY3MlMkNDb21wbGV0ZWQ=" data-listing-file-modified-sort="1754306399926" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-<a href="../reading/book8.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="../reading/bayes.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Bayes Rules!
-</h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U3RhdGlzdGljcw=='); return false;">Statistics</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29tcGxldGVk'); return false;">Completed</div>
-
-</div>
-<div class="card-text listing-description delink">
-
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="Qm9vayUyQ01hdGhlbWF0aWNzJTJDQ29tcGxldGVk" data-listing-file-modified-sort="1754337159611" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="2" data-categories="Qm9vayUyQ01hdGhlbWF0aWNzJTJDQ29tcGxldGVk" data-listing-date-sort="1640988000000" data-listing-file-modified-sort="1754593308228" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../reading/book9.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -609,15 +333,117 @@ Essential Math for Data Science
 <div class="card-text listing-description delink">
 
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-
+Thomas Nield
+</div>
+<div class="listing-date">
+2022
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="Qm9vayUyQ01hdGhlbWF0aWNzJTJDQWN0aXZl" data-listing-file-modified-sort="1754338164993" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="3" data-categories="Qm9vayUyQ1N0YXRpc3RpY3MlMkNDb21wbGV0ZWQ=" data-listing-date-sort="1609452000000" data-listing-file-modified-sort="1754593293651" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../reading/book8.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../reading/bayes.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Bayes Rules!
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3RhdGlzdGljcw=='); return false;">Statistics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tcGxldGVk'); return false;">Completed</div>
+
+</div>
+<div class="card-text listing-description delink">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Alicia A. Johnson, Miles Q. Ott and Mine Dogucu
+</div>
+<div class="listing-date">
+2021
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="UGFwZXIlMkNCaW9pbmZvcm1hdGljcyUyQ0NvbXBsZXRlZA==" data-listing-date-sort="1483221600000" data-listing-file-modified-sort="1754593468125" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../reading/paper1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../reading/abcb.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+All Biology is Computational Biology
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGFwZXI='); return false;">Paper</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QmlvaW5mb3JtYXRpY3M='); return false;">Bioinformatics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tcGxldGVk'); return false;">Completed</div>
+
+</div>
+<div class="card-text listing-description delink">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Florian Markowetz
+</div>
+<div class="listing-date">
+2017
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="UGFwZXIlMkNCaW9pbmZvcm1hdGljcyUyQ0NvbXBsZXRlZA==" data-listing-date-sort="1483221600000" data-listing-file-modified-sort="1754593589187" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../reading/paper3.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../reading/bd.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A Global Perspective on Evolving Bioinformatics and Data Science Training Needs
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGFwZXI='); return false;">Paper</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QmlvaW5mb3JtYXRpY3M='); return false;">Bioinformatics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tcGxldGVk'); return false;">Completed</div>
+
+</div>
+<div class="card-text listing-description delink">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Teresa K. Attwood, Sarah Blackford, Michelle D. Brazas, Angela Davies and Maria Victoria Schneider
+</div>
+<div class="listing-date">
+2017
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="Qm9vayUyQ01hdGhlbWF0aWNzJTJDQWN0aXZl" data-listing-date-sort="1420063200000" data-listing-file-modified-sort="1754593331158" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../reading/book11.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -639,15 +465,150 @@ Calculus
 <div class="card-text listing-description delink">
 
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-
+James Stewart
+</div>
+<div class="listing-date">
+2015
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="Qm9vayUyQ01hdGhlbWF0aWNzJTJDQWN0aXZl" data-listing-file-modified-sort="1754338064821" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="7" data-categories="Qm9vayUyQ0NvbXB1dGF0aW9uJTJDQWN0aXZl" data-listing-date-sort="1356987600000" data-listing-file-modified-sort="1754593203547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../reading/book3.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../reading/cpp.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+A Tour of C++
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHV0YXRpb24='); return false;">Computation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QWN0aXZl'); return false;">Active</div>
+
+</div>
+<div class="card-text listing-description delink">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Bjarne Stroustrup
+</div>
+<div class="listing-date">
+2013
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="Qm9vayUyQ01hdGhlbWF0aWNzJTJDQWN0aXZl" data-listing-date-sort="1230760800000" data-listing-file-modified-sort="1754593228517" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../reading/book5.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../reading/bp.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Book of Proof
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWF0aGVtYXRpY3M='); return false;">Mathematics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QWN0aXZl'); return false;">Active</div>
+
+</div>
+<div class="card-text listing-description delink">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Richard Hammack
+</div>
+<div class="listing-date">
+2009
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="UGFwZXIlMkNCaW9pbmZvcm1hdGljcyUyQ0NvbXBsZXRlZA==" data-listing-date-sort="1072908000000" data-listing-file-modified-sort="1754593503297" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../reading/paper2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../reading/mb.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UGFwZXI='); return false;">Paper</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QmlvaW5mb3JtYXRpY3M='); return false;">Bioinformatics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tcGxldGVk'); return false;">Completed</div>
+
+</div>
+<div class="card-text listing-description delink">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Joel E Cohen
+</div>
+<div class="listing-date">
+2004
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="Qm9vayUyQ0NvbXB1dGF0aW9uJTJDQ29tcGxldGVk" data-listing-date-sort="915141600000" data-listing-file-modified-sort="1754593181039" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../reading/book1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../reading/code.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Code
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHV0YXRpb24='); return false;">Computation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tcGxldGVk'); return false;">Completed</div>
+
+</div>
+<div class="card-text listing-description delink">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Charles Petzold
+</div>
+<div class="listing-date">
+1999
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="Qm9vayUyQ01hdGhlbWF0aWNzJTJDQWN0aXZl" data-listing-date-sort="852069600000" data-listing-file-modified-sort="1754593318204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../reading/book10.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -669,15 +630,18 @@ Precalculus
 <div class="card-text listing-description delink">
 
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
-
+James Stewart, Lothar Redlin and Saleem Watson
+</div>
+<div class="listing-date">
+1997
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="Qm9vayUyQ01hdGhlbWF0aWNzJTJDQWN0aXZl" data-listing-file-modified-sort="1754341214965" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="12" data-categories="Qm9vayUyQ01hdGhlbWF0aWNzJTJDQWN0aXZl" data-listing-date-sort="788911200000" data-listing-file-modified-sort="1754593414691" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
 <a href="../reading/book12.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -699,9 +663,78 @@ Linear Algebra Done Right
 <div class="card-text listing-description delink">
 
 </div>
-<div class="card-attribution card-text-small start">
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
+Sheldon Axler
+</div>
+<div class="listing-date">
+1995
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="Qm9vayUyQ0NvbXB1dGF0aW9uJTJDQWN0aXZl" data-listing-date-sort="599608800000" data-listing-file-modified-sort="1754593218965" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../reading/book4.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../reading/clrs.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Introduction to Algorithms (CLRS)
+</h5>
+<div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHV0YXRpb24='); return false;">Computation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QWN0aXZl'); return false;">Active</div>
+
+</div>
+<div class="card-text listing-description delink">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein
+</div>
+<div class="listing-date">
+1989
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="14" data-categories="Qm9vayUyQ0NvbXB1dGF0aW9uJTJDQ29tcGxldGVk" data-listing-date-sort="567986400000" data-listing-file-modified-sort="1754593192049" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<a href="../reading/book2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../reading/k&amp;r.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The C Programming Language
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Qm9vaw=='); return false;">Book</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHV0YXRpb24='); return false;">Computation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tcGxldGVk'); return false;">Completed</div>
+
+</div>
+<div class="card-text listing-description delink">
+
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Brian Kernighan and Dennis Ritchie
+</div>
+<div class="listing-date">
+1988
 </div>
 </div>
 </div>
@@ -1123,12 +1156,8 @@ Linear Algebra Done Right
 
 <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
-      <ul class="footer-items list-unstyled">
-    <li class="nav-item">
- Website built using Quarto, GitHub &amp; Adobe Express.
-  </li>  
-</ul>
-    </div>
+<p>Website built using <a href="https://quarto.org" target="_blank">Quarto</a>, <a href="https://github.com" target="_blank">GitHub</a> &amp; <a href="https://express.adobe.com" target="_blank">Adobe Express</a>.</p>
+</div>
   </div>
 </footer>
 

@@ -33,8 +33,8 @@ website:
     background: darkorange
     foreground: white
   page-footer:
-    right:
-      - text: "Website built using Quarto, GitHub & Adobe Express."
+    right: |
+      Website built using <a href="https://quarto.org" target="_blank">Quarto</a>, <a href="https://github.com" target="_blank">GitHub</a> & <a href="https://express.adobe.com" target="_blank">Adobe Express</a>.
     left:
       - text: "© 2025 Ammar Aldawood"
     border: white
