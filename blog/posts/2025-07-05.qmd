@@ -1,20 +1,16 @@
 ---
 title: "Why AI Didn’t Stop Me From Learning to Code"
 description: An affirmation based on optimism and caution.
-date: 2025-08-08
+date: 2025-08-15
 categories: [Machine Learning, Artificial Intelligence, Learn to Code, Bioinformatics]
-draft: false
+draft: true
 image: woof.png
 comments:
   giscus:
     repo: ammaraldawood/ammaraldawood.github.io
-# author:
-#   - name: Ammar Aldawood
-#     url: https://ammaraldawood.github.io/
-#     orcid: 0009-0001-5777-482X
 date-modified: last-modified
 citation: 
-  url: https://ammaraldawood.com/blog/posts/2025-08-05
+  url: https://ammaraldawood.com/blog/posts/2025-08-15
 
 format:
     html:
@@ -22,7 +18,23 @@ format:
 ---
 
 It was June of 2022 when I first decided to delve (back) into mathematics and computation.
-This was induced by the fact that biology has been turning into a computational field of sorts due to the advent 
-of high throughput sequencing and advanced simulation capabilities. Biology provides a wealth of information unlike any other,
-and statistical methods applied through computation and code are shaping up to be the future of the entire field
+This was induced by the fact that biology and medicine have been turning into computational fields of
+sorts due to the advent of high throughput sequencing and advanced simulation capabilities.
+Biology provides a wealth of high-dimensional information unlike any other of the natural sciences,
+medicine benefits from having room to make trials and errors before applying on humans,
+and statistical methods applied through computation and code are shaping up to be the future of the 
+those fields, and as a medical laboratory scientist whose research will mostly involve large amounts
+of data that needs to be analyzed in all sorts of ways, I was left with very little room to keep dodging 
+this undertaking.
+
+I began my learning journey with the programming language Swift, which is mainly used
+to develop for Apple platforms. I thought that Swift Playgrounds looked like a great interactive tool
+that would make programming concepts stick. Not too long after, I signed up for Angela Yu's Udemy course
+to learn Swift app development.
+
+# A dilemma
+
+A couple of months later, in November of 2022, the service ChatGPT, which was based on the GPT-3.5 model,
+got launched and managed to become the fastest-growing consumer application in history, with nearly all of
+the headlines 
 
