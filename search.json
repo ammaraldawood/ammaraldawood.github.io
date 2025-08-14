@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "blog/posts/2025-07-05.html",
-    "href": "blog/posts/2025-07-05.html",
-    "title": "Why AI Didn’t Stop Me From Learning to Code",
-    "section": "",
-    "text": "It was June of 2022 when I first decided to delve (back) into mathematics and computation. This was induced by the fact that biology has been turning into a computational field of sorts due to the advent of high throughput sequencing and advanced simulation capabilities. Biology provides a wealth of information unlike any other, and statistical methods applied through computation and code are shaping up to be the future of the entire field\n\n\n\nCitationBibTeX citation:@online{aldawood2025,\n  author = {Aldawood, Ammar},\n  title = {Why {AI} {Didn’t} {Stop} {Me} {From} {Learning} to {Code}},\n  date = {2025-08-08},\n  url = {https://ammaraldawood.com/blog/posts/2025-08-05},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAldawood, Ammar. 2025. “Why AI Didn’t Stop Me From Learning to\nCode.” August 8, 2025. https://ammaraldawood.com/blog/posts/2025-08-05."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Who Am I?",
@@ -81,6 +74,6 @@
     "href": "blog/welcome.html",
     "title": "What’s On My Mind",
     "section": "",
-    "text": "Welcome to my blog! This is where I talk about my experiences and share my point of view.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy AI Didn’t Stop Me From Learning to Code\n\n\n\nMachine Learning\n\nArtificial Intelligence\n\nLearn to Code\n\nBioinformatics\n\n\n\nAn affirmation based on optimism and caution.\n\n\n\n\n\nAug 8, 2025\n\n\nAmmar Aldawood\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog! This is where I talk about my experiences and share my point of view.\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
