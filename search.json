@@ -1,31 +1,10 @@
 [
   {
-    "objectID": "blog/welcome.html",
-    "href": "blog/welcome.html",
-    "title": "What’s On My Mind",
+    "objectID": "blog/posts/2025-07-05.html",
+    "href": "blog/posts/2025-07-05.html",
+    "title": "Why AI Didn’t Stop Me From Learning to Code",
     "section": "",
-    "text": "Welcome to my blog! This is where I talk about my experiences and share my point of view.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy Artificial Intelligence Didn’t Persuade Me Out of Learning to Code\n\n\n\nMachine Learning\n\nArtificial Intelligence\n\nLearn to Code\n\nBioinformatics\n\n\n\nHow complexity and chaos undermine machine learning models\n\n\n\n\n\nAug 7, 2025\n\n\nAmmar Aldawood\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "reading/readinglist.html",
-    "href": "reading/readinglist.html",
-    "title": "What I’m Reading",
-    "section": "",
-    "text": "This is a collection of books, papers and writings that I think are particularly insightful. I read a lot more than what is listed here, but those are more deliberate readings compared to most of the reading that I do everyday, which can be quite arbitrary and hard to keep track of.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Mathematics for Computational Biology\n\n\n\nBook\n\nMathematics\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBayes Rules!\n\n\n\nBook\n\nStatistics\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe StatQuest Illustrated Guide to Machine Learning\n\n\n\nBook\n\nMachine Learning\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Global Perspective on Evolving Bioinformatics and Data Science Training Needs\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Algebra Done Right\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Algorithms (CLRS)\n\n\n\nBook\n\nComputation\n\nActive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEssential Math for Data Science\n\n\n\nBook\n\nMathematics\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBook of Proof\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalculus\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Tour of C++\n\n\n\nBook\n\nComputation\n\nActive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrecalculus\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe C Programming Language\n\n\n\nBook\n\nComputation\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll Biology is Computational Biology\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\n\n\n\nBook\n\nComputation\n\nCompleted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/projects.html",
-    "href": "projects/projects.html",
-    "title": "What I’ve Built",
-    "section": "",
-    "text": "Coming Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/project2.html",
-    "href": "projects/project2.html",
-    "title": "Coming Soon!",
-    "section": "",
-    "text": "Coming Soon!"
+    "text": "It was June of 2022 when I first decided to delve (back) into mathematics and computation. This was induced by the fact that biology has been turning into a computational field of sorts due to the advent of high throughput sequencing and advanced simulation capabilities. Biology provides a wealth of information unlike any other, and statistical methods applied through computation and code are shaping up to be the future of the entire field\n\n\n\nCitationBibTeX citation:@online{aldawood2025,\n  author = {Aldawood, Ammar},\n  title = {Why {AI} {Didn’t} {Stop} {Me} {From} {Learning} to {Code}},\n  date = {2025-08-08},\n  url = {https://ammaraldawood.com/blog/posts/2025-08-05},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAldawood, Ammar. 2025. “Why AI Didn’t Stop Me From Learning to\nCode.” August 8, 2025. https://ammaraldawood.com/blog/posts/2025-08-05."
   },
   {
     "objectID": "about.html",
@@ -56,18 +35,11 @@
     "text": "Interests and Hobbies\n\nZoom in to see more!\n\n\n\n\n\n\n\n\n\n\n\n\n\nCircle packing generated using circlepackeR in R"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ahlan to Affluent Ammar’s Almanac!",
+    "objectID": "reading/readinglist.html",
+    "href": "reading/readinglist.html",
+    "title": "What I’m Reading",
     "section": "",
-    "text": "Latest Post\n    \n  \n  \n    \n      Latest Project\n    \n  \n  \n    \n      Now Reading"
-  },
-  {
-    "objectID": "projects/project1.html",
-    "href": "projects/project1.html",
-    "title": "Coming Soon!",
-    "section": "",
-    "text": "Coming Soon!"
+    "text": "This is a collection of books, papers and writings that I think are particularly insightful. I read a lot more than what is listed here, but those are more deliberate readings compared to most of the reading that I do everyday, which can be quite arbitrary and hard to keep track of.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Mathematics for Computational Biology\n\n\n\nBook\n\nMathematics\n\nCompleted\n\n\n\n\n\n\n\nBruno Carpentieri and Paola Lecca\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe StatQuest Illustrated Guide to Machine Learning\n\n\n\nBook\n\nMachine Learning\n\nCompleted\n\n\n\n\n\n\n\nJosh Starmer\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nEssential Math for Data Science\n\n\n\nBook\n\nMathematics\n\nCompleted\n\n\n\n\n\n\n\nThomas Nield\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nBayes Rules!\n\n\n\nBook\n\nStatistics\n\nCompleted\n\n\n\n\n\n\n\nAlicia A. Johnson, Miles Q. Ott and Mine Dogucu\n\n\n2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll Biology is Computational Biology\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\nFlorian Markowetz\n\n\n2017\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Global Perspective on Evolving Bioinformatics and Data Science Training Needs\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\nTeresa K. Attwood, Sarah Blackford, Michelle D. Brazas, Angela Davies and Maria Victoria Schneider\n\n\n2017\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalculus\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\nJames Stewart\n\n\n2015\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Tour of C++\n\n\n\nBook\n\nComputation\n\nActive\n\n\n\n\n\n\n\nBjarne Stroustrup\n\n\n2013\n\n\n\n\n\n\n\n\n\n\n\n\n\nBook of Proof\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\nRichard Hammack\n\n\n2009\n\n\n\n\n\n\n\n\n\n\n\n\n\nMathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\nJoel E Cohen\n\n\n2004\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\n\n\n\nBook\n\nComputation\n\nCompleted\n\n\n\n\n\n\n\nCharles Petzold\n\n\n1999\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrecalculus\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\nJames Stewart, Lothar Redlin and Saleem Watson\n\n\n1997\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Algebra Done Right\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\nSheldon Axler\n\n\n1995\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Algorithms (CLRS)\n\n\n\nBook\n\nComputation\n\nActive\n\n\n\n\n\n\n\nThomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein\n\n\n1989\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe C Programming Language\n\n\n\nBook\n\nComputation\n\nCompleted\n\n\n\n\n\n\n\nBrian Kernighan and Dennis Ritchie\n\n\n1988\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/project3.html",
@@ -77,31 +49,38 @@
     "text": "Coming Soon!"
   },
   {
-    "objectID": "reading/book3.html",
-    "href": "reading/book3.html",
-    "title": "A Tour of C++",
+    "objectID": "projects/project2.html",
+    "href": "projects/project2.html",
+    "title": "Coming Soon!",
     "section": "",
-    "text": "Status: Reading."
+    "text": "Coming Soon!"
   },
   {
-    "objectID": "reading/book2.html",
-    "href": "reading/book2.html",
-    "title": "The C Programming Language",
+    "objectID": "projects/project1.html",
+    "href": "projects/project1.html",
+    "title": "Coming Soon!",
     "section": "",
-    "text": "Status: Done."
+    "text": "Coming Soon!"
   },
   {
-    "objectID": "reading/book1.html",
-    "href": "reading/book1.html",
-    "title": "Code",
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "What I’ve Built",
     "section": "",
-    "text": "Status: Done."
+    "text": "Coming Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nComing Soon!\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "blog/posts/2025-07-05.html",
-    "href": "blog/posts/2025-07-05.html",
-    "title": "Why Artificial Intelligence Didn’t Persuade Me Out of Learning to Code",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ahlan to Affluent Ammar’s Almanac!",
     "section": "",
-    "text": "CitationBibTeX citation:@online{aldawood2025,\n  author = {Aldawood, Ammar},\n  title = {Why {Artificial} {Intelligence} {Didn’t} {Persuade} {Me}\n    {Out} of {Learning} to {Code}},\n  date = {2025-08-07},\n  url = {https://ammaraldawood.com/blog/posts/2025-08-05},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAldawood, Ammar. 2025. “Why Artificial Intelligence Didn’t\nPersuade Me Out of Learning to Code.” August 7, 2025. https://ammaraldawood.com/blog/posts/2025-08-05."
+    "text": "Latest Post\n    \n  \n  \n    \n      Latest Project\n    \n  \n  \n    \n      Now Reading"
+  },
+  {
+    "objectID": "blog/welcome.html",
+    "href": "blog/welcome.html",
+    "title": "What’s On My Mind",
+    "section": "",
+    "text": "Welcome to my blog! This is where I talk about my experiences and share my point of view.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy AI Didn’t Stop Me From Learning to Code\n\n\n\nMachine Learning\n\nArtificial Intelligence\n\nLearn to Code\n\nBioinformatics\n\n\n\nAn affirmation based on optimism and caution.\n\n\n\n\n\nAug 8, 2025\n\n\nAmmar Aldawood\n\n\n\n\n\nNo matching items"
   }
 ]

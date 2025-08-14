@@ -10,9 +10,9 @@
 <atom:link href="https://ammaraldawood.com/blog/blog/welcome.xml" rel="self" type="application/rss+xml"/>
 <description>Blog</description>
 <generator>quarto-1.7.33</generator>
-<lastBuildDate>Thu, 07 Aug 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 08 Aug 2025 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>Why Artificial Intelligence Didn’t Persuade Me Out of Learning to Code</title>
+  <title>Why AI Didn’t Stop Me From Learning to Code</title>
   <dc:creator>Ammar Aldawood</dc:creator>
   <link>https://ammaraldawood.com/blog/blog/posts/2025-07-05.html</link>
   <description><![CDATA[ 
@@ -21,27 +21,27 @@
 
 
 
+<p>It was June of 2022 when I first decided to delve (back) into mathematics and computation. This was induced by the fact that biology has been turning into a computational field of sorts due to the advent of high throughput sequencing and advanced simulation capabilities. Biology provides a wealth of information unlike any other, and statistical methods applied through computation and code are shaping up to be the future of the entire field</p>
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{aldawood2025,
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{aldawood2025,
   author = {Aldawood, Ammar},
-  title = {Why {Artificial} {Intelligence} {Didn’t} {Persuade} {Me}
-    {Out} of {Learning} to {Code}},
-  date = {2025-08-07},
+  title = {Why {AI} {Didn’t} {Stop} {Me} {From} {Learning} to {Code}},
+  date = {2025-08-08},
   url = {https://ammaraldawood.com/blog/posts/2025-08-05},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-aldawood2025" class="csl-entry quarto-appendix-citeas">
-Aldawood, Ammar. 2025. <span>“Why Artificial Intelligence Didn’t
-Persuade Me Out of Learning to Code.”</span> August 7, 2025. <a href="https://ammaraldawood.com/blog/posts/2025-08-05">https://ammaraldawood.com/blog/posts/2025-08-05</a>.
+Aldawood, Ammar. 2025. <span>“Why AI Didn’t Stop Me From Learning to
+Code.”</span> August 8, 2025. <a href="https://ammaraldawood.com/blog/posts/2025-08-05">https://ammaraldawood.com/blog/posts/2025-08-05</a>.
 </div></div></section></div> ]]></description>
   <category>Machine Learning</category>
   <category>Artificial Intelligence</category>
   <category>Learn to Code</category>
   <category>Bioinformatics</category>
   <guid>https://ammaraldawood.com/blog/blog/posts/2025-07-05.html</guid>
-  <pubDate>Thu, 07 Aug 2025 00:00:00 GMT</pubDate>
+  <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
   <media:content url="https://ammaraldawood.com/blog/blog/posts/woof.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
