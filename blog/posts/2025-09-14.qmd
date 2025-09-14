@@ -241,7 +241,7 @@ because he placed their hands on your forehead and concluded so from your
 fever, and another who reads the results of your complete blood count to 
 realize you had elevated eosinophil levels which reduces the possibilities 
 for the cause of fever to either allergy or parasitic infections. Which 
-doctor would you trust to address your pro? This mirrors the limitations of 
+doctor would you trust to address your prolem? This mirrors the limitations of 
 prompt engineering versus direct model tuning. Looking at the code or math
 behind the model is equivalent to having a blood test of a patient.
 
@@ -370,9 +370,9 @@ up to focus on the task at hand.
 
 In the event that mid and high level programming languages fade out of view 
 like low level ones did, such as assembly and machine code, and Nvidia's CEO 
-Jensen Huang's vision of coder-less future where anyone can prompt engineer 
+Jensen Huang's vision of a coder-less future where anyone can prompt engineer 
 their way into fully understanding and applying what needs to be done for 
-their upcoming task [^4], then there would still be benefits for having learnt 
+their upcoming task is realized [^4], then there would still be benefits for having learnt 
 how to code.
 
 [^4]: [A Conversation with the Founder of NVIDIA: 
