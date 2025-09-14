@@ -1,0 +1,11 @@
+---
+title: "Code"
+image: code.png
+categories: [Book, Computation, Completed]
+author: "Charles Petzold"
+date-format: "YYYY"
+date: "1999-01-01"
+format:
+    html:
+        css: styles.css
+---

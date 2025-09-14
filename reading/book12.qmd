@@ -1,0 +1,11 @@
+---
+title: "Linear Algebra Done Right"
+image: ladr.png
+categories: [Book, Mathematics, Active]
+author: "Sheldon Axler"
+date-format: "YYYY"
+date: "1995-01-01"
+format:
+    html:
+        css: styles.css
+---

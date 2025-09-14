@@ -1,0 +1,11 @@
+---
+title: "A Tour of C++"
+image: cpp.png
+categories: [Book, Computation, Active]
+author: "Bjarne Stroustrup"
+date-format: "YYYY"
+date: "2013-01-01"
+format:
+    html:
+        css: styles.css
+---

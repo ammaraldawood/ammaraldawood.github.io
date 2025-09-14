@@ -1,0 +1,11 @@
+---
+title: "Mathematics Is Biology’s Next Microscope,  Only Better; Biology Is Mathematics’ Next  Physics, Only Better"
+image: mb.png
+categories: [Paper, Bioinformatics, Completed]
+author: "Joel E Cohen"
+date-format: "YYYY"
+date: "2004-01-01"
+format:
+    html:
+        css: styles.css
+---

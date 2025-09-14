@@ -1,0 +1,11 @@
+---
+title: "Essential Math for Data Science"
+image: emds.png
+categories: [Book, Mathematics, Completed]
+author: "Thomas Nield"
+date-format: "YYYY"
+date: "2022-01-01"
+format:
+    html:
+        css: styles.css
+---
