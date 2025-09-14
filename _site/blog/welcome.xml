@@ -9,39 +9,240 @@
 <link>https://ammaraldawood.com/blog/blog/welcome.html</link>
 <atom:link href="https://ammaraldawood.com/blog/blog/welcome.xml" rel="self" type="application/rss+xml"/>
 <description>Blog</description>
-<generator>quarto-1.7.32</generator>
-<lastBuildDate>Thu, 07 Aug 2025 21:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.33</generator>
+<lastBuildDate>Sat, 13 Sep 2025 21:00:00 GMT</lastBuildDate>
 <item>
   <title>Why AI Didn’t Stop Me From Learning to Code</title>
   <dc:creator>Ammar Aldawood</dc:creator>
-  <link>https://ammaraldawood.com/blog/blog/posts/2025-07-05.html</link>
+  <link>https://ammaraldawood.com/blog/blog/posts/2025-09-14.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p>It was June of 2022 when I first decided to delve (back) into mathematics and computation. This was induced by the fact that biology has been turning into a computational field of sorts due to the advent of high throughput sequencing and advanced simulation capabilities. Biology provides a wealth of information unlike any other, and statistical methods applied through computation and code are shaping up to be the future of the entire field</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ammaraldawood.com/blog/blog/posts/woof.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>Dog and robot dog barking at each other using woof and e-woof, respectively.</figcaption>
+</figure>
+</div>
+<section id="taking-the-first-step" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="taking-the-first-step"><span class="header-section-number">1</span> Taking the First Step</h2>
+<p>It was June of 2022 when I first decided to delve into mathematics and computation at 22 years of age.</p>
+<p>I began my learning journey with the programming language Swift, which is mainly used to develop for Apple platforms. Quite an unintuitive choice given that Python and R are the languages most used for computational biology, which is the field I’m interested in, but I thought that Swift Playgrounds, an app designed by Apple to teach people how to code, looked like a great interactive tool that would make programming concepts stick. Not too long after, I signed up for Angela Yu’s Udemy course to learn Swift app development.</p>
+<p>As a medical laboratory scientist whose research will mostly involve large amounts of biological data that needs to be analyzed in all sorts of ways, I was left with very little room to keep dodging this undertaking, especially since it was my intention from the beginning to become a researcher, as opposed to a clinical lab technician doing routine work.</p>
+</section>
+<section id="emerging-fields" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="emerging-fields"><span class="header-section-number">2</span> Emerging Fields</h2>
+<p>This was induced by the fact that biology and medicine have been turning into computational fields of sorts due to the advent of high throughput sequencing and advanced simulation capabilities which made it even thinkable to statistically model biological systems <sup>1</sup>.</p>
+<p>A prime example of this is the Metropolis-Hastings algorithm, a Markov chain Monte Carlo method, which made computational Bayesian inference tractable by enabling sampling from complex posterior distributions.</p>
+<p>Biology provides a wealth of high-dimensional information unlike any other of the natural sciences while medicine benefits from having room to make many trials and errors before applying on the living. Statistical methods applied through computation and code are shaping up to be the future of those fields, more so than they already are.</p>
+</section>
+<section id="a-dilemma-and-a-dichotomy" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="a-dilemma-and-a-dichotomy"><span class="header-section-number">3</span> A Dilemma and a Dichotomy</h2>
+<p>A couple of months after I began, in November of 2022, the service ChatGPT was launched, and managed to become the fastest-growing consumer application in history, with nearly all of the news outlets claiming how impactful it could be as a technological advancement, which I happened to agree with. Conversely, many people touted it as the beginning of a great replacement of humans or their jobs at least, with specialties involving lots of text, including code, being at the forefront.</p>
+<p>So there I was, the guy who spent the last 6 months learning to code, being told that I wasted my time doing so. But did I? I had no way of knowing, especially since I had yet to utilize my newly-attained knowledge and skills. This made me undecided on whether I should halt my learning-to-code journey, at least until things became more lucid. However, <strong>I didn’t have to wait</strong>.</p>
+<p>In this post, I will lay out the reasoning as to why I thought it was a good idea for me to keep going forward no matter what else was going on in the world, and why this opinion was backed by a dichotomy of possible futures, the cheerful and the pessimistic, making me even more resolute in my decision.</p>
+</section>
+<section id="bright-times-ahead" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="bright-times-ahead"><span class="header-section-number">4</span> Bright Times Ahead</h2>
+<section id="exponential-growth" class="level4">
+<h4 class="anchored" data-anchor-id="exponential-growth">Exponential Growth</h4>
+<p>At least some people will argue, including most if not all of the CEOs of the companies heavily invested in AI, that machine learning will be as revolutionary as the computer and internet, with Google’s CEO Sundar Pichai even claiming it is ‘more profound than fire and electricity’! <sup>2</sup> If that is to be true, then we as humans have quite undermined how much computation as a concept is ingrained into existence.</p>
+<p>Think about it, mathematics and logic are both considered formal sciences, with the difference being from the natural sciences is that formal sciences are a priori, focusing more on abstraction and deductive reasoning, whereas natural sciences are a posteriori, focusing more on application and inductive reasoning. I assume that if you ask most people to provide a heuristic, mental model of how these sciences are layered, they would give you something like the following:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{init: {'themeVariables': {'textColor': '#ffffff'}}}%%
+sequenceDiagram
+box DarkOrange Fundamental
+participant Logic
+participant Mathematics
+end
+box Central
+participant Physics
+participant Chemistry
+end
+box DarkOrange Applied
+participant Computer Science
+participant Biology
+participant Engineering
+end
+rect rgb(255, 255, 255)
+Logic-&gt;&gt;Mathematics: Logicism posits that mathematical truths&lt;br/&gt;are logical truths
+end
+rect rgb(255, 255, 255)
+Mathematics-&gt;&gt;Physics: Physical phenomena&lt;br/&gt;a result of mathematical consistency
+end
+rect rgb(255, 255, 255)
+Physics-&gt;&gt;Chemistry: Chemistry arises from physical interactions&lt;br/&gt;and structures
+end
+rect rgb(255, 255, 255)
+Physics-&gt;&gt;Computer Science: Computation a direct, more complex&lt;br/&gt;progression of physics.
+end
+rect rgb(255, 255, 255)
+Chemistry-&gt;&gt;Biology: Biology a direct, more complex&lt;br/&gt;progression of chemistry
+end
+rect rgb(255, 255, 255)
+Engineering-&gt;&gt;Physics: Engineering arises from and affects&lt;br/&gt;our understanding of the central sciences and&lt;br/&gt;the rest of the applied sciences
+end
+rect rgb(255, 255, 255)
+Chemistry-&gt;&gt;Logic: The central sciences act as a checker for the&lt;br/&gt;findings of the applied sciences and depend on&lt;br/&gt;maths and logic to verify empirical findings
+end
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>Math and logic at the fundamental level, on top of it lies physics which argues from first principles and chemistry which is a complication of physics, and with the rest of the natural sciences and computation layered on top of it as being dependent on physical interactions. This is a mostly accurate mental model, but what it fails to convey is the categorization of computer science as a formal science alongside mathematics and logic, and how central it could be as a tool, albeit a more applicative one than abstract, to understanding all of existence, just like mathematics and logic are.</p>
+<p>This could mean, at least in theory, that most humans doing any kind of intellectual work in the future, will have to have some understanding of computational concepts to arrive at certain desired conclusions. In contrast, compare the previous mental model to the following one:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">%%{init: {'themeVariables': {'textColor': '#ffffff'}}}%%
+sequenceDiagram
+box DarkOrange Formal
+participant Logic
+participant Mathematics
+participant Computer Science
+end
+box Empirical
+participant Physics
+participant Chemistry
+participant Biology
+participant Engineering
+end
+rect rgb(255, 255, 255)
+Logic-&gt;&gt;Mathematics: Logic provides rules of consistency for formal systems.&lt;br/&gt;Mathematics builds abstract structures within those rules&lt;br/&gt;and, in turn, develops new kinds of logic
+end
+rect rgb(255, 255, 255)
+Mathematics-&gt;&gt;Computer Science: Counting systems including binary and ternary&lt;br/&gt;can encapsulate mathematical logic and laws of&lt;br/&gt;thought, providing a systematic way of&lt;br/&gt;describing mathematical/logical properties.
+end
+rect rgb(255, 255, 255)
+Computer Science-&gt;&gt;Engineering: Computers, both classical and quantum,&lt;br/&gt;can be used to apply logic and maths to all of&lt;br/&gt;the empirical sciences.
+end
+rect rgb(255, 255, 255)
+Engineering-&gt;&gt;Logic: The empirical sciences relay feedback to their&lt;br/&gt;constituents, including other empirical and all of&lt;br/&gt;the formal sciences.
+end
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>You’ll notice that both models provide a somewhat reasonable feedback network between the different fields of knowledge. What the latter model achieves better though is highlighting how computer science sits a level below and not on the same level as the empirical sciences. This makes it less of an adjacent field and more of a constituent of other fields. Yes, a huge side of it is applied and empirical, but its essence is theoretical.</p>
+<p>Assuming that machine learning does in fact become as influential and revolutionary as some claim it to be, then it would position those who are capable of directly influencing it as the pioneers of fields where it ends up being utilized.</p>
+<hr>
+</section>
+<section id="a-mutual-language" class="level4">
+<h4 class="anchored" data-anchor-id="a-mutual-language">A Mutual Language</h4>
+<p>As it stands, machine learning models suffer from a plethora of problems related to how they learn, what data they’re trained on and how complex is the feedback mechanism for the model. These problems include but are not limited to bias, hallucinations, model/mode collapse and catastrophic interference.</p>
+<p>Most of these errors can only be sufficiently addressed by tuning the model itself, as opposed to communicating linguistically with the chat agent hoping that modifying words would garner better results in what is known as prompt engineering. To achieve this, one has to be knowledgeable with the inner workings of the model, including the maths and computation behind it.</p>
+<p>This is similar to two doctors, one who tells you that you have an infection because he placed their hands on your forehead and concluded so from your fever, and another who reads the results of your complete blood count to realize you had elevated eosinophil levels which reduces the possibilities for the cause of fever to either allergy or parasitic infections. Which doctor would you trust to address your pro? This mirrors the limitations of prompt engineering versus direct model tuning. Looking at the code or math behind the model is equivalent to having a blood test of a patient.</p>
+<hr>
+</section>
+<section id="irreducible-complexity" class="level4">
+<h4 class="anchored" data-anchor-id="irreducible-complexity">Irreducible Complexity</h4>
+<p>Given that one day we might end up with a highly intelligent machine learning agent, be it artificial general intelligence (AGI) or artificial super intelligence (ASI), the fact still remains that no matter how intelligent it is, it will still be limited both by compute and algorithms, just like we are limited by our memories and attention spans.</p>
+<p>When thinking about visiting other stars and galaxies, often the first thing to come to mind is our lack of a near-speed-of-light vehicle as a means of transportation to be able to get us there in a lifetime. What is equally important is how our biology will handle such speeds, which in my opinion will prove to future generations a bigger hurdle than creating spaceships that travel as fast as needed. Also important is how spacetime will prohibit meaningful communication of findings after each space trip, since time dilation dictates the galactic traveler will return to a world thousands of years older than it were when their decade-long trip had begun. Similarly, AI’s intelligence is and will most likely remain bounded by compute and algorithms, much like our biology limits cosmic exploration.</p>
+<p>For artificial intelligence, especially natural language processing models, the crux of the argument is no longer whether they could be prevented from creating nonsensical ideas, but whether their <strong>algorithmic complexity</strong> can successfully utilize reduced non-linguistic ideas like three-dimensional structures, networks…etc and whether there is enough compute that can be made available for it to apply this algorithmic complexity, and in the event that it resorts to approximation to alleviate its lack of resources, for example, by employing or coming up with algorithms like the aforementioned Metropolis-Hastings algorithm above, then how capable is that of replacing human intuition and thought which is already primed for understanding these structures as they are without having to reduce them to gain an understanding of them?</p>
+<p>Reductio ad absurdum (reduction to absurdity) is a favorite thought exercise of mine to arrive at such conclusions. When people say AI will ‘replace’ us, it is a good idea to fast forward to the future, and I’m talking thousands or perhaps millions of years, to realize how far we’ll still be behind our aspirations even with AI’s assistance. Consider these examples:</p>
+<p>• Type 1 civilization -a civilization capable of harnessing planetary energy- on the <a href="https://en.wikipedia.org/wiki/Kardashev_scale" target="_blank">Kardashev Scale</a>: we’ll need large-scale manufacturing on a level not seen before, which might be possible only through robot and AI utilization, in what is known as automation.</p>
+<p>• A super suit you wear all day that cleans you and itself and attaches a highly effective bandaid to your wounds/burns that heals them instantly, which also happens to have a built in heater and cooler: we’ll need huge leaps in fiber-, bio-, tissue-, mechanical- and other engineering fields to get our super suit which might only be possible with careful study and experimentation heavily aided by computation.</p>
+<p>• Flying cars: We’ll need safety measures for the flying cars, possibly achieved with the help of AI but not depending on it, as you wouldn’t rely on ‘<a href="https://en.wikipedia.org/wiki/Vibe_coding" target="_blank">vibe coding</a>’ for people’s safety. Those safety measures could be a natural progression from ones created to protect us from drones.</p>
+<p>You get the point. For all of that and else, we’ll need code.</p>
+<hr>
+</section>
+<section id="individual-idiosyncrasy" class="level4">
+<h4 class="anchored" data-anchor-id="individual-idiosyncrasy">Individual Idiosyncrasy</h4>
+<p>Another closely related topic to the complexity of the world, is the complexity of our brains, which are fundamentally different from computers in how they make sense of and experience things, namely their qualia.</p>
+<p>Take something like optical illusions for example. To a computer, images and videos that we consider to be <a href="https://www.youtube.com/shorts/EZCQnfePaVM" target="_blank">trippy</a> or <a href="https://www.youtube.com/watch?v=2PQ0ockV5Q4" target="_blank">creepy</a> are a bunch of pixels that are stationary and fixed in place.</p>
+<p>This means that while all processing units in every computer throughout the world will process the image exactly the same way given the same algorithm, human eyes will see it differently. Not only that, but it might be the case that every single human views it in a way unique from all others <sup>3</sup>, meaning that an image can be seen one way by a computer algorithm, but more than eight billion different ways by humans. This discrepancy in perspective should in theory entail differences in insight and how humans arrive at conclusions even compared to an artificial super-intelligence, and the main way to hone this perspective is by making sure it can derive insight from a knowledge base, one which preferably includes coding and all that comes with learning it.</p>
+<p>Someone might make a case for something like least significant bit (LSB) <a href="https://en.wikipedia.org/wiki/Steganography">steganography</a> being a way for AI to understand how optical illusions work in our brains, but that is a totally separate thing from what I’m arguing for here. A machine learning model can examine sheet music, or listen to a video that teaches you how to do a handstand, and try to replicate both in a different improvised style of its own, but it will never get to experience the timbre of the instruments that’ll play the music the way a human will, nor will it struggle with controlling its body with micro adjustments to achieve a physical feat. Similarly, it can only be taught the characteristics of an image that causes an optical illusion, but it will never get to be the first one to experience a new one, and will have to wait for us to put into words what that set of pixels/text/soundwaves feels to us.</p>
+<p>Its experience will keep being brought closer to ours, for example, using reinforcement learning to train a robot to backflip correctly, but it won’t learn from it the way a human learning the same feat will, for example, by controlling his racing thoughts from a problem he had and clearing his mind up to focus on the task at hand.</p>
+</section>
+</section>
+<section id="doom-and-gloom" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="doom-and-gloom"><span class="header-section-number">5</span> Doom and Gloom</h2>
+<section id="binary-in-the-bin" class="level4">
+<h4 class="anchored" data-anchor-id="binary-in-the-bin">Binary in the Bin</h4>
+<p>In the event that mid and high level programming languages fade out of view like low level ones did, such as assembly and machine code, and Nvidia’s CEO Jensen Huang’s vision of coder-less future where anyone can prompt engineer their way into fully understanding and applying what needs to be done for their upcoming task <sup>4</sup>, then there would still be benefits for having learnt how to code.</p>
+<p>One group that was seemingly being threatened by AI were musicians and composers. Multiple instances were popping up of AI composing in the style of Bach, or completing Beethoven’s unfinished 10th Symphony. Even if composers were left obsolete by AI’s recently acquired musical taste, the fact remains that the <strong>benefits</strong> of learning music will not be taken away by AI. Musicians who started learning music at a young age have a larger corpus callosum in the brain than their non-musician counterparts <sup>5</sup>. There are also things we can’t quantitatively measure, such as the mental impact a life full of music had on their persona.</p>
+<p>The same is true, and perhaps even more true, for code. It is a highly transferable skill given that we deal with logic, text, maths..etc nearly all-day, everyday. Making your code more neat, coming up with your own solution to problems, having your ‘Aha!’ moment after struggling with a software architecture problem are all things that shape who you are, develop your analytical thinking and problem solving, and impact how you see a potential post-AI, code-less world <sup>6</sup> <sup>7</sup>.</p>
+<hr>
+</section>
+<section id="full-on-automation" class="level4">
+<h4 class="anchored" data-anchor-id="full-on-automation">Full on Automation</h4>
+<p>Threat to coding aside, numerous other professions (collar-agnostic) have felt the heat from AI, with nearly everyone outside of sports claiming they could be replaced by it at one point or another. This is especially true when you see how widespread robots have become in all facets of life.</p>
+<p>Assuming that will be our future, then manipulating these robots and their software which will mostly be based on AI might be the job of the future. Specialists in each field will be required to ‘know their way’ within code to survive the upcoming replacement. This has been true for a while for lots of professions. A mechanical engineer has to learn how to utilize SolidWorks for his mechanical designs, an architect Revit, and an artist Blender.</p>
+<p>In my own profession of medical laboratory sciences, a lab technician was expected to take a blood sample, make a blood smear out of it, sit on the microscope for hours to perform a blood count which requires tens of minutes per sample, all now replaced by complete blood count (CBC) systems that can quantify multiple samples with higher accuracy simultaneously.</p>
+<p>Microbiological identification and susceptibility testing required plating the bacteria and adding antibiotics to it on a Petri dish and waiting for no less than a day for results to come out, now all done with a VITEK automated system that can reduce turnaround times to mere hours.</p>
+<p>Point is, what can be done within a field expands over time, and so do the tools required to navigate that field. There are two choices in front of people working within those fields: either watch by and use their equivalent of a pencil for drawing a blueprint, which is what they’ve always known, or ride the wave and begin utilizing whatever is most suitable to achieve the task at hand.</p>
+<hr>
+</section>
+<section id="stopping-skynet" class="level4">
+<h4 class="anchored" data-anchor-id="stopping-skynet">Stopping Skynet</h4>
+<p>I must address the most grim of possibilities, which is that of a <a href="https://en.wikipedia.org/wiki/Technological_singularity" target="_blank">technological singularity</a>, an artificial intelligence that becomes destructive, reckless or develops revulsion to humans, in the spirit of exploring the other side of absurdity from my reductio ad absurdum argument earlier.</p>
+<p>Here we have to ask one question: if AI ends up becoming our worst invention yet, and ends up causing lots of damage, what would the character and the knowledge of the person/group who brought it back to its senses or stopped it look like? What type of arguments will be needed to communicate with it? I’d wager that deep understanding of the mathematical models underpinning it and the code it bases its decisions upon including any hard boundaries will be attributes of this person/group.</p>
+<p>Better yet, what knowledge would AI ethicists need to prevent such an AI from ever becoming a reality? Again, I think the answer is people with the attributes above.</p>
+</section>
+</section>
+<section id="analysis-paralysis" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="analysis-paralysis"><span class="header-section-number">6</span> Analysis paralysis</h2>
+<p>The goal of this post was to mainly highlight how difficult a decision can be to make, whether it’s learning to code or otherwise, when the course of action can be so non-controversial within the scope of two opposing worldviews.</p>
+<p>Utilize mental models of systems and argumentation tools alongside examining patterns from history that can be insightful as to what position you’re currently in, and you’re more than likely to make a reasonable decision.</p>
+</section>
+<section id="taking-the-next-step" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="taking-the-next-step"><span class="header-section-number">7</span> Taking the Next Step</h2>
+<p>Lessons from this post can be expanded to anything you’re thinking about learning. The same rules apply: it might or might not be useful, but if it’s ubiquitous, mainstream, insightful, transferable and workable, then don’t stress too much about wasting time on it.</p>
+<blockquote class="blockquote">
+<p><em>“Learning is the only thing the mind never exhausts, never fears and never regrets.”</em></p>
+</blockquote>
+<div class="right-align-text dark-orange-text small-text">
+<p>-Leonardo da Vinci</p>
+</div>
+<p>I think this quote summarizes everything well. Learn to exhaust all possibilities. Learn to fear ignorance and untruths. Learn to regret not having done. Learn.</p>
+<div class="call-to-action center-align-text small-text">
+<p>What’s your take on learning to code in an AI-driven world? Share your stories or thoughts in the comments below!</p>
+</div>
 
 
+</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{aldawood2025,
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>There are numerous papers that talk about this, here are some of them: <a href="https://doi.org/10.1371/journal.pbio.2002050" target="_blank">All Biology is Computational Biology</a>, <a href="https://doi.org/10.1371/journal.pbio.0020439" target="_blank">Mathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better</a>↩︎</p></li>
+<li id="fn2"><p><a href="https://youtu.be/sqd516M0Y5A?si=06j7VPn9gIO_esr3" target="_blank">Google CEO Sees AI as More Profound Than Fire, Electricity - Bloomberg Television</a>↩︎</p></li>
+<li id="fn3"><p><a href="https://youtu.be/evQsOFQju08?si=b2nukqy2sfCk0NZa" target="_blank">Is Your Red the Same as My Red - VSauce</a>↩︎</p></li>
+<li id="fn4"><p><a href="https://youtu.be/8Pm2xEViNIo?t=1103" target="_blank">A Conversation with the Founder of NVIDIA: Who Will Shape the Future of AI? - World Governments Summit</a>↩︎</p></li>
+<li id="fn5"><p><a href="https://www.sciencedirect.com/science/article/abs/pii/0028393295000455?via%3Dihub" target="_blank">Increased Corpus Callosum Size in Musicians</a>↩︎</p></li>
+<li id="fn6"><p><a href="https://solportal.ibe-unesco.org/articles/is-learning-computer-programming-associated-with-developing-thinking-skills/" target="_blank">Is Learning Computer Programming Associated with Developing Thinking Skills?</a>↩︎</p></li>
+<li id="fn7"><p><a href="https://www.researchgate.net/publication/328527684_The_Cognitive_Benefits_of_Learning_Computer_Programming_A_Meta-Analysis_of_Transfer_Effects" target="_blank">The Cognitive Benefits of Learning Computer Programming: A Meta-Analysis of Transfer Effects</a>↩︎</p></li>
+</ol>
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{aldawood2025,
   author = {Aldawood, Ammar},
   title = {Why {AI} {Didn’t} {Stop} {Me} {From} {Learning} to {Code}},
-  date = {2025-08-08},
-  url = {https://ammaraldawood.com/blog/posts/2025-08-05},
+  date = {2025-09-14},
+  url = {https://ammaraldawood.com/blog/posts/2025-09-14},
   langid = {en}
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-aldawood2025" class="csl-entry quarto-appendix-citeas">
 Aldawood, Ammar. 2025. <span>“Why AI Didn’t Stop Me From Learning to
-Code.”</span> August 8, 2025. <a href="https://ammaraldawood.com/blog/posts/2025-08-05">https://ammaraldawood.com/blog/posts/2025-08-05</a>.
+Code.”</span> September 14, 2025. <a href="https://ammaraldawood.com/blog/posts/2025-09-14">https://ammaraldawood.com/blog/posts/2025-09-14</a>.
 </div></div></section></div> ]]></description>
   <category>Machine Learning</category>
   <category>Artificial Intelligence</category>
   <category>Learn to Code</category>
-  <category>Bioinformatics</category>
-  <guid>https://ammaraldawood.com/blog/blog/posts/2025-07-05.html</guid>
-  <pubDate>Thu, 07 Aug 2025 21:00:00 GMT</pubDate>
+  <guid>https://ammaraldawood.com/blog/blog/posts/2025-09-14.html</guid>
+  <pubDate>Sat, 13 Sep 2025 21:00:00 GMT</pubDate>
   <media:content url="https://ammaraldawood.com/blog/blog/posts/woof.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
