@@ -9,21 +9,21 @@
   {
     "listing": "/reading/readinglist.html",
     "items": [
-      "/reading/book7.html",
-      "/reading/book6.html",
-      "/reading/book9.html",
-      "/reading/book8.html",
-      "/reading/paper1.html",
-      "/reading/paper3.html",
-      "/reading/book11.html",
-      "/reading/book3.html",
-      "/reading/book5.html",
-      "/reading/paper2.html",
-      "/reading/book1.html",
-      "/reading/book10.html",
-      "/reading/book12.html",
-      "/reading/book4.html",
-      "/reading/book2.html"
+      "/reading/introduction-to-mathematics-for-computational-biology.html",
+      "/reading/the-statquest-illustrated-guide-to-machine-learning.html",
+      "/reading/essential-math-for-data-science.html",
+      "/reading/bayes-rules.html",
+      "/reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html",
+      "/reading/all-biology-is-computational-biology.html",
+      "/reading/calculus.html",
+      "/reading/a-tour-of-cpp.html",
+      "/reading/book-of-proof.html",
+      "/reading/mathematics-is-biology's-next-microscope-only-better-biology-is-math's-next-physics-only-better.html",
+      "/reading/code.html",
+      "/reading/precalculus.html",
+      "/reading/linear-algebra-done-right.html",
+      "/reading/introduction-to-algorithms.html",
+      "/reading/the-c-programming-language.html"
     ]
   },
   {
