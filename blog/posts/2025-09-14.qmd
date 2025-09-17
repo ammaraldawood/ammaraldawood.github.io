@@ -20,9 +20,7 @@ image: woof.png
 comments:
   giscus:
     repo: ammaraldawood/ammaraldawood.github.io
-    theme:
-      light: cobalt
-      dark: cobalt
+    theme: https://ammaraldawood.com/blog/posts/giscus-custom-theme.css
 
 date-modified: last-modified
 
