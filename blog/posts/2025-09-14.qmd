@@ -20,7 +20,7 @@ image: woof.png
 comments:
   giscus:
     repo: ammaraldawood/ammaraldawood.github.io
-    theme: https://ammaraldawood.com/blog/posts/giscus-custom-theme.css
+    theme: ./giscus-custom-theme.css
 
 date-modified: last-modified
 
