@@ -3,6 +3,7 @@ project:
   resources:
     - ads.txt
     - CNAME
+    - blog/posts/giscus-custom-theme.css
 execute:
   echo: false
   freeze: true
