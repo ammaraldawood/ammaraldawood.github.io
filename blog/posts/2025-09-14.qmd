@@ -13,6 +13,8 @@ number-sections: true
 
 number-depth: 2
 
+toc-depth: 4
+
 draft: false
 
 image: woof.png
@@ -20,8 +22,7 @@ image: woof.png
 comments:
   giscus:
     repo: ammaraldawood/ammaraldawood.github.io
-    theme: ./giscus-custom-theme.css
-
+    theme: fro
 date-modified: last-modified
 
 citation: 
