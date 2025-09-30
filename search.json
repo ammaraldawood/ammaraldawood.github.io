@@ -1,5 +1,103 @@
 [
   {
+    "objectID": "blog/welcome.html",
+    "href": "blog/welcome.html",
+    "title": "What’s On My Mind",
+    "section": "",
+    "text": "Welcome to my blog! This is where I talk about my experiences and share my perspective.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy AI Didn’t Stop Me From Learning to Code\n\n\n\nMachine Learning\n\nArtificial Intelligence\n\nLearn to Code\n\n\n\nAn affirmation based on optimism and caution.\n\n\n\n\n\nSep 14, 2025\n\n\nAmmar Aldawood\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Who Am I?",
+    "section": "",
+    "text": "I’m Ammar Aldawood, an aspiring computational biologist. A medical laboratory sciences alumnus from Jordan University of Science and Technology, I became increasingly aware of how indispensible mathematics and computation are for understanding biology."
+  },
+  {
+    "objectID": "about.html#education-learning",
+    "href": "about.html#education-learning",
+    "title": "Who Am I?",
+    "section": "Education & Learning",
+    "text": "Education & Learning\n\n\n\n\n\n\n\n\n\n\nGantt chart generated using ggplot2 in R"
+  },
+  {
+    "objectID": "about.html#my-tech-stack",
+    "href": "about.html#my-tech-stack",
+    "title": "Who Am I?",
+    "section": "My Tech Stack",
+    "text": "My Tech Stack\n\nHover over nodes to see more info!\n\n\n\n\n\n\n\nSankey diagram generated using Plotly in R"
+  },
+  {
+    "objectID": "about.html#interests-hobbies",
+    "href": "about.html#interests-hobbies",
+    "title": "Who Am I?",
+    "section": "Interests & Hobbies",
+    "text": "Interests & Hobbies\n\nClick on the circles to see more!\n\n\n\n\n\n\n\n\n\n\n\n\n\nCircle packing generated using circlepackeR in R"
+  },
+  {
+    "objectID": "reading/readinglist.html",
+    "href": "reading/readinglist.html",
+    "title": "What I’m Reading",
+    "section": "",
+    "text": "A collection of insightful books, papers, and writings, distinct from my broader, more arbitrary daily reading.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Mathematics for Computational Biology\n\n\n\nBook\n\nMathematics\n\nCompleted\n\n\n\n\n\n\n\nBruno Carpentieri and Paola Lecca\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nEssential Math for Data Science\n\n\n\nBook\n\nMathematics\n\nCompleted\n\n\n\n\n\n\n\nThomas Nield\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe StatQuest Illustrated Guide to Machine Learning\n\n\n\nBook\n\nMachine Learning\n\nCompleted\n\n\n\n\n\n\n\nJosh Starmer\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nBayes Rules!\n\n\n\nBook\n\nStatistics\n\nCompleted\n\n\n\n\n\n\n\nAlicia A. Johnson, Miles Q. Ott and Mine Dogucu\n\n\n2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll Biology is Computational Biology\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\nFlorian Markowetz\n\n\n2017\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Global Perspective on Evolving Bioinformatics and Data Science Training Needs\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\nTeresa K. Attwood, Sarah Blackford, Michelle D. Brazas, Angela Davies and Maria Victoria Schneider\n\n\n2017\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalculus\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\nJames Stewart\n\n\n2015\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Tour of C++\n\n\n\nBook\n\nComputation\n\nActive\n\n\n\n\n\n\n\nBjarne Stroustrup\n\n\n2013\n\n\n\n\n\n\n\n\n\n\n\n\n\nBook of Proof\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\nRichard Hammack\n\n\n2009\n\n\n\n\n\n\n\n\n\n\n\n\n\nMathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\nJoel E Cohen\n\n\n2004\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\n\n\n\nBook\n\nComputation\n\nCompleted\n\n\n\n\n\n\n\nCharles Petzold\n\n\n1999\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrecalculus\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\nJames Stewart, Lothar Redlin and Saleem Watson\n\n\n1997\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Algebra Done Right\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\nSheldon Axler\n\n\n1995\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Algorithms (CLRS)\n\n\n\nBook\n\nComputation\n\nActive\n\n\n\n\n\n\n\nThomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein\n\n\n1989\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe C Programming Language\n\n\n\nBook\n\nComputation\n\nCompleted\n\n\n\n\n\n\n\nBrian Kernighan and Dennis Ritchie\n\n\n1988\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "What I’ve Built",
+    "section": "",
+    "text": "If it’s something I created, learned from creating, and think could be useful to others, you’ll find it here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonal Website\n\n\n\nQuarto\n\nGit\n\nPython\n\nR\n\nJavaScript\n\nHTML\n\nCSS\n\nShell\n\n\n\nA digital portfolio and blog for communicating progress and insight, requiring minimal Javascript, HTML and CSS knowledge for the non-web developer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDotfiles\n\n\n\nLua\n\nShell\n\nGit\n\n\n\nA Ghostty, Tmux and Neovim configuration tailored for data science, machine learning and computational biology\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/personal-website.html",
+    "href": "projects/personal-website.html",
+    "title": "Personal Website",
+    "section": "",
+    "text": "Target Audience:\nComputational biologists and data/machine learning scientists\n\n\n\n\nValue Proposition:\nPractical insight into computational biology, data science and machine learning\n\n\nProduct Link:\nammaraldawood.com\n\n\nDemonstration Link:\nBlog post coming soon!\n\n\nSource Repository:\ngithub.com/ammaraldawood/ammaraldawood.github.io\n\n\nInfluenced By:\nSamantha Shanny-Csik"
+  },
+  {
+    "objectID": "projects/personal-website.html#technology-stack",
+    "href": "projects/personal-website.html#technology-stack",
+    "title": "Personal Website",
+    "section": "Technology Stack",
+    "text": "Technology Stack\n\nProgramming Languages:\n\nR: Visualizations and diagrams.\nJavascript: Mermaid diagrams.\nHTML: Custom buttons and website elements.\nCSS: Styling for website elements.\nShell: Quarto and Git CLI.\n\n\n\n\nCore Technologies:\n\nQuarto: Main tool used to build the website with .qmd files.\nGitHub: Hosts the website using GitHub Pages.\nGit: Version control."
+  },
+  {
+    "objectID": "projects/personal-website.html#project-learningsskills",
+    "href": "projects/personal-website.html#project-learningsskills",
+    "title": "Personal Website",
+    "section": "Project Learnings/Skills",
+    "text": "Project Learnings/Skills\n\nProgrammatic Visualization: All original diagrams and visualizations for this website and blog posts were generated programmatically (e.g., using Python/R libraries) rather than using standard graphic design tools as a self-imposed technical constraint.\nTechnical Writing Skills: Proficiency in creating and deploying code-integrated documentation. Focus on clear narrative flow and attention-grabbing storytelling.\nProject Management: Planning the overall structure of the website to suit my specific needs, avoid overlap and regurgitation between website sections and create an easily navigable experience for the visitor."
+  },
+  {
+    "objectID": "projects/dotfiles.html",
+    "href": "projects/dotfiles.html",
+    "title": "Dotfiles",
+    "section": "",
+    "text": "Target Audience\nCurious tinkerers who live in the terminal and build their own workflows\n\n\n\n\nValue Proposition\nKeyboard-centric, single monitor workflow with superior Vim motions editing experience\n\n\nProduct Link\nNot applicable\n\n\nDemonstration Link\nBlog post coming soon!\n\n\nSource Repository\ngithub.com/ammaraldawood/dotfiles\n\n\nInfluenced By\nJosean Martinez"
+  },
+  {
+    "objectID": "projects/dotfiles.html#technology-stack",
+    "href": "projects/dotfiles.html#technology-stack",
+    "title": "Dotfiles",
+    "section": "Technology Stack",
+    "text": "Technology Stack\n\nProgramming Languages:\n\nLua: Neovim configuration language.\nShell: Zsh scripts and terminal customization.\n\n\n\n\nCore Technologies:\n\nNeovim: Text editor centered around Vim Motions.\nTmux: Terminal multiplexer and sessionizer\nGhostty: Terminal emulator with shader support.\nGit: Version control.\nHomebrew: Package management."
+  },
+  {
+    "objectID": "projects/dotfiles.html#project-learningsskills",
+    "href": "projects/dotfiles.html#project-learningsskills",
+    "title": "Dotfiles",
+    "section": "Project Learnings/Skills",
+    "text": "Project Learnings/Skills\n\nSoftware Architecture: Managing the interplay of different programs and their respective plugins and themes, resolving conflicts and optimizing user experience. For example, installing bioSyntax which is available for Vim and making it available to Neovim through a Lua function call.\nShell Scripting: Creating aliases and custom shell functions that perform repetitive tasks and multi-step operations using a single-word command. For example, ‘cld’ which concatenates the contents of the latest downloaded file using bat.\nCommand Line Fluency: Introduced to countless terms and paradigms that I had to look up while working on this setup, some of which I might not have run into otherwise, including fuzzy search, inodes, size vs blocksize, symlinks, ripgrep, glob operators, globbing flags, aliasing, regex, environment variables and makefiles, amongst others."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ahlan to Affluent Ammar’s Almanac!",
+    "section": "",
+    "text": "Latest Post\n    \n  \n  \n    \n      Latest Project\n    \n  \n  \n    \n      Now Reading"
+  },
+  {
     "objectID": "blog/posts/2025-09-14.html",
     "href": "blog/posts/2025-09-14.html",
     "title": "Why AI Didn’t Stop Me From Learning to Code",
@@ -61,75 +159,5 @@
     "title": "Why AI Didn’t Stop Me From Learning to Code",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nThere are numerous papers that talk about this, here are some of them: All Biology is Computational Biology, Mathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better↩︎\nGoogle CEO Sees AI as More Profound Than Fire, Electricity - Bloomberg Television↩︎\nIs Your Red the Same as My Red - VSauce↩︎\nA Conversation with the Founder of NVIDIA: Who Will Shape the Future of AI? - World Governments Summit↩︎\nIncreased Corpus Callosum Size in Musicians↩︎\nIs Learning Computer Programming Associated with Developing Thinking Skills?↩︎\nThe Cognitive Benefits of Learning Computer Programming: A Meta-Analysis of Transfer Effects↩︎"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Who Am I?",
-    "section": "",
-    "text": "I’m Ammar Aldawood, an aspiring computational biologist. A medical laboratory sciences alumnus from Jordan University of Science and Technology, I became increasingly aware of how indispensible mathematics and computation are for understanding biology."
-  },
-  {
-    "objectID": "about.html#education-learning",
-    "href": "about.html#education-learning",
-    "title": "Who Am I?",
-    "section": "Education & Learning",
-    "text": "Education & Learning\n\n\n\n\n\n\n\n\n\n\nGantt chart generated using ggplot2 in R"
-  },
-  {
-    "objectID": "about.html#my-tech-stack",
-    "href": "about.html#my-tech-stack",
-    "title": "Who Am I?",
-    "section": "My Tech Stack",
-    "text": "My Tech Stack\n\nHover over nodes to see more info!\n\n\n\n\n\n\n\nSankey diagram generated using Plotly in R"
-  },
-  {
-    "objectID": "about.html#interests-hobbies",
-    "href": "about.html#interests-hobbies",
-    "title": "Who Am I?",
-    "section": "Interests & Hobbies",
-    "text": "Interests & Hobbies\n\nClick on the circles to see more!\n\n\n\n\n\n\n\n\n\n\n\n\n\nCircle packing generated using circlepackeR in R"
-  },
-  {
-    "objectID": "projects/projects.html",
-    "href": "projects/projects.html",
-    "title": "What I’ve Built",
-    "section": "",
-    "text": "If it’s something I created, learned from creating, and think could be useful to others, you’ll find it here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDotfiles\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonal Website\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "projects/dotfiles.html",
-    "href": "projects/dotfiles.html",
-    "title": "Dotfiles",
-    "section": "",
-    "text": "Dotfiles"
-  },
-  {
-    "objectID": "projects/personal-website.html",
-    "href": "projects/personal-website.html",
-    "title": "Personal Website",
-    "section": "",
-    "text": "Personal Website"
-  },
-  {
-    "objectID": "reading/readinglist.html",
-    "href": "reading/readinglist.html",
-    "title": "What I’m Reading",
-    "section": "",
-    "text": "A collection of insightful books, papers, and writings, distinct from my broader, more arbitrary daily reading.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Mathematics for Computational Biology\n\n\n\nBook\n\nMathematics\n\nCompleted\n\n\n\n\n\n\n\nBruno Carpentieri and Paola Lecca\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe StatQuest Illustrated Guide to Machine Learning\n\n\n\nBook\n\nMachine Learning\n\nCompleted\n\n\n\n\n\n\n\nJosh Starmer\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nEssential Math for Data Science\n\n\n\nBook\n\nMathematics\n\nCompleted\n\n\n\n\n\n\n\nThomas Nield\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nBayes Rules!\n\n\n\nBook\n\nStatistics\n\nCompleted\n\n\n\n\n\n\n\nAlicia A. Johnson, Miles Q. Ott and Mine Dogucu\n\n\n2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Global Perspective on Evolving Bioinformatics and Data Science Training Needs\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\nTeresa K. Attwood, Sarah Blackford, Michelle D. Brazas, Angela Davies and Maria Victoria Schneider\n\n\n2017\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll Biology is Computational Biology\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\nFlorian Markowetz\n\n\n2017\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalculus\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\nJames Stewart\n\n\n2015\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Tour of C++\n\n\n\nBook\n\nComputation\n\nActive\n\n\n\n\n\n\n\nBjarne Stroustrup\n\n\n2013\n\n\n\n\n\n\n\n\n\n\n\n\n\nBook of Proof\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\nRichard Hammack\n\n\n2009\n\n\n\n\n\n\n\n\n\n\n\n\n\nMathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\n\n\n\nJoel E Cohen\n\n\n2004\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\n\n\n\nBook\n\nComputation\n\nCompleted\n\n\n\n\n\n\n\nCharles Petzold\n\n\n1999\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrecalculus\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\nJames Stewart, Lothar Redlin and Saleem Watson\n\n\n1997\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Algebra Done Right\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\n\n\n\nSheldon Axler\n\n\n1995\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Algorithms (CLRS)\n\n\n\nBook\n\nComputation\n\nActive\n\n\n\n\n\n\n\nThomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein\n\n\n1989\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe C Programming Language\n\n\n\nBook\n\nComputation\n\nCompleted\n\n\n\n\n\n\n\nBrian Kernighan and Dennis Ritchie\n\n\n1988\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ahlan to Affluent Ammar’s Almanac!",
-    "section": "",
-    "text": "Latest Post\n    \n  \n  \n    \n      Latest Project\n    \n  \n  \n    \n      Now Reading"
-  },
-  {
-    "objectID": "blog/welcome.html",
-    "href": "blog/welcome.html",
-    "title": "What’s On My Mind",
-    "section": "",
-    "text": "Welcome to my blog! This is where I talk about my experiences and share my perspective.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy AI Didn’t Stop Me From Learning to Code\n\n\n\nMachine Learning\n\nArtificial Intelligence\n\nLearn to Code\n\n\n\nAn affirmation based on optimism and caution.\n\n\n\n\n\nSep 14, 2025\n\n\nAmmar Aldawood\n\n\n\n\n\nNo matching items"
   }
 ]

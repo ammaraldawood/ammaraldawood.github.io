@@ -1,20 +1,19 @@
 [
   {
-    "listing": "/projects/projects.html",
+    "listing": "/blog/welcome.html",
     "items": [
-      "/projects/dotfiles.html",
-      "/projects/personal-website.html"
+      "/blog/posts/2025-09-14.html"
     ]
   },
   {
     "listing": "/reading/readinglist.html",
     "items": [
       "/reading/introduction-to-mathematics-for-computational-biology.html",
-      "/reading/the-statquest-illustrated-guide-to-machine-learning.html",
       "/reading/essential-math-for-data-science.html",
+      "/reading/the-statquest-illustrated-guide-to-machine-learning.html",
       "/reading/bayes-rules.html",
-      "/reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html",
       "/reading/all-biology-is-computational-biology.html",
+      "/reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html",
       "/reading/calculus.html",
       "/reading/a-tour-of-cpp.html",
       "/reading/book-of-proof.html",
@@ -27,9 +26,10 @@
     ]
   },
   {
-    "listing": "/blog/welcome.html",
+    "listing": "/projects/projects.html",
     "items": [
-      "/blog/posts/2025-09-14.html"
+      "/projects/personal-website.html",
+      "/projects/dotfiles.html"
     ]
   }
 ]

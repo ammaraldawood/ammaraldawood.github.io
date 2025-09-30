@@ -2,12 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="A Ghostty, Tmux and Neovim configuration tailored for data science, machine learning and computational biology">
 
-<title>dotfiles – Ammar Aldawood</title>
+<title>Dotfiles – Ammar Aldawood</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,10 +40,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b651517ce65839d647a86e2780455cfb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-d020aa51213446c440f888de6e9aafb5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-3e91bb2b62e52b5253444ec8fdff335c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -101,12 +102,13 @@ cookieconsent.run({
 
 
 <link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -150,7 +152,33 @@ cookieconsent.run({
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Dotfiles</h1>
+                  <div>
+        <div class="description">
+          A Ghostty, Tmux and Neovim configuration tailored for data science, machine learning and computational biology
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Lua</div>
+                <div class="quarto-category">Shell</div>
+                <div class="quarto-category">Git</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -158,18 +186,77 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#dotfiles" id="toc-dotfiles" class="nav-link active" data-scroll-target="#dotfiles">Dotfiles</a></li>
+  <li><a href="#technology-stack" id="toc-technology-stack" class="nav-link active" data-scroll-target="#technology-stack">Technology Stack</a></li>
+  <li><a href="#project-learningsskills" id="toc-project-learningsskills" class="nav-link" data-scroll-target="#project-learningsskills">Project Learnings/Skills</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<section id="dotfiles" class="level1">
-<h1>Dotfiles</h1>
+
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Target Audience</strong></th>
+<th style="text-align: left;">Curious tinkerers who live in the terminal and build their own workflows</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Value Proposition</strong></td>
+<td style="text-align: left;">Keyboard-centric, single monitor workflow with superior Vim motions editing experience</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Product Link</strong></td>
+<td style="text-align: left;">Not applicable</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Demonstration Link</strong></td>
+<td style="text-align: left;">Blog post coming soon!</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Source Repository</strong></td>
+<td style="text-align: left;"><a href="https://github.com/ammaraldawood/dotfiles" target="_blank"><strong><code>github.com/ammaraldawood/dotfiles</code></strong></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Influenced By</strong></td>
+<td style="text-align: left;"><a href="https://www.josean.com/" target="_blank"><strong><code>Josean Martinez</code></strong></a></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<section id="technology-stack" class="level2">
+<h2 class="anchored" data-anchor-id="technology-stack">Technology Stack</h2>
+<ul>
+<li><strong>Programming Languages:</strong>
+<ul>
+<li><strong>Lua:</strong> Neovim configuration language.</li>
+<li><strong>Shell:</strong> Zsh scripts and terminal customization.</li>
+</ul></li>
+</ul>
+<p><br></p>
+<ul>
+<li><strong>Core Technologies:</strong>
+<ul>
+<li><strong>Neovim:</strong> Text editor centered around Vim Motions.</li>
+<li><strong>Tmux:</strong> Terminal multiplexer and sessionizer</li>
+<li><strong>Ghostty:</strong> Terminal emulator with shader support.</li>
+<li><strong>Git:</strong> Version control.</li>
+<li><strong>Homebrew:</strong> Package management.</li>
+</ul></li>
+</ul>
+</section>
+<section id="project-learningsskills" class="level2">
+<h2 class="anchored" data-anchor-id="project-learningsskills">Project Learnings/Skills</h2>
+<ol type="1">
+<li><p><strong>Software Architecture:</strong> Managing the interplay of different programs and their respective plugins and themes, resolving conflicts and optimizing user experience. For example, installing bioSyntax which is available for Vim and making it available to Neovim through a Lua function call.</p></li>
+<li><p><strong>Shell Scripting:</strong> Creating aliases and custom shell functions that perform repetitive tasks and multi-step operations using a single-word command. For example, ‘cld’ which concatenates the contents of the latest downloaded file using bat.</p></li>
+<li><p><strong>Command Line Fluency:</strong> Introduced to countless terms and paradigms that I had to look up while working on this setup, some of which I might not have run into otherwise, including fuzzy search, inodes, size vs blocksize, symlinks, ripgrep, glob operators, globbing flags, aliasing, regex, environment variables and makefiles, amongst others.</p></li>
+</ol>
 
 
 </section>
