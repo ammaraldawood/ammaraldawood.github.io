@@ -95,14 +95,28 @@
     "href": "projects/dotfiles.html",
     "title": "Dotfiles",
     "section": "",
-    "text": "Dotfiles"
+    "text": "Target Audience\nCurious tinkerers who live in the terminal and build their own workflows\n\n\n\n\nValue Proposition\nKeyboard-centric, single monitor workflow with superior Vim motions editing experience\n\n\nProduct Link\nNot applicable\n\n\nDemonstration Link\nBlog post coming soon!\n\n\nSource Repository\ngithub.com/ammaraldawood/dotfiles\n\n\nInfluenced By\nJosean Martinez"
+  },
+  {
+    "objectID": "projects/dotfiles.html#technology-stack",
+    "href": "projects/dotfiles.html#technology-stack",
+    "title": "Dotfiles",
+    "section": "Technology Stack",
+    "text": "Technology Stack\n\nProgramming Languages:\n\nLua: Neovim configuration language.\nShell: Zsh scripts and terminal customization.\n\n\n\n\nCore Technologies:\n\nNeovim: Text editor centered around Vim Motions.\nTmux: Terminal multiplexer and sessionizer\nGhostty: Terminal emulator with shader support.\nGit: Version control.\nHomebrew: Package management."
+  },
+  {
+    "objectID": "projects/dotfiles.html#project-learningsskills",
+    "href": "projects/dotfiles.html#project-learningsskills",
+    "title": "Dotfiles",
+    "section": "Project Learnings/Skills",
+    "text": "Project Learnings/Skills\n\nSoftware Architecture: Managing the interplay of different programs and their respective plugins and themes, resolving conflicts and optimizing user experience. For example, installing bioSyntax which is available for Vim and making it available to Neovim through a Lua function call.\nShell Scripting: Creating aliases and custom shell functions that perform repetitive tasks and multi-step operations using a single-word command. For example, ‘cld’ which concatenates the contents of the latest downloaded file using bat.\nCommand Line Fluency: Introduced to countless terms and paradigms that I had to look up while working on this setup, some of which I might not have run into otherwise, including fuzzy search, inodes, size vs blocksize, symlinks, ripgrep, glob operators, globbing flags, aliasing, regex, environment variables and makefiles, amongst others."
   },
   {
     "objectID": "projects/projects.html",
     "href": "projects/projects.html",
     "title": "What I’ve Built",
     "section": "",
-    "text": "If it’s something I created, learned from creating, and think could be useful to others, you’ll find it here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonal Website\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDotfiles\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "If it’s something I created, learned from creating, and think could be useful to others, you’ll find it here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonal Website\n\n\n\nQuarto\n\nGit\n\nPython\n\nR\n\nJavaScript\n\nHTML\n\nCSS\n\nShell\n\n\n\nA digital portfolio and blog for communicating progress and insight, requiring minimal Javascript, HTML and CSS knowledge for the non-web developer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDotfiles\n\n\n\nLua\n\nShell\n\nGit\n\n\n\nA Ghostty, Tmux and Neovim configuration tailored for data science, machine learning and computational biology\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "reading/readinglist.html",
@@ -116,7 +130,21 @@
     "href": "projects/personal-website.html",
     "title": "Personal Website",
     "section": "",
-    "text": "Personal Website"
+    "text": "Target Audience:\nComputational biologists and data/machine learning scientists\n\n\n\n\nValue Proposition:\nPractical insight into computational biology, data science and machine learning\n\n\nProduct Link:\nammaraldawood.com\n\n\nDemonstration Link:\nBlog post coming soon!\n\n\nSource Repository:\ngithub.com/ammaraldawood/ammaraldawood.github.io\n\n\nInfluenced By:\nSamantha Shanny-Csik"
+  },
+  {
+    "objectID": "projects/personal-website.html#technology-stack",
+    "href": "projects/personal-website.html#technology-stack",
+    "title": "Personal Website",
+    "section": "Technology Stack",
+    "text": "Technology Stack\n\nProgramming Languages:\n\nR: Visualizations and diagrams.\nJavascript: Mermaid diagrams.\nHTML: Custom buttons and website elements.\nCSS: Styling for website elements.\nShell: Quarto and Git CLI.\n\n\n\n\nCore Technologies:\n\nQuarto: Main tool used to build the website with .qmd files.\nGitHub: Hosts the website using GitHub Pages.\nGit: Version control."
+  },
+  {
+    "objectID": "projects/personal-website.html#project-learningsskills",
+    "href": "projects/personal-website.html#project-learningsskills",
+    "title": "Personal Website",
+    "section": "Project Learnings/Skills",
+    "text": "Project Learnings/Skills\n\nProgrammatic Visualization: All original diagrams and visualizations for this website and blog posts were generated programmatically (e.g., using Python/R libraries) rather than using standard graphic design tools as a self-imposed technical constraint.\nTechnical Writing Skills: Proficiency in creating and deploying code-integrated documentation. Focus on clear narrative flow and attention-grabbing storytelling.\nProject Management: Planning the overall structure of the website to suit my specific needs, avoid overlap and regurgitation between website sections and create an easily navigable experience for the visitor."
   },
   {
     "objectID": "index.html",

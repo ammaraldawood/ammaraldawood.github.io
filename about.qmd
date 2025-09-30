@@ -46,7 +46,7 @@ ggplot() +
       y = date,
       color = mode
     ),
-    size = 10
+    linewidth = 10
   ) +
   coord_flip() +
   labs(x = "", y = "") +
@@ -63,11 +63,11 @@ ggplot() +
     panel.grid.major = element_blank(),
     panel.grid.minor = element_blank(),
 
-    text = element_text(color = "white", size = 12),
-    axis.text = element_text(color = "white", size = 12),
-    axis.title = element_text(color = "white", size = 12),
-    plot.title = element_text(color = "white", size = 12),
-    legend.text = element_text(color = "white", size = 12)
+    text = element_text(color = "white", linewidth = 12),
+    axis.text = element_text(color = "white", linewidth = 12),
+    axis.title = element_text(color = "white", linewidth = 12),
+    plot.title = element_text(color = "white", linewidth = 12),
+    legend.text = element_text(color = "white", linewidth = 12)
   )
 
 ```

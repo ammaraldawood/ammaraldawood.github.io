@@ -20,6 +20,10 @@ about:
         text: YouTube
         href: https://www.youtube.com/@ammar_aldawood
         target: _blank
+      - icon: reddit
+        text: Reddit
+        href: https://www.reddit.com/user/AmmarAldawood/
+        target: _blank
       - icon: envelope-at-fill
         text: Email
         href: mailto:aldawoodammar@gmail.com
