@@ -74,14 +74,14 @@
     "href": "projects/dotfiles.html",
     "title": "Dotfiles",
     "section": "",
-    "text": "Target Audience\nCurious tinkerers who live in the terminal and build their own workflows\n\n\n\n\nValue Proposition\nKeyboard-centric, single monitor workflow with superior Vim motions editing experience\n\n\nProduct Link\nNot applicable\n\n\nDemonstration Link\nBlog post coming soon!\n\n\nSource Repository\ngithub.com/ammaraldawood/dotfiles\n\n\nInfluenced By\nJosean Martinez"
+    "text": "Target Audience:\nCurious tinkerers who live in the terminal and build their own workflows\n\n\n\n\nValue Proposition:\nKeyboard-centric, single monitor workflow with superior Vim Motions editing experience\n\n\nProduct Link:\nNot applicable\n\n\nDemonstration Link:\nBlog post coming soon!\n\n\nSource Repository:\ngithub.com/ammaraldawood/dotfiles\n\n\nInfluenced By:\nJosean Martinez"
   },
   {
     "objectID": "projects/dotfiles.html#technology-stack",
     "href": "projects/dotfiles.html#technology-stack",
     "title": "Dotfiles",
     "section": "Technology Stack",
-    "text": "Technology Stack\n\nProgramming Languages:\n\nLua: Neovim configuration language.\nShell: Zsh scripts and terminal customization.\n\n\n\n\nCore Technologies:\n\nNeovim: Text editor centered around Vim Motions.\nTmux: Terminal multiplexer and sessionizer\nGhostty: Terminal emulator with shader support.\nGit: Version control.\nHomebrew: Package management."
+    "text": "Technology Stack\n\nProgramming Languages:\n\nLua: Neovim configuration language.\nShell: Zsh scripts and terminal customization.\n\n\n\n\nCore Technologies:\n\nNeovim: Text editor centered around Vim Motions.\nTmux: Terminal multiplexer and sessionizer.\nGhostty: Terminal emulator with shader support.\nGit: Version control.\nHomebrew: Package management."
   },
   {
     "objectID": "projects/dotfiles.html#project-learningsskills",
