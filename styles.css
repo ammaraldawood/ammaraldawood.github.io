@@ -52,3 +52,30 @@ h1.text-center {
   display: inline-block;
   text-decoration: none; 
 }
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ff8c00;
+  width: 50%;
+  margin: 3rem auto;
+  opacity: 1;
+}
+
+figure, .knitr‑plot, pre {
+  margin-top: 0;
+}
+
+hr + * {
+  margin-top: 0;
+}
+
+h2 {
+  border-bottom: 2px solid rgba(255, 140, 0, 1);
+}
+
+span.badge {
+  display: inline-block;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
