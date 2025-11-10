@@ -1,0 +1,11 @@
+---
+title: "A Global Perspective on Evolving Bioinformatics and Data Science Training Needs"
+image: bd.png
+categories: [Paper, Bioinformatics, Completed]
+author: "Teresa K. Attwood, Sarah Blackford, Michelle D. Brazas, Angela Davies and Maria Victoria Schneider"
+date-format: "YYYY"
+date: "2017-01-01"
+format:
+    html:
+        css: styles.css
+---

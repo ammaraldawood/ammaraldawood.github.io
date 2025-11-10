@@ -1,0 +1,11 @@
+---
+title: "Introduction to Mathematics for Computational Biology"
+image: imcb.png
+categories: [Book, Mathematics, Completed]
+author: "Bruno Carpentieri and Paola Lecca"
+date-format: "YYYY"
+date: "2023-01-01"
+format:
+    html:
+        css: styles.css
+---

@@ -1,0 +1,13 @@
+---
+title: "Introduction to Algorithms (CLRS)"
+image: clrs.png
+categories: [Book, Computation, Active]
+author: "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein"
+date-format: "YYYY"
+date: "1989-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+

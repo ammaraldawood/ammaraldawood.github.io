@@ -1,0 +1,11 @@
+---
+title: "Precalculus"
+image: pc.png
+categories: [Book, Mathematics, Active]
+author: "James Stewart, Lothar Redlin and Saleem Watson"
+date-format: "YYYY"
+date: "1997-01-01"
+format:
+    html:
+        css: styles.css
+---

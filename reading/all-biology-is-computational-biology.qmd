@@ -1,0 +1,11 @@
+---
+title: "All Biology is Computational Biology"
+image: abcb.png
+categories: [Paper, Bioinformatics, Completed]
+author: "Florian Markowetz"
+date-format: "YYYY"
+date: "2017-01-01"
+format:
+    html:
+        css: styles.css
+---

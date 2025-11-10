@@ -1,0 +1,15 @@
+---
+title: "What's On My Mind"
+listing:
+  contents: "./posts"
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+title-block-banner: true
+---
+
+Welcome to my blog! This is where I talk about my experiences and share
+my perspective
+
+---

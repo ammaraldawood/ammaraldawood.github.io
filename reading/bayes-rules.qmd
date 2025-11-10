@@ -1,0 +1,11 @@
+---
+title: "Bayes Rules!"
+image: bayes.png
+categories: [Book, Statistics, Completed]
+author: "Alicia A. Johnson, Miles Q. Ott and Mine Dogucu"
+date-format: "YYYY"
+date: "2021-01-01"
+format:
+    html:
+        css: styles.css
+---

@@ -1,0 +1,14 @@
+---
+title: "What I've Built"
+listing:
+  contents: "."
+  sort: "date desc"
+  type: grid
+  categories: true
+title-block-banner: true
+---
+
+If it’s something I created, learned from creating, and think could be useful 
+to others, you’ll find it here.
+
+---

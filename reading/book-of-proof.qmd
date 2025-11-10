@@ -1,0 +1,11 @@
+---
+title: "Book of Proof"
+image: bp.png
+categories: [Book, Mathematics, Active]
+author: "Richard Hammack"
+date-format: "YYYY"
+date: "2009-01-01"
+format:
+    html:
+        css: styles.css
+---

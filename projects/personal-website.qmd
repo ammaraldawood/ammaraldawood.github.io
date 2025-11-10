@@ -1,0 +1,53 @@
+---
+title: "Personal Website"
+description: "A digital portfolio and blog for communicating progress and insight, requiring minimal Javascript, HTML and CSS knowledge for the non-web developer"
+image: pw.png
+categories: [
+  Quarto, Git, Python, R, JavaScript, HTML, CSS, Shell
+]
+
+format:
+  html:
+    css: styles.css
+---
+
+| **Target Audience:** | Computational biologists and data/machine learning scientists |
+| :--- | :--- |
+| **Value Proposition:** | Practical insight into computational biology, data science and machine learning |
+| **Product Link:** | [**`ammaraldawood.com`**](https://www.ammaraldawood.com/){target="_blank"} |
+| **Demonstration Link:** | Blog post coming soon! |
+| **Source Repository:** | [**`github.com/ammaraldawood/ammaraldawood.github.io`**](https://github.com/ammaraldawood/ammaraldawood.github.io){target="_blank"} |
+| **Influenced By:** | [**`Samantha Shanny-Csik`**](https://samanthacsik.github.io/){target="_blank"} |
+
+<br>
+
+## Technology Stack
+
+* **Programming Languages:**
+  * **R:** Visualizations and diagrams.
+  * **Javascript:** Mermaid diagrams.
+  * **HTML:** Custom buttons and website elements.
+  * **CSS:** Styling for website elements.
+  * **Shell:** Quarto and Git CLI.
+
+<br>
+
+* **Core Technologies:**
+  * **Quarto:** Main tool used to build the website with .qmd files.
+  * **GitHub:** Hosts the website using GitHub Pages.
+  * **Git:** Version control.
+
+## Project Learnings/Skills
+
+1.  **Programmatic Visualization:** All original diagrams and visualizations 
+for this website and blog posts were generated programmatically (e.g., using
+Python/R libraries) rather than using standard graphic design tools as a
+self-imposed technical constraint.
+
+2.  **Technical Writing Skills:** Proficiency in creating and deploying
+code-integrated documentation. Focus on clear narrative flow and
+attention-grabbing storytelling.
+
+3.  **Project Management:** Planning the overall structure of the website to
+suit my specific needs, avoid overlap and regurgitation between website 
+sections and create an easily navigable experience for the visitor.

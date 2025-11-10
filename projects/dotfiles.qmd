@@ -1,0 +1,58 @@
+---
+title: "Dotfiles"
+description: 
+    "A Ghostty, Tmux and Neovim configuration tailored for data 
+    science, machine learning and computational biology"
+image: df.png
+
+categories: [
+  Lua, Shell, Git
+]
+
+format:
+  html:
+    css: styles.css
+---
+
+| **Target Audience:** | Curious tinkerers who live in the terminal and build their own workflows |
+| :--- | :--- |
+| **Value Proposition:** | Keyboard-centric, single monitor workflow with superior Vim Motions editing experience |
+| **Product Link:** | Not applicable |
+| **Demonstration Link:** | Blog post coming soon! |
+| **Source Repository:** | [**`github.com/ammaraldawood/dotfiles`**](https://github.com/ammaraldawood/dotfiles){target="_blank"} |
+| **Influenced By:** | [**`Josean Martinez`**](https://www.josean.com/){target="_blank"} |
+
+<br>
+
+## Technology Stack
+
+* **Programming Languages:**
+  * **Lua:** Neovim configuration language.
+  * **Shell:** Zsh scripts and terminal customization.
+
+<br>
+
+* **Core Technologies:**
+  * **Neovim:** Text editor centered around Vim Motions.
+  * **Tmux:** Terminal multiplexer and sessionizer.
+  * **Ghostty:** Terminal emulator with shader support.
+  * **Git:** Version control.
+  * **Homebrew:** Package management.
+
+## Project Learnings/Skills
+
+1.  **Software Architecture:** Managing the interplay of different programs and
+their respective plugins and themes, resolving conflicts and optimizing user
+experience. For example, installing bioSyntax which is available for Vim and
+making it available to Neovim through a Lua function call.
+
+2.  **Shell Scripting:** Creating aliases and custom shell functions that
+perform repetitive tasks and multi-step operations using a single-word command.
+For example, 'cld' which concatenates the contents of the latest downloaded
+file using bat.
+
+3.  **Command Line Fluency:** Introduced to countless terms and paradigms that
+I had to look up while working on this setup, some of which I might not have
+run into otherwise, including fuzzy search, inodes, size vs blocksize,
+symlinks, ripgrep, glob operators, globbing flags, aliasing, regex, environment
+variables and makefiles, amongst others.

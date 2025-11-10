@@ -1,0 +1,15 @@
+---
+title: "What I'm Reading"
+listing:
+  contents: "."
+  sort: "date desc"
+  type: grid
+  categories: true
+title-block-banner: true
+date-format: "YYYY"
+---
+
+A collection of insightful books, papers, and writings, 
+distinct from my broader, more arbitrary daily reading. 
+
+---

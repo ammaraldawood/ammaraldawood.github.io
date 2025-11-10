@@ -1,0 +1,51 @@
+---
+title: "Ahlan to Affluent Ammar's Almanac!"
+about:
+  template: marquee
+  image: gimme.png
+  links:
+      - icon: github
+        text: GitHub
+        href: https://github.com/ammaraldawood
+        target: _blank
+      - icon: linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/ammar-aldawood/
+        target: _blank
+      - icon: twitter-x
+        text: Twitter/X
+        href: https://x.com/aldawood_ammar
+        target: _blank
+      - icon: youtube
+        text: YouTube
+        href: https://www.youtube.com/@ammar_aldawood
+        target: _blank
+      - icon: reddit
+        text: Reddit
+        href: https://www.reddit.com/user/AmmarAldawood/
+        target: _blank
+      - icon: envelope-at-fill
+        text: Email
+        href: mailto:aldawoodammar@gmail.com
+        target: _blank
+---
+
+```{=html}
+<div class="d-flex justify-content-center gap-3">
+  <a href="/blog/posts/2025-09-14.html" class="text-decoration-none">
+    <div class="card text-black mb-3" style="max-width: 10rem; background-color: white;">
+      <div class="card-header">Latest Post</div>
+    </div>
+  </a>
+  <a href="/projects/personal-website.html" class="text-decoration-none">
+    <div class="card text-black mb-3" style="max-width: 10rem; background-color: white;">
+      <div class="card-header">Latest Project</div>
+    </div>
+  </a>
+  <a href="/reading/readinglist.html#category=Active" class="text-decoration-none">
+    <div class="card text-black mb-3" style="max-width: 10rem; background-color: white;">
+      <div class="card-header">Now Reading</div>
+    </div>
+  </a>
+</div>
+```

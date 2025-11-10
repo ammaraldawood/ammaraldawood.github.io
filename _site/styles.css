@@ -1,0 +1,81 @@
+.html-widget-container {
+  background-color: transparent !important;
+}
+
+.quarto-dark-mode-enable .plotly,
+.quarto-dark-mode-enable .html-widget {
+  color: black !important;
+}
+
+.quarto-dark-mode .plotly,
+.quarto-dark-mode .html-widget {
+  color: white !important;
+}
+
+
+.navbar-brand,
+.navbar-logo {
+
+  align-items: center;
+}
+
+.navbar-brand img,
+.navbar-logo img {
+  max-height: 75px !important;  // scale up/down
+  width: auto !important;
+}
+
+h1.title {
+  text-align: center;
+}
+
+p.subtitle, div.subtitle, h2.subtitle, h3.subtitle, h4.subtitle {
+  text-align: center;
+}
+
+h1.text-center {
+  font-family: var(--bs-font-sans-serif);
+  font-size: 2.5rem;
+  color: var(--bs-primary);
+  margin-bottom: 1.5rem;
+}
+
+.card-hover {
+  transition: background-color 0.3s ease; 
+}
+
+.card-hover:hover {
+  background-color: darkorange !important; 
+}
+
+.card-link {
+  display: inline-block;
+  text-decoration: none; 
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ff8c00;
+  width: 50%;
+  margin: 3rem auto;
+  opacity: 1;
+}
+
+figure, .knitr‑plot, pre {
+  margin-top: 0;
+}
+
+hr + * {
+  margin-top: 0;
+}
+
+h2 {
+  border-bottom: 2px solid rgba(255, 140, 0, 1);
+}
+
+span.badge {
+  display: inline-block;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}

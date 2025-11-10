@@ -1,0 +1,205 @@
+---
+title: "Who Am I?"
+about:
+  template: jolla
+execute:
+  echo: false
+title-block-banner: true
+---
+
+I'm Ammar Aldawood, an aspiring computational biologist.\
+A medical laboratory sciences alumnus from Jordan University
+of Science and Technology,\
+I became increasingly aware of how indispensible mathematics
+and computation are for\
+understanding biology.
+
+---
+
+## Education & Learning
+
+```{r}
+library(tidyverse)
+
+df <- data.frame(
+  education = c(
+    "BSc in Medical\n Laboratory Sciences",
+    "MSc in Microbiology\n and Immunology",
+    "Mathematics,\nComputation and Omics"
+  ),
+  start = c("2017-10-15", "2021-10-15", "2022-06-15"),
+  end = c("2021-07-21", "2025-10-31", "2025-10-31"),
+  mode = c("Formal Education", "Formal Education", "Autodidacticism")
+)
+
+df <- df %>%
+  mutate(start = as.Date(start), end = as.Date(end))
+
+df_tidy <- df %>%
+  gather(key = date_type, value = date, -education, -mode)
+
+ggplot() +
+  geom_line(
+    data = df_tidy,
+    mapping = aes(
+      x = fct_rev(fct_inorder(education)),
+      y = date,
+      color = mode
+    ),
+    linewidth = 10
+  ) +
+  coord_flip() +
+  labs(x = "", y = "") +
+  scale_color_manual(values = c(
+    "Formal Education" = "#ffffff",
+    "Autodidacticism" = "#ff8c00"
+  )
+  ) +
+  theme(
+    legend.title = element_blank(),
+    plot.background = element_rect(fill = "transparent", color = NA),
+    panel.background = element_rect(fill = "transparent", color = NA),
+    legend.background = element_rect(fill = "transparent", color = NA),
+    panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+
+    text = element_text(color = "white", linewidth = 12),
+    axis.text = element_text(color = "white", linewidth = 12),
+    axis.title = element_text(color = "white", linewidth = 12),
+    plot.title = element_text(color = "white", linewidth = 12),
+    legend.text = element_text(color = "white", linewidth = 12)
+  )
+
+```
+<span class="badge bg-light">Gantt chart generated using ggplot2 in R</span>
+
+---
+
+Take a look at my DataCamp portfolio\
+including completed courses and tracks
+
+<a href="https://www.datacamp.com/portfolio/Ammar-Aldawood" target="_blank">
+  <img src="dclogo.png" alt="DataCamp Portfolio" width="50%">
+</a>
+
+---
+
+## My Tech Stack
+##### Hover over nodes to see more info!
+
+```{r}
+library(plotly)
+
+n1 <- c("Assembly", "C", "C++", "Python", "R")
+n2 <- c("Swift", "SQL", "Shell", "Docker", "Git")
+
+c1 <- c("lightgray", "darkorange", "lightgray", "white", "white")
+c2 <- c("white", "white", "darkorange", "white", "white")
+
+node_descriptions <- c(
+  "Low level programming.\nLearned it purely to become more\ngrounded in computation and\nunderstand the full picture down to hardware.\nSkill level: ★",
+  "Mid level programming.\nUseful for optimization and\nhigh performance computing.\nGives the best control over embedded systems.\nSkill level: ★★",
+  "Mid level programming.\nA superset of C that is relevant for\ninteroperability with higher level languages.\nSkill level: ★",
+  "High level programming.\nGives access to mature machine learning\npackages such as XGBoost & PyTorch.\nContains the package Biopython.\nSkill level: ★★★★",
+  "High level programming.\nSpecialized in data visualization and\nstatistical data analysis.\nContains the library Bioconductor.\nSkill level: ★★★★",
+  "High level programming.\nNative app development for more than five different platforms\nin iOS, iPadOS, macOS, watchOS, visionOS..etc.\nSkill level: ★★★★",
+  "Structured query language.\nEssential for any meaningful work using big data.\nBest way to interact with relational databases.\nSkill level: ★★★",
+  "Command line interface.\nProvides broad access over the system you're working on.\nEssential for scripting and SSH-ing.\nSkill level: ★★★★",
+  "Containerization and Reproducibility.\nSkill level: ★★",
+  "Version Control and Reproducibility.\nSkill level: ★★★★"
+)
+
+fig <- plot_ly(
+               type = "sankey",
+               arrangement = "snap",
+               orientation = "v",
+               node = list(
+                           label = c(n1, n2),
+                           color = c(c1, c2),
+                           pad = 15,
+                           customdata = node_descriptions,
+                           hovertemplate = "%{customdata}<extra></extra>"),
+               link = list(
+                           source = c(0, 1, 1, 1, 1, 2, 2, 2, 6, 6, 7, 7),
+                           target = c(1, 2, 3, 4, 5, 3, 4, 5, 3, 4, 8, 9),
+                           value = c(6, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+                           color = c("lightgray", "darkorange", "darkorange",
+                                     "darkorange", "darkorange", "lightgray",
+                                     "lightgray", "lightgray", "white",
+                                     "white", "darkorange", "darkorange"),
+                           hoverinfo = "none"))
+fig <- fig %>% layout(title = "",
+  paper_bgcolor = "rgba(0,0,0,0)",
+  plot_bgcolor = "rgba(0,0,0,0)",
+  font = list(color = "#000000", size = 12, family = "Arial"),
+  margin = list(
+    l = 70,
+    r = 70,
+    b = 50,
+    t = 50
+  ),
+  hoverlabel = list(
+    bgcolor = "rgba(255, 255, 255, 1)",
+    bordercolor = "rgba(0, 0, 0, 1)",
+    font = list(color = "black")
+  )
+)
+
+fig
+```
+<span class="badge bg-light">Sankey diagram generated using Plotly in R</span>
+
+---
+
+## Interests & Hobbies
+##### Click on the circles to see more!
+
+
+```{r}
+library(circlepackeR)
+
+data <- data.frame(
+  root = rep("root", 11),
+  group = c(
+    rep("Sports", 3),
+    rep("Languages", 3),
+    rep("Music", 2),
+    rep("Digital Creation", 1),
+    rep("Learning", 2)
+  ),
+  subgroup = rep(c(
+    "Calisthenics",
+    "Running",
+    "Swimming",
+    "Arabic",
+    "English",
+    "Mandarin",
+    "Playing Piano",
+    "Music Theory",
+    "Procedural 3D Simulation in SideFX Houdini",
+    "Reading",
+    "Research"
+  )
+  ),
+  value = c(100, 25, 25, 100, 100, 5, 25, 25, 50, 100, 100)
+)
+
+library(data.tree)
+data$pathString <- paste(
+  "world",
+  data$group,
+  data$subgroup,
+  data$subsubgroup,
+  sep = "/"
+)
+population <- as.Node(data)
+
+p <- circlepackeR(
+  population, size = "value",
+  color_min = "hsl(0, 0%, 90%)",
+  color_max = "hsl(0, 0%, 10%)"
+)
+
+p
+```
+<span class="badge bg-light">Circle packing generated using circlepackeR in R</span>

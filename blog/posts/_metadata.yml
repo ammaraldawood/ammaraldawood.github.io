@@ -1,0 +1,8 @@
+# Enable banner style title blocks ----
+title-block-banner: true
+
+# my author info ----
+author:
+  - name: Ammar Aldawood
+    url: https://ammaraldawood.github.io/
+    orcid: 0009-0001-5777-482X
