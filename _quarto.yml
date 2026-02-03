@@ -11,7 +11,7 @@ execute:
 
 website:
   title: "Ammar Aldawood"
-  site-url: https://ammaraldawood.com/blog
+  site-url: https://www.ammaraldawood.com
   description: "Blog"
   cookie-consent:
     type: express
@@ -28,7 +28,7 @@ website:
         text: Reading
       - href: blog/welcome.qmd
         text: Blog
-      - href: _site/blog/welcome.xml
+      - href: /blog/welcome.xml
         icon: rss
     background: darkorange
     foreground: white
