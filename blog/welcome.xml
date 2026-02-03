@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Ammar Aldawood</title>
-<link>https://ammaraldawood.com/blog/blog/welcome.html</link>
-<atom:link href="https://ammaraldawood.com/blog/blog/welcome.xml" rel="self" type="application/rss+xml"/>
+<link>https://www.ammaraldawood.com/blog/welcome.html</link>
+<atom:link href="https://www.ammaraldawood.com/blog/welcome.xml" rel="self" type="application/rss+xml"/>
 <description>Blog</description>
 <generator>quarto-1.8.27</generator>
 <lastBuildDate>Sun, 14 Sep 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Why AI Didn’t Stop Me From Learning to Code</title>
   <dc:creator>Ammar Aldawood</dc:creator>
-  <link>https://ammaraldawood.com/blog/blog/posts/2025-09-14.html</link>
+  <link>https://www.ammaraldawood.com/blog/posts/2025-09-14.html</link>
   <description><![CDATA[ 
 
 
@@ -24,7 +24,7 @@
 <div class="center-align-text">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ammaraldawood.com/blog/blog/posts/woof.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<p><img src="https://www.ammaraldawood.com/blog/posts/woof.png" class="img-fluid figure-img" style="width:75.0%"></p>
 <figcaption>Dog and robot dog barking at each other using woof and e-woof, respectively.</figcaption>
 </figure>
 </div>
@@ -246,9 +246,9 @@ Code.”</span> September 14, 2025. <a href="https://ammaraldawood.com/blog/post
   <category>Machine Learning</category>
   <category>Artificial Intelligence</category>
   <category>Learn to Code</category>
-  <guid>https://ammaraldawood.com/blog/blog/posts/2025-09-14.html</guid>
+  <guid>https://www.ammaraldawood.com/blog/posts/2025-09-14.html</guid>
   <pubDate>Sun, 14 Sep 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://ammaraldawood.com/blog/blog/posts/woof.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://www.ammaraldawood.com/blog/posts/woof.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
 </rss>
