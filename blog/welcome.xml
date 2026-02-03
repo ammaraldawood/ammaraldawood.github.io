@@ -9,7 +9,7 @@
 <link>https://ammaraldawood.com/blog/blog/welcome.html</link>
 <atom:link href="https://ammaraldawood.com/blog/blog/welcome.xml" rel="self" type="application/rss+xml"/>
 <description>Blog</description>
-<generator>quarto-1.8.25</generator>
+<generator>quarto-1.8.27</generator>
 <lastBuildDate>Sun, 14 Sep 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Why AI Didn’t Stop Me From Learning to Code</title>
@@ -149,7 +149,7 @@ end
 <h4 class="anchored" data-anchor-id="a-mutual-language">A Mutual Language</h4>
 <p>As it stands, machine learning models suffer from a plethora of problems related to how they learn, what data they’re trained on and how complex is the feedback mechanism for the model. These problems include but are not limited to bias, hallucinations, model/mode collapse and catastrophic interference.</p>
 <p>Most of these errors can only be sufficiently addressed by tuning the model itself, as opposed to communicating linguistically with the chat agent hoping that modifying words would garner better results in what is known as prompt engineering. To achieve this, one has to be knowledgeable with the inner workings of the model, including the maths and computation behind it.</p>
-<p>This is similar to two doctors, one who tells you that you have an infection because he placed their hands on your forehead and concluded so from your fever, and another who reads the results of your complete blood count to realize you had elevated eosinophil levels which reduces the possibilities for the cause of fever to either allergy or parasitic infections. Which doctor would you trust to address your prolem? This mirrors the limitations of prompt engineering versus direct model tuning. Looking at the code or math behind the model is equivalent to having a blood test of a patient.</p>
+<p>This is similar to two doctors, one who tells you that you have an infection because he placed their hands on your forehead and concluded so from your fever, and another who reads the results of your complete blood count to realize you had elevated eosinophil levels which reduces the possibilities for the cause of fever to either allergy or parasitic infections. Which doctor would you trust to address your problem? This mirrors the limitations of prompt engineering versus direct model tuning. Looking at the code or math behind the model is equivalent to having a blood test of a patient.</p>
 <hr>
 </section>
 <section id="irreducible-complexity" class="level4">

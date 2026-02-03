@@ -29,7 +29,9 @@
     "listing": "/projects/projects.html",
     "items": [
       "/projects/personal-website.html",
-      "/projects/dotfiles.html"
+      "/projects/datacamp-competition.html",
+      "/projects/dotfiles.html",
+      "/projects/dataresmic.html"
     ]
   }
 ]
