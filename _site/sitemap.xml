@@ -2,15 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ammaraldawood.com/blog/about.html</loc>
-    <lastmod>2025-11-10T22:06:40.748Z</lastmod>
+    <lastmod>2026-02-03T10:26:15.945Z</lastmod>
   </url>
   <url>
     <loc>https://ammaraldawood.com/blog/blog/posts/2025-09-14.html</loc>
-    <lastmod>2025-11-10T22:15:40.746Z</lastmod>
+    <lastmod>2026-02-03T09:19:15.032Z</lastmod>
   </url>
   <url>
-    <loc>https://ammaraldawood.com/blog/projects/dotfiles.html</loc>
-    <lastmod>2025-09-30T11:41:28.646Z</lastmod>
+    <loc>https://ammaraldawood.com/blog/projects/dataresmic.html</loc>
+    <lastmod>2026-02-03T10:24:28.796Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ammaraldawood.com/blog/projects/datacamp-competition.html</loc>
+    <lastmod>2026-02-03T04:48:59.363Z</lastmod>
   </url>
   <url>
     <loc>https://ammaraldawood.com/blog/projects/projects.html</loc>
@@ -82,7 +86,11 @@
   </url>
   <url>
     <loc>https://ammaraldawood.com/blog/projects/personal-website.html</loc>
-    <lastmod>2025-09-30T10:53:52.629Z</lastmod>
+    <lastmod>2026-02-03T09:15:19.505Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ammaraldawood.com/blog/projects/dotfiles.html</loc>
+    <lastmod>2025-09-30T11:41:28.646Z</lastmod>
   </url>
   <url>
     <loc>https://ammaraldawood.com/blog/index.html</loc>

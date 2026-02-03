@@ -36,7 +36,7 @@ website:
     right: |
       Website built using <a href="https://quarto.org" target="_blank">Quarto</a>, <a href="https://github.com" target="_blank">GitHub</a> & <a href="https://express.adobe.com" target="_blank">Adobe Express</a>.
     left:
-      - text: "© 2025 Ammar Aldawood"
+      - text: "© 2026 Ammar Aldawood"
     border: white
     background: darkorange
     foreground: white

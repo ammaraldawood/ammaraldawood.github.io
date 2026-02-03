@@ -11,9 +11,9 @@ format:
     css: styles.css
 ---
 
-| **Target Audience:** | Computational biologists and data/machine learning scientists |
+| **Target Audience:** | Generalists, computational biologists and data/machine learning scientists |
 | :--- | :--- |
-| **Value Proposition:** | Practical insight into computational biology, data science and machine learning |
+| **Value Proposition:** | Hard-won perspectives on a plethora of different topics |
 | **Product Link:** | [**`ammaraldawood.com`**](https://www.ammaraldawood.com/){target="_blank"} |
 | **Demonstration Link:** | Blog post coming soon! |
 | **Source Repository:** | [**`github.com/ammaraldawood/ammaraldawood.github.io`**](https://github.com/ammaraldawood/ammaraldawood.github.io){target="_blank"} |

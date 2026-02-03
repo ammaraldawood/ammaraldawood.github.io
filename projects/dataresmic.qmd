@@ -1,0 +1,85 @@
+---
+title: "Dataresmic"
+description: 
+    "My submission for Apple's 'Swift Student Challenge' back in February of 2023"
+image: drm.png
+
+categories: [
+  Swift
+]
+
+format:
+  html:
+    css: styles.css
+---
+
+| **Target Audience:** | Apple's 'Swift Student Challenge' judging comittee |
+| :--- | :--- |
+| **Value Proposition:** | Education on the emergence of antibiotic resistance due to certain practices |
+| **Product Link:** | Not applicable |
+| **Demonstration Link:** | Not available yet |
+| **Source Repository:** | [**`github.com/ammaraldawood/dataresmic`**](https://github.com/ammaraldawood/dataresmic){target="_blank"} |
+| **Influenced By:** | Several 'Swift Student Challenge' applicants from previous years |
+
+<br>
+
+## Technology Stack
+
+* **Programming Languages:**
+  * **Swift:** Used for the entirety of the project
+
+<br>
+
+* **Core Technologies:**
+  * **SwiftUI:** Building the user interface of the app
+  * **Swift Charts:** Used to create a pie chart to simulate infection and a scrollable chart to show the history of infection
+  * **Xcode:** The main IDE used to build the project
+  * **Adobe Illustrator:** Used to create the logo, thumbnail and the mascot (Dominic)
+  * **SF Symbols:** Used to create the icons used inside the SimulationView
+
+## Project Learnings/Skills
+
+1.  **Software Architecture:** Managing the interplay of different files,
+the environment and observable attributes, and handling persistence of values.
+
+2.  **Charting:** Creating both a live and a scrollable chart using Swift
+Charts.
+
+3.  **Graphic Design:** Created the logo, thumbnail, icons and others using
+software external to Xcode like Adobe Illustrator and SF Symbols.
+
+4. **Practical Practice:** This happens to be my first coding project of any
+kind, and so it represents the first time I went out of 'tutorial hell' into
+'learning by doing'
+
+## Project Pitfalls
+
+1. **Scarcity of Training and Time:** The project was created within 6 months
+of me first beginning to learn how to program and code, and it was started on the
+20th of January of 2023 and finished by the 26th of February of 2023, meaning
+the code, art and ideation all happened in a period of five weeks. In hindsight,
+the project is riddled with issues.
+
+2. **Disregard for UNIX Philosophy & SOLID principles:** The project contains
+a class object named sharedClass, which resembles what is known as a God Object
+in OOP programming, an object that handles and sees everything. The
+Observable macro was released in WWDC 2022 alongside pie charts and phase
+animators, and by trying to incorporate all three into my project, I ended up
+working with things I didn't understand and which had no fixes online for when
+troubles came up.
+
+3. **Poor Ideation:** The very idea behind the app is kind of useless and non
+impactful. For this contest specifically, Apple seeks out project ideas that
+are most likely to change people's lives. Some ideas used in previous years
+didn't achieve that particularly, but the projects were written so much better
+than mine.
+
+4. **Lack of Testing:** Having been so low on time working on the project, I hadn't
+shown it to anyone prior to submitting it to Apple. During the next couple of
+days, I went to a cafe with a friend whom I asked to try and use the app. He
+had a hard time understanding what the app was trying to achieve, how he should
+act/react to its components, and finally ended up crashing it by 'using' an
+antibiotic too much, which lead to a number of bacteria skyrocketing high enough
+that the variable used to store them crashed the app. This was because I used
+the Gompertz model of bacterial growth which wasn't log transformed or handled
+well to prevent exponential increases in counts.

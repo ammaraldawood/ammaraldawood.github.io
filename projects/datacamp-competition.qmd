@@ -1,0 +1,70 @@
+---
+title: "DataCamp Competition"
+description: 
+    "My submission for DataCamp's 'Everyone Can Learn Python Scholarship' back
+    in March of 2023"
+image: dc.png
+
+categories: [
+  Python, SQL
+]
+
+format:
+  html:
+    css: styles.css
+---
+
+| **Target Audience:** | The DataCamp staff supervising the competition and the voter community |
+| :--- | :--- |
+| **Value Proposition:** | None. You could learn from my experience though. |
+| **Product Link:** | Not applicable |
+| **Demonstration Link:** | The same as the Source Repository link |
+| **Source Repository:** | [**`https://www.datacamp.com/datalab/w`**](https://www.datacamp.com/datalab/w/a869ebe5-d49f-4e4c-a00a-192b74c03e8f){target="_blank"} |
+| **Influenced By:** | Not applicable |
+
+<br>
+
+## Technology Stack
+
+* **Programming Languages:**
+  * **Python:** CO2 emissions data analysis.
+  * **SQL:** Understanding the bicycle market and the store's stock.
+
+<br>
+
+* **Core Technologies:**
+  * **DataLab:** DataCamp's online editor similar to Juptyer Notebooks.
+
+## Project Learnings/Skills
+
+1.  **Exploratory Data Analysis:** Finding patterns and pecularities within the
+provided datasets to make correlations and investigate relationships.
+
+2.  **Data Visualization:** Creating multi-faceted plots and deducing
+relationships from visualizations as opposed to merely visualizing established
+correlations.
+
+3.  **Domain Knowledge:** Using knowledge of car manufacturing and design to
+make correlations to the observed data and visualizations.
+
+4. **Python & SQL:** This project was the way I learned both Python and SQL by
+doing. Prior to it, I had only taken the available free courses provided
+through DataCamp (Introduction to Python and Introduction to SQL), which don't
+even cover functions, classes and whatnot. By the point I had started working
+on it, all my programming knowledge was strictly based on Swift syntax and
+definitions. Later on, I subscribed to DataCamp and began learning R, Python
+and SQL, alongside statistics and machine learning.
+
+## Project Pitfalls
+
+1. **Lack of Novelty:** Not including AI and sophisticated Python libraries or
+SQL visualizations made the project suffer during the first phase of community
+voting, which probably means it never got to be judged by the DataCamp staff.
+Being minimally sufficient, similar to the way linear regression is sometimes 
+the best tool to use in machine learning tasks as opposed to neural networks,
+was a disadvantage given that the goal was not to accomplish the given task,
+but rather to wow the voting community.
+
+2. **Missed Visualization Best Practices:** Using a form of jitter for
+overlapping points and varying the libraries used for visualization might have
+had more desired outcomes.

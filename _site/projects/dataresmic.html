@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="My submission for Apple’s ‘Swift Student Challenge’ back in February of 2023">
 
-<title>What’s On My Mind – Ammar Aldawood</title>
+<title>Dataresmic – Ammar Aldawood</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -72,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-QC859BHLY4"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -130,38 +100,10 @@ cookieconsent.run({
   
 <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=pub-4576710901770304" crossorigin="anonymous"></script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="Ammar Aldawood" href="welcome.xml" data-external="1"></head>
+<link rel="stylesheet" href="styles.css">
+</head>
 
 <body class="nav-fixed quarto-light">
 
@@ -194,7 +136,7 @@ window.Quarto = {
 <span class="menu-text">Reading</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/welcome.html" aria-current="page"> 
+    <a class="nav-link" href="../blog/welcome.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item compact">
@@ -213,8 +155,16 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">What’s On My Mind</h1>
-                      </div>
+      <h1 class="title">Dataresmic</h1>
+                  <div>
+        <div class="description">
+          My submission for Apple’s ‘Swift Student Challenge’ back in February of 2023
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Swift</div>
+              </div>
+                  </div>
   </div>
     
   
@@ -230,8 +180,16 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ==">Artificial Intelligence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGVhcm4lMjB0byUyMENvZGU=">Learn to Code <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#technology-stack" id="toc-technology-stack" class="nav-link active" data-scroll-target="#technology-stack">Technology Stack</a></li>
+  <li><a href="#project-learningsskills" id="toc-project-learningsskills" class="nav-link" data-scroll-target="#project-learningsskills">Project Learnings/Skills</a></li>
+  <li><a href="#project-pitfalls" id="toc-project-pitfalls" class="nav-link" data-scroll-target="#project-pitfalls">Project Pitfalls</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -239,51 +197,79 @@ window.Quarto = {
 
 
 
-<p>Welcome to my blog! This is where I talk about my experiences and share my perspective</p>
-<hr>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Target Audience:</strong></th>
+<th style="text-align: left;">Apple’s ‘Swift Student Challenge’ judging comittee</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Value Proposition:</strong></td>
+<td style="text-align: left;">Education on the emergence of antibiotic resistance due to certain practices</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Product Link:</strong></td>
+<td style="text-align: left;">Not applicable</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Demonstration Link:</strong></td>
+<td style="text-align: left;">Not available yet</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Source Repository:</strong></td>
+<td style="text-align: left;"><a href="https://github.com/ammaraldawood/dataresmic" target="_blank"><strong><code>github.com/ammaraldawood/dataresmic</code></strong></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Influenced By:</strong></td>
+<td style="text-align: left;">Several ‘Swift Student Challenge’ applicants from previous years</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<section id="technology-stack" class="level2">
+<h2 class="anchored" data-anchor-id="technology-stack">Technology Stack</h2>
+<ul>
+<li><strong>Programming Languages:</strong>
+<ul>
+<li><strong>Swift:</strong> Used for the entirety of the project</li>
+</ul></li>
+</ul>
+<p><br></p>
+<ul>
+<li><strong>Core Technologies:</strong>
+<ul>
+<li><strong>SwiftUI:</strong> Building the user interface of the app</li>
+<li><strong>Swift Charts:</strong> Used to create a pie chart to simulate infection and a scrollable chart to show the history of infection</li>
+<li><strong>Xcode:</strong> The main IDE used to build the project</li>
+<li><strong>Adobe Illustrator:</strong> Used to create the logo, thumbnail and the mascot (Dominic)</li>
+<li><strong>SF Symbols:</strong> Used to create the icons used inside the SimulationView</li>
+</ul></li>
+</ul>
+</section>
+<section id="project-learningsskills" class="level2">
+<h2 class="anchored" data-anchor-id="project-learningsskills">Project Learnings/Skills</h2>
+<ol type="1">
+<li><p><strong>Software Architecture:</strong> Managing the interplay of different files, the environment and observable attributes, and handling persistence of values.</p></li>
+<li><p><strong>Charting:</strong> Creating both a live and a scrollable chart using Swift Charts.</p></li>
+<li><p><strong>Graphic Design:</strong> Created the logo, thumbnail, icons and others using software external to Xcode like Adobe Illustrator and SF Symbols.</p></li>
+<li><p><strong>Practical Practice:</strong> This happens to be my first coding project of any kind, and so it represents the first time I went out of ‘tutorial hell’ into ‘learning by doing’</p></li>
+</ol>
+</section>
+<section id="project-pitfalls" class="level2">
+<h2 class="anchored" data-anchor-id="project-pitfalls">Project Pitfalls</h2>
+<ol type="1">
+<li><p><strong>Scarcity of Training and Time:</strong> The project was created within 6 months of me first beginning to learn how to program and code, and it was started on the 20th of January of 2023 and finished by the 26th of February of 2023, meaning the code, art and ideation all happened in a period of five weeks. In hindsight, the project is riddled with issues.</p></li>
+<li><p><strong>Disregard for UNIX Philosophy &amp; SOLID principles:</strong> The project contains a class object named sharedClass, which resembles what is known as a God Object in OOP programming, an object that handles and sees everything. The Observable macro was released in WWDC 2022 alongside pie charts and phase animators, and by trying to incorporate all three into my project, I ended up working with things I didn’t understand and which had no fixes online for when troubles came up.</p></li>
+<li><p><strong>Poor Ideation:</strong> The very idea behind the app is kind of useless and non impactful. For this contest specifically, Apple seeks out project ideas that are most likely to change people’s lives. Some ideas used in previous years didn’t achieve that particularly, but the projects were written so much better than mine.</p></li>
+<li><p><strong>Lack of Testing:</strong> Having been so low on time working on the project, I hadn’t shown it to anyone prior to submitting it to Apple. During the next couple of days, I went to a cafe with a friend whom I asked to try and use the app. He had a hard time understanding what the app was trying to achieve, how he should act/react to its components, and finally ended up crashing it by ‘using’ an antibiotic too much, which lead to a number of bacteria skyrocketing high enough that the variable used to store them crashed the app. This was because I used the Gompertz model of bacterial growth which wasn’t log transformed or handled well to prevent exponential increases in counts.</p></li>
+</ol>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDQXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyQ0xlYXJuJTIwdG8lMjBDb2Rl" data-listing-date-sort="1757797200000" data-listing-file-modified-sort="1770110355032" data-listing-date-modified-sort="1770110355000" data-listing-reading-time-sort="16" data-listing-word-count-sort="3188">
-<div class="thumbnail"><a href="../blog/posts/2025-09-14.html" class="no-external">
-
-<img loading="lazy" src="../blog/posts/woof.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/2025-09-14.html" class="no-external">Why AI Didn’t Stop Me From Learning to Code</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">Machine Learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZQ=='); return false;">Artificial Intelligence</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGVhcm4lMjB0byUyMENvZGU='); return false;">Learn to Code</div>
-
-</div>
-<div class="delink listing-description"><a href="../blog/posts/2025-09-14.html" class="no-external">
-<p>An affirmation based on optimism and caution.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/2025-09-14.html" class="no-external">
-<div class="listing-date">
-Sep 14, 2025
-</div>
-<div class="listing-author">
-Ammar Aldawood
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -7,7 +7,7 @@ execute:
 title-block-banner: true
 ---
 
-I'm Ammar Aldawood, an aspiring computational biologist.\
+I'm Ammar Aldawood, an aspiring computational biologist and generalist.\
 A medical laboratory sciences alumnus from Jordan University
 of Science and Technology,\
 I became increasingly aware of how indispensible mathematics
