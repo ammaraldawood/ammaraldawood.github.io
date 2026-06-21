@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.ammaraldawood.com/blog/welcome.html</loc>
-    <lastmod>2026-02-03T17:50:51.487Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ammaraldawood.com/about.html</loc>
-    <lastmod>2026-02-03T17:50:51.484Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ammaraldawood.com/reading/precalculus.html</loc>
-    <lastmod>2026-02-03T17:50:51.495Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ammaraldawood.com/reading/introduction-to-mathematics-for-computational-biology.html</loc>
-    <lastmod>2026-02-03T17:50:51.494Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ammaraldawood.com/reading/linear-algebra-done-right.html</loc>
-    <lastmod>2026-02-03T17:50:51.495Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ammaraldawood.com/reading/mathematics-is-biology&#39;s-next-microscope-only-better-biology-is-math&#39;s-next-physics-only-better.html</loc>
-    <lastmod>2026-02-03T17:50:51.495Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ammaraldawood.com/reading/a-tour-of-cpp.html</loc>
-    <lastmod>2026-02-03T17:50:51.491Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ammaraldawood.com/reading/readinglist.html</loc>
-    <lastmod>2026-02-03T17:50:51.495Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ammaraldawood.com/reading/introduction-to-algorithms.html</loc>
-    <lastmod>2026-02-03T17:50:51.494Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ammaraldawood.com/reading/code.html</loc>
-    <lastmod>2026-02-03T17:50:51.493Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ammaraldawood.com/projects/projects.html</loc>
-    <lastmod>2026-02-03T17:50:51.491Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ammaraldawood.com/projects/dotfiles.html</loc>
-    <lastmod>2026-02-03T17:50:51.489Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ammaraldawood.com/projects/personal-website.html</loc>
-    <lastmod>2026-02-03T17:50:51.491Z</lastmod>
+    <loc>https://www.ammaraldawood.com/index.html</loc>
+    <lastmod>2026-06-21T21:31:53.023Z</lastmod>
   </url>
   <url>
     <loc>https://www.ammaraldawood.com/projects/datacamp-competition.html</loc>
-    <lastmod>2026-02-03T17:50:51.489Z</lastmod>
+    <lastmod>2026-06-21T21:31:53.025Z</lastmod>
   </url>
   <url>
-    <loc>https://www.ammaraldawood.com/projects/dataresmic.html</loc>
-    <lastmod>2026-02-03T17:50:51.489Z</lastmod>
+    <loc>https://www.ammaraldawood.com/projects/dotfiles.html</loc>
+    <lastmod>2026-06-21T21:31:53.025Z</lastmod>
   </url>
   <url>
-    <loc>https://www.ammaraldawood.com/index.html</loc>
-    <lastmod>2026-02-03T17:50:51.488Z</lastmod>
+    <loc>https://www.ammaraldawood.com/about.html</loc>
+    <lastmod>2026-06-21T21:31:53.020Z</lastmod>
   </url>
   <url>
-    <loc>https://www.ammaraldawood.com/reading/calculus.html</loc>
-    <lastmod>2026-02-03T17:50:51.493Z</lastmod>
+    <loc>https://www.ammaraldawood.com/blog/welcome.html</loc>
+    <lastmod>2026-06-21T21:31:53.022Z</lastmod>
   </url>
   <url>
-    <loc>https://www.ammaraldawood.com/reading/book-of-proof.html</loc>
-    <lastmod>2026-02-03T17:50:51.492Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.ammaraldawood.com/reading/all-biology-is-computational-biology.html</loc>
-    <lastmod>2026-02-03T17:50:51.492Z</lastmod>
+    <loc>https://www.ammaraldawood.com/reading/precalculus.html</loc>
+    <lastmod>2026-06-21T21:31:53.031Z</lastmod>
   </url>
   <url>
     <loc>https://www.ammaraldawood.com/reading/essential-math-for-data-science.html</loc>
-    <lastmod>2026-02-03T17:50:51.494Z</lastmod>
+    <lastmod>2026-06-21T21:31:53.029Z</lastmod>
   </url>
   <url>
-    <loc>https://www.ammaraldawood.com/reading/bayes-rules.html</loc>
-    <lastmod>2026-02-03T17:50:51.492Z</lastmod>
+    <loc>https://www.ammaraldawood.com/reading/introduction-to-mathematics-for-computational-biology.html</loc>
+    <lastmod>2026-06-21T21:31:53.029Z</lastmod>
   </url>
   <url>
-    <loc>https://www.ammaraldawood.com/reading/the-statquest-illustrated-guide-to-machine-learning.html</loc>
-    <lastmod>2026-02-03T17:50:51.496Z</lastmod>
+    <loc>https://www.ammaraldawood.com/reading/linear-algebra-done-right.html</loc>
+    <lastmod>2026-06-21T21:31:53.030Z</lastmod>
   </url>
   <url>
     <loc>https://www.ammaraldawood.com/reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html</loc>
-    <lastmod>2026-02-03T17:50:51.491Z</lastmod>
+    <lastmod>2026-06-21T21:31:53.027Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ammaraldawood.com/reading/the-statquest-illustrated-guide-to-machine-learning.html</loc>
+    <lastmod>2026-06-21T21:31:53.031Z</lastmod>
   </url>
   <url>
     <loc>https://www.ammaraldawood.com/reading/the-c-programming-language.html</loc>
-    <lastmod>2026-02-03T17:50:51.496Z</lastmod>
+    <lastmod>2026-06-21T21:31:53.031Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ammaraldawood.com/reading/bayes-rules.html</loc>
+    <lastmod>2026-06-21T21:31:53.027Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ammaraldawood.com/reading/mathematics-is-biology&#39;s-next-microscope-only-better-biology-is-math&#39;s-next-physics-only-better.html</loc>
+    <lastmod>2026-06-21T21:31:53.030Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ammaraldawood.com/reading/book-of-proof.html</loc>
+    <lastmod>2026-06-21T21:31:53.028Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ammaraldawood.com/reading/readinglist.html</loc>
+    <lastmod>2026-06-21T21:31:53.031Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ammaraldawood.com/reading/calculus.html</loc>
+    <lastmod>2026-06-21T21:31:53.028Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ammaraldawood.com/reading/all-biology-is-computational-biology.html</loc>
+    <lastmod>2026-06-21T21:31:53.027Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ammaraldawood.com/reading/code.html</loc>
+    <lastmod>2026-06-21T21:31:53.029Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ammaraldawood.com/reading/a-tour-of-cpp.html</loc>
+    <lastmod>2026-06-21T21:31:53.027Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ammaraldawood.com/reading/introduction-to-algorithms.html</loc>
+    <lastmod>2026-06-21T21:31:53.029Z</lastmod>
   </url>
   <url>
     <loc>https://www.ammaraldawood.com/blog/posts/2025-09-14.html</loc>
-    <lastmod>2026-02-03T17:50:51.486Z</lastmod>
+    <lastmod>2026-06-21T21:31:53.022Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ammaraldawood.com/projects/dataresmic.html</loc>
+    <lastmod>2026-06-21T21:31:53.025Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ammaraldawood.com/projects/projects.html</loc>
+    <lastmod>2026-06-21T21:31:53.026Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ammaraldawood.com/projects/personal-website.html</loc>
+    <lastmod>2026-06-21T21:31:53.026Z</lastmod>
   </url>
 </urlset>

@@ -9,7 +9,7 @@
 <link>https://www.ammaraldawood.com/blog/welcome.html</link>
 <atom:link href="https://www.ammaraldawood.com/blog/welcome.xml" rel="self" type="application/rss+xml"/>
 <description>Blog</description>
-<generator>quarto-1.8.27</generator>
+<generator>quarto-1.9.38</generator>
 <lastBuildDate>Sun, 14 Sep 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Why AI Didn’t Stop Me From Learning to Code</title>
@@ -241,7 +241,7 @@ end
 }
 </code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-aldawood2025" class="csl-entry quarto-appendix-citeas">
 Aldawood, Ammar. 2025. <span>“Why AI Didn’t Stop Me From Learning to
-Code.”</span> September 14, 2025. <a href="https://ammaraldawood.com/blog/posts/2025-09-14">https://ammaraldawood.com/blog/posts/2025-09-14</a>.
+Code.”</span> September 14. <a href="https://ammaraldawood.com/blog/posts/2025-09-14">https://ammaraldawood.com/blog/posts/2025-09-14</a>.
 </div></div></section></div> ]]></description>
   <category>Machine Learning</category>
   <category>Artificial Intelligence</category>
