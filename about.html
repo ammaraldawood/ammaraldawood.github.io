@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-486c419a70157f2913a9e0880cac67ba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-672e658400f09165c4739f89c8de4af8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -98,22 +101,23 @@ cookieconsent.run({
 });
 </script> 
   
-<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
 <script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<script src="site_libs/plotly-binding-4.11.0/plotly.js"></script>
+<script src="site_libs/plotly-binding-4.12.1/plotly.js"></script>
 <script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
 <script src="site_libs/jquery-3.5.1/jquery.min.js"></script>
 <link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
 <script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
-<link href="site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
-<script src="site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-2.25.2/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="site_libs/plotly-main-2.25.2/plotly-latest.min.js"></script>
 <script src="site_libs/d3-3.5.6/./d3.min.js"></script>
 <link href="site_libs/circlepackeR-0.1/./style.css" rel="stylesheet">
 <script src="site_libs/circlepackeR-binding-0.0.0.9000/circlepackeR.js"></script>
-<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=pub-4576710901770304" crossorigin="anonymous"></script>
+<script type="text/plain" cookie-consent="targeting" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4576710901770304" crossorigin="anonymous"></script>
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="canonical" href="https://www.ammaraldawood.com/about.html">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -178,7 +182,8 @@ cookieconsent.run({
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
   <ul>
-  <li><a href="#education-learning" id="toc-education-learning" class="nav-link active" data-scroll-target="#education-learning">Education &amp; Learning</a></li>
+  <li><a href="#where-you-can-find-me" id="toc-where-you-can-find-me" class="nav-link active" data-scroll-target="#where-you-can-find-me">Where You Can Find Me</a></li>
+  <li><a href="#education-learning" id="toc-education-learning" class="nav-link" data-scroll-target="#education-learning">Education &amp; Learning</a></li>
   <li><a href="#my-tech-stack" id="toc-my-tech-stack" class="nav-link" data-scroll-target="#my-tech-stack">My Tech Stack</a></li>
   <li><a href="#interests-hobbies" id="toc-interests-hobbies" class="nav-link" data-scroll-target="#interests-hobbies">Interests &amp; Hobbies</a></li>
   </ul>
@@ -188,11 +193,71 @@ cookieconsent.run({
 <div class="quarto-about-jolla">
  <main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<p>I’m Ammar Aldawood, an aspiring computational biologist and generalist.<br>
-A medical laboratory sciences alumnus from Jordan University of Science and Technology,<br>
-I became increasingly aware of how indispensible mathematics and computation are for<br>
-understanding biology.</p>
+<p>I’m Ammar Aldawood, a rigorous generalist operating at the intersection of<br>
+biology, mathematics, computation, and engineering. A Medical Laboratory<br>
+Sciences alumnus from Jordan University of Science and Technology, I became<br>
+increasingly quantitative in my approach toward the life sciences.</p>
+<p>I am currently transitioning into bioengineering and computational biology.<br>
+I am actively seeking PhD positions as well as industry roles where the<br>
+environment suits the interdisciplinary problems I want to work on, and<br>
+where my skills match the problems the lab or organization needs solved.</p>
+<p>If you see that fit in my work, <a href="mailto:aldawoodammar@gmail.com">get in touch ✉</a>.</p>
 <hr>
+<section id="where-you-can-find-me" class="level2">
+<h2 data-anchor-id="where-you-can-find-me">Where You Can Find Me</h2>
+<div class="find-me-platform">
+<p><a href="https://x.com/aldawood_ammar" target="_blank" rel="noopener"><img src="x.png" class="find-me-logo" alt="X"></a></p>
+<section id="x" class="level3">
+<h3 data-anchor-id="x">X</h3>
+<p>This is the place where I’m most active. I post daily, so back-and-forth<br>
+in the replies, and posts on what I’m learning, building, and thinking<br>
+about in real time. If you want the in-progress version of my work and<br>
+thinking process, follow along there so you you can keep current.</p>
+<p><a href="https://x.com/aldawood_ammar" class="btn btn-primary" target="_blank" rel="noopener">Follow me on X</a></p>
+</section>
+</div>
+<div class="find-me-platform">
+<p><a href="https://ammaraldawood.substack.com" target="_blank" rel="noopener"><img src="substack.png" class="find-me-logo" alt="Substack"></a></p>
+<section id="substack" class="level3">
+<h3 data-anchor-id="substack">Substack</h3>
+<p>Substack is where I post my long-form writing: essays and opinion pieces<br>
+with room to argue points. Become a subscriber and the writing lands in<br>
+your inbox.</p>
+<p><a href="https://ammaraldawood.substack.com" class="btn btn-primary" target="_blank" rel="noopener">Subscribe on Substack</a></p>
+</section>
+</div>
+<div class="find-me-platform">
+<p><a href="https://github.com/ammaraldawood" target="_blank" rel="noopener"><img src="github.png" class="find-me-logo" alt="GitHub"></a></p>
+<section id="github" class="level3">
+<h3 data-anchor-id="github">GitHub</h3>
+<p>GitHub is where this website and any of my coding projects live. Follow so<br>
+new repos and commits show up when I push them. If you’re detail-oriented,<br>
+there might be some issue-resolving and conversations on there that may be<br>
+of interest to you.</p>
+<p><a href="https://github.com/ammaraldawood" class="btn btn-primary" target="_blank" rel="noopener">Follow me on GitHub</a></p>
+</section>
+</div>
+<div class="find-me-platform">
+<p><a href="https://www.linkedin.com/in/ammar-aldawood/" target="_blank" rel="noopener"><img src="linkedin.png" class="find-me-logo" alt="LinkedIn"></a></p>
+<section id="linkedin" class="level3">
+<h3 data-anchor-id="linkedin">LinkedIn</h3>
+<p>LinkedIn is the place to connect if you want to keep in touch about work.<br>
+I may also publish work-related writing on it as it happens, so<br>
+it’s worth connecting there even if you follow me elsewhere.</p>
+<p><a href="https://www.linkedin.com/in/ammar-aldawood/" class="btn btn-primary" target="_blank" rel="noopener">Connect on LinkedIn</a></p>
+</section>
+</div>
+<div class="find-me-platform">
+<p><a href="https://www.youtube.com/@ammar_aldawood" target="_blank" rel="noopener"><img src="youtube.png" class="find-me-logo" alt="YouTube"></a></p>
+<section id="youtube" class="level3">
+<h3 data-anchor-id="youtube">YouTube</h3>
+<p>The channel isn’t shipping videos yet, but it will. Subscribe now so<br>
+you’re already in the room when the first videos land.</p>
+<p><a href="https://www.youtube.com/@ammar_aldawood" class="btn btn-primary" target="_blank" rel="noopener">Subscribe on YouTube</a></p>
+</section>
+</div>
+<hr>
+</section>
 <section id="education-learning" class="level2">
 <h2 data-anchor-id="education-learning">Education &amp; Learning</h2>
 <div class="cell">
@@ -206,10 +271,6 @@ understanding biology.</p>
 </div>
 <p><span class="badge bg-light">Gantt chart generated using ggplot2 in R</span></p>
 <hr>
-<p>Take a look at my DataCamp portfolio<br>
-including completed courses and tracks</p>
-<p><a href="https://www.datacamp.com/portfolio/Ammar-Aldawood" target="_blank"> <img src="dclogo.png" alt="DataCamp Portfolio" width="50%"> </a></p>
-<hr>
 </section>
 <section id="my-tech-stack" class="level2">
 <h2 data-anchor-id="my-tech-stack">My Tech Stack</h2>
@@ -217,8 +278,8 @@ including completed courses and tracks</p>
 <h5 data-anchor-id="hover-over-nodes-to-see-more-info">Hover over nodes to see more info!</h5>
 <div class="cell">
 <div class="cell-output-display">
-<div class="plotly html-widget html-fill-item" id="htmlwidget-d86203aebe50b777c18e" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-d86203aebe50b777c18e">{"x":{"visdat":{"862675e55891":["function () ","plotlyVisDat"]},"cur_data":"862675e55891","attrs":{"862675e55891":{"arrangement":"snap","orientation":"v","node":{"label":["Assembly","C","C++","Python","R","Swift","SQL","Shell","Docker","Git"],"color":["lightgray","darkorange","lightgray","white","white","white","white","darkorange","white","white"],"pad":15,"customdata":["Low level programming.<br />Learned it purely to become more<br />grounded in computation and<br />understand the full picture down to hardware.<br />Skill level: ★","Mid level programming.<br />Useful for optimization and<br />high performance computing.<br />Gives the best control over embedded systems.<br />Skill level: ★★","Mid level programming.<br />A superset of C that is relevant for<br />interoperability with higher level languages.<br />Skill level: ★","High level programming.<br />Gives access to mature machine learning<br />packages such as XGBoost & PyTorch.<br />Contains the package Biopython.<br />Skill level: ★★★★","High level programming.<br />Specialized in data visualization and<br />statistical data analysis.<br />Contains the library Bioconductor.<br />Skill level: ★★★★","High level programming.<br />Native app development for more than five different platforms<br />in iOS, iPadOS, macOS, watchOS, visionOS..etc.<br />Skill level: ★★★★","Structured query language.<br />Essential for any meaningful work using big data.<br />Best way to interact with relational databases.<br />Skill level: ★★★","Command line interface.<br />Provides broad access over the system you're working on.<br />Essential for scripting and SSH-ing.<br />Skill level: ★★★★","Containerization and Reproducibility.<br />Skill level: ★★","Version Control and Reproducibility.<br />Skill level: ★★★★"],"hovertemplate":"%{customdata}<extra><\/extra>"},"link":{"source":[0,1,1,1,1,2,2,2,6,6,7,7],"target":[1,2,3,4,5,3,4,5,3,4,8,9],"value":[6,3,1,1,1,1,1,1,1,1,1,1],"color":["lightgray","darkorange","darkorange","darkorange","darkorange","lightgray","lightgray","lightgray","white","white","darkorange","darkorange"],"hoverinfo":"none"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"sankey"}},"layout":{"margin":{"b":50,"l":70,"t":50,"r":70},"title":"","paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","font":{"color":"#000000","size":12,"family":"Arial"},"hoverlabel":{"bgcolor":"rgba(255, 255, 255, 1)","bordercolor":"rgba(0, 0, 0, 1)","font":{"color":"black"}},"hovermode":"closest","showlegend":false},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"arrangement":"snap","orientation":"v","node":{"label":["Assembly","C","C++","Python","R","Swift","SQL","Shell","Docker","Git"],"color":["lightgray","darkorange","lightgray","white","white","white","white","darkorange","white","white"],"pad":15,"customdata":["Low level programming.<br />Learned it purely to become more<br />grounded in computation and<br />understand the full picture down to hardware.<br />Skill level: ★","Mid level programming.<br />Useful for optimization and<br />high performance computing.<br />Gives the best control over embedded systems.<br />Skill level: ★★","Mid level programming.<br />A superset of C that is relevant for<br />interoperability with higher level languages.<br />Skill level: ★","High level programming.<br />Gives access to mature machine learning<br />packages such as XGBoost & PyTorch.<br />Contains the package Biopython.<br />Skill level: ★★★★","High level programming.<br />Specialized in data visualization and<br />statistical data analysis.<br />Contains the library Bioconductor.<br />Skill level: ★★★★","High level programming.<br />Native app development for more than five different platforms<br />in iOS, iPadOS, macOS, watchOS, visionOS..etc.<br />Skill level: ★★★★","Structured query language.<br />Essential for any meaningful work using big data.<br />Best way to interact with relational databases.<br />Skill level: ★★★","Command line interface.<br />Provides broad access over the system you're working on.<br />Essential for scripting and SSH-ing.<br />Skill level: ★★★★","Containerization and Reproducibility.<br />Skill level: ★★","Version Control and Reproducibility.<br />Skill level: ★★★★"],"hovertemplate":"%{customdata}<extra><\/extra>"},"link":{"source":[0,1,1,1,1,2,2,2,6,6,7,7],"target":[1,2,3,4,5,3,4,5,3,4,8,9],"value":[6,3,1,1,1,1,1,1,1,1,1,1],"color":["lightgray","darkorange","darkorange","darkorange","darkorange","lightgray","lightgray","lightgray","white","white","darkorange","darkorange"],"hoverinfo":"none"},"type":"sankey","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div class="plotly html-widget html-fill-item" id="htmlwidget-8a37fd34c20afff41a74" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-8a37fd34c20afff41a74">{"x":{"visdat":{"13c3d396ccea9":["function () ","plotlyVisDat"]},"cur_data":"13c3d396ccea9","attrs":{"13c3d396ccea9":{"arrangement":"snap","orientation":"v","node":{"label":["Assembly","C","C++","Python","R","Swift","SQL","Shell","Docker","Git"],"color":["steelblue","firebrick","steelblue","mistyrose","mistyrose","mistyrose","mistyrose","firebrick","mistyrose","mistyrose"],"pad":15,"customdata":["Low level programming.<br />Learned it purely to become more<br />grounded in computation and<br />understand the full picture down to hardware.<br />Skill level: ★","Mid level programming.<br />Useful for optimization and<br />high performance computing.<br />Gives the best control over embedded systems.<br />Skill level: ★★","Mid level programming.<br />A superset of C that is relevant for<br />interoperability with higher level languages.<br />Skill level: ★","High level programming.<br />Gives access to mature machine learning<br />packages such as XGBoost & PyTorch.<br />Contains the package Biopython.<br />Skill level: ★★★★","High level programming.<br />Specialized in data visualization and<br />statistical data analysis.<br />Contains the library Bioconductor.<br />Skill level: ★★★★","High level programming.<br />Native app development for more than five different platforms<br />in iOS, iPadOS, macOS, watchOS, visionOS..etc.<br />Skill level: ★★★★","Structured query language.<br />Essential for any meaningful work using big data.<br />Best way to interact with relational databases.<br />Skill level: ★★★","Command line interface.<br />Provides broad access over the system you're working on.<br />Essential for scripting and SSH-ing.<br />Skill level: ★★★★","Containerization and Reproducibility.<br />Skill level: ★★","Version Control and Reproducibility.<br />Skill level: ★★★★"],"hovertemplate":"%{customdata}<extra><\/extra>"},"link":{"source":[0,1,1,1,1,2,2,2,6,6,7,7],"target":[1,2,3,4,5,3,4,5,3,4,8,9],"value":[6,3,1,1,1,1,1,1,1,1,1,1],"color":["steelblue","firebrick","firebrick","firebrick","firebrick","steelblue","steelblue","steelblue","mistyrose","mistyrose","firebrick","firebrick"],"hoverinfo":"none"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"sankey"}},"layout":{"margin":{"b":50,"l":70,"t":50,"r":70},"title":"","paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","font":{"color":"#000000","size":12,"family":"Arial"},"hoverlabel":{"bgcolor":"rgba(255, 255, 255, 1)","bordercolor":"rgba(0, 0, 0, 1)","font":{"color":"black"}},"hovermode":"closest","showlegend":false},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"arrangement":"snap","orientation":"v","node":{"label":["Assembly","C","C++","Python","R","Swift","SQL","Shell","Docker","Git"],"color":["steelblue","firebrick","steelblue","mistyrose","mistyrose","mistyrose","mistyrose","firebrick","mistyrose","mistyrose"],"pad":15,"customdata":["Low level programming.<br />Learned it purely to become more<br />grounded in computation and<br />understand the full picture down to hardware.<br />Skill level: ★","Mid level programming.<br />Useful for optimization and<br />high performance computing.<br />Gives the best control over embedded systems.<br />Skill level: ★★","Mid level programming.<br />A superset of C that is relevant for<br />interoperability with higher level languages.<br />Skill level: ★","High level programming.<br />Gives access to mature machine learning<br />packages such as XGBoost & PyTorch.<br />Contains the package Biopython.<br />Skill level: ★★★★","High level programming.<br />Specialized in data visualization and<br />statistical data analysis.<br />Contains the library Bioconductor.<br />Skill level: ★★★★","High level programming.<br />Native app development for more than five different platforms<br />in iOS, iPadOS, macOS, watchOS, visionOS..etc.<br />Skill level: ★★★★","Structured query language.<br />Essential for any meaningful work using big data.<br />Best way to interact with relational databases.<br />Skill level: ★★★","Command line interface.<br />Provides broad access over the system you're working on.<br />Essential for scripting and SSH-ing.<br />Skill level: ★★★★","Containerization and Reproducibility.<br />Skill level: ★★","Version Control and Reproducibility.<br />Skill level: ★★★★"],"hovertemplate":"%{customdata}<extra><\/extra>"},"link":{"source":[0,1,1,1,1,2,2,2,6,6,7,7],"target":[1,2,3,4,5,3,4,5,3,4,8,9],"value":[6,3,1,1,1,1,1,1,1,1,1,1],"color":["steelblue","firebrick","firebrick","firebrick","firebrick","steelblue","steelblue","steelblue","mistyrose","mistyrose","firebrick","firebrick"],"hoverinfo":"none"},"type":"sankey","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p><span class="badge bg-light">Sankey diagram generated using Plotly in R</span></p>
@@ -231,8 +292,8 @@ including completed courses and tracks</p>
 <h5 data-anchor-id="click-on-the-circles-to-see-more">Click on the circles to see more!</h5>
 <div class="cell">
 <div class="cell-output-display">
-<div class="circlepackeR html-widget html-fill-item" id="htmlwidget-8e1e64d520bce3c6b48e" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-8e1e64d520bce3c6b48e">{"x":{"data":{"name":"world","children":[{"name":"Sports","children":[{"name":"Calisthenics","group":"Sports","subgroup":"Calisthenics","value":100},{"name":"Running","group":"Sports","subgroup":"Running","value":25},{"name":"Swimming","group":"Sports","subgroup":"Swimming","value":25}]},{"name":"Languages","children":[{"name":"Arabic","group":"Languages","subgroup":"Arabic","value":100},{"name":"English","group":"Languages","subgroup":"English","value":100},{"name":"Mandarin","group":"Languages","subgroup":"Mandarin","value":5}]},{"name":"Music","children":[{"name":"Playing Piano","group":"Music","subgroup":"Playing Piano","value":25},{"name":"Music Theory","group":"Music","subgroup":"Music Theory","value":25}]},{"name":"Digital Creation","children":[{"name":"Procedural 3D Simulation in SideFX Houdini","group":"Digital Creation","subgroup":"Procedural 3D Simulation in SideFX Houdini","value":50}]},{"name":"Learning","children":[{"name":"Reading","group":"Learning","subgroup":"Reading","value":100},{"name":"Research","group":"Learning","subgroup":"Research","value":100}]}]},"options":{"size":"value","color_min":"hsl(0, 0%, 90%)","color_max":"hsl(0, 0%, 10%)"}},"evals":[],"jsHooks":[]}</script>
+<div class="circlepackeR html-widget html-fill-item" id="htmlwidget-b9696da8ff66f63bcec9" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-b9696da8ff66f63bcec9">{"x":{"data":{"name":"world","children":[{"name":"Sports","children":[{"name":"Calisthenics","group":"Sports","subgroup":"Calisthenics","value":100},{"name":"Running","group":"Sports","subgroup":"Running","value":25},{"name":"Swimming","group":"Sports","subgroup":"Swimming","value":25}]},{"name":"Languages","children":[{"name":"Arabic","group":"Languages","subgroup":"Arabic","value":100},{"name":"English","group":"Languages","subgroup":"English","value":100},{"name":"Mandarin","group":"Languages","subgroup":"Mandarin","value":5}]},{"name":"Music","children":[{"name":"Playing Piano","group":"Music","subgroup":"Playing Piano","value":25},{"name":"Music Theory","group":"Music","subgroup":"Music Theory","value":25}]},{"name":"Digital Creation","children":[{"name":"Procedural 3D Simulation in SideFX Houdini","group":"Digital Creation","subgroup":"Procedural 3D Simulation in SideFX Houdini","value":50}]},{"name":"Learning","children":[{"name":"Reading","group":"Learning","subgroup":"Reading","value":100},{"name":"Research","group":"Learning","subgroup":"Research","value":100}]}]},"options":{"size":"value","color_min":"hsl(190, 80%, 60%)","color_max":"hsl(345, 80%, 35%)"}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p><span class="badge bg-light">Circle packing generated using circlepackeR in R</span></p>

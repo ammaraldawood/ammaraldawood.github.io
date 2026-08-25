@@ -9,7 +9,7 @@
 <link>https://www.ammaraldawood.com/blog/welcome.html</link>
 <atom:link href="https://www.ammaraldawood.com/blog/welcome.xml" rel="self" type="application/rss+xml"/>
 <description>Blog</description>
-<generator>quarto-1.9.38</generator>
+<generator>quarto-1.10.18</generator>
 <lastBuildDate>Sun, 14 Sep 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Why AI Didn’t Stop Me From Learning to Code</title>
@@ -60,15 +60,15 @@
 <div>
 <pre class="mermaid mermaid-js">%%{init: {'themeVariables': {'textColor': '#ffffff'}}}%%
 sequenceDiagram
-box DarkOrange Fundamental
+box rgb(13, 71, 161) Fundamental
 participant Logic
 participant Mathematics
 end
-box Central
+box rgb(33, 150, 243) Central
 participant Physics
 participant Chemistry
 end
-box DarkOrange Applied
+box rgb(144, 202, 249) Applied
 participant Computer Science
 participant Biology
 participant Engineering
@@ -109,12 +109,12 @@ end
 <div>
 <pre class="mermaid mermaid-js">%%{init: {'themeVariables': {'textColor': '#ffffff'}}}%%
 sequenceDiagram
-box DarkOrange Formal
+box rgb(39, 111, 39) Formal
 participant Logic
 participant Mathematics
 participant Computer Science
 end
-box Empirical
+box rgb(142, 202, 60) Empirical
 participant Physics
 participant Chemistry
 participant Biology

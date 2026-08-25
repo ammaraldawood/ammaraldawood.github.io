@@ -8,13 +8,12 @@ h1.title {
 }
 
 .dark-orange-text {
-  color: #ff8c00;
-  /* A dark orange color */
+  color: var(--bs-primary);
 }
 
 .call-to-action {
-  color: #ffffff;
-  background-color: #ff8c00;
+  color: var(--bs-body-bg);
+  background-color: var(--bs-primary);
 }
 
 .center-align-text {
@@ -29,12 +28,12 @@ h1.title {
 hr {
   border: none;
   height: 2px;
-  background-color: #ff8c00;
+  background-color: var(--bs-primary);
   width: 50%;
   margin: 0 auto;
   opacity: 1;
 }
 
 h2 {
-  border-bottom: 2px solid rgba(255, 140, 0, 1);
+  border-bottom: 2px solid var(--bs-primary);
 }

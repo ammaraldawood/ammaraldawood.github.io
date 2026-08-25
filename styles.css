@@ -45,7 +45,7 @@ h1.text-center {
 }
 
 .card-hover:hover {
-  background-color: darkorange !important; 
+  background-color: var(--bs-primary) !important;
 }
 
 .card-link {
@@ -56,7 +56,7 @@ h1.text-center {
 hr {
   border: none;
   height: 2px;
-  background-color: #ff8c00;
+  background-color: var(--bs-primary);
   width: 50%;
   margin: 3rem auto;
   opacity: 1;
@@ -71,11 +71,38 @@ hr + * {
 }
 
 h2 {
-  border-bottom: 2px solid rgba(255, 140, 0, 1);
+  border-bottom: 2px solid var(--bs-primary);
 }
 
 span.badge {
   display: inline-block;
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
+}
+
+.find-me-platform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 2.5rem;
+}
+
+.find-me-logo {
+  width: 108px;
+  height: 108px;
+  max-width: 100%;
+  border-radius: 0.85rem;
+  display: block;
+  object-fit: cover;
+  margin: 0 auto 0.75rem;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.22);
+}
+
+.find-me-platform h3 {
+  border-bottom: none;
+  margin-top: 0;
+}
+
+.find-me-platform .btn {
+  margin-top: 0.35rem;
 }
