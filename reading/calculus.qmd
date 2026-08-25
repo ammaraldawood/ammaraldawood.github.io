@@ -1,0 +1,24 @@
+---
+title: "Calculus"
+image: calc.png
+categories: [Book, Mathematics, Active]
+author: "James Stewart"
+date-format: "YYYY"
+date: "2015-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+::: {.reading-block .llm-summary}
+## LLM-generated summary
+
+James Stewart's *Calculus* is a mainstream calculus textbook spanning limits, derivatives, integrals, sequences and series, and multivariable calculus, with a large bank of applied problems in science and engineering. It emphasizes technique, geometric intuition, and applications over a fully rigorous real-analysis foundation. This edition is the standard university workhorse for learning to compute and use calculus.
+:::
+
+::: {.reading-block .my-review}
+## My Review
+
+<div class="review-body"></div>
+:::
+

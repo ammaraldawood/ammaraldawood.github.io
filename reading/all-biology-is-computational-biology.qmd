@@ -1,0 +1,24 @@
+---
+title: "All Biology is Computational Biology"
+image: abcb.png
+categories: [Paper, Bioinformatics, Completed]
+author: "Florian Markowetz"
+date-format: "YYYY"
+date: "2017-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+::: {.reading-block .llm-summary}
+## LLM-generated summary
+
+Florian Markowetz's PLOS Biology essay argues that computational thinking is no longer a service bolted onto "real" biology but the way modern biology is done. He shows how databases and ontologies organize knowledge, how statistics reveal patterns (such as mutational signatures) invisible in single observations, and how computation turns vague ideas into testable hypotheses. The claim is that the next synthesis in biology will absorb mathematics, statistics, and computing into ordinary biological training, after which "computational biologist" will sound as odd as "pipette biologist."
+:::
+
+::: {.reading-block .my-review}
+## My Review
+
+<div class="review-body"></div>
+:::
+

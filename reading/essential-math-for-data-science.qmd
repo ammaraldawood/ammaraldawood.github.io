@@ -1,0 +1,24 @@
+---
+title: "Essential Math for Data Science"
+image: emds.png
+categories: [Book, Mathematics, Completed]
+author: "Thomas Nield"
+date-format: "YYYY"
+date: "2022-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+::: {.reading-block .llm-summary}
+## LLM-generated summary
+
+Thomas Nield's *Essential Math for Data Science* reviews the calculus, probability, statistics, and linear algebra that sit under everyday data work, then connects them to linear and logistic regression and related machine-learning practice. It is a practitioner-oriented refresher with code, not a proof-heavy mathematics text. The aim is to make model-fitting and evaluation less of a black box for people who already write some code.
+:::
+
+::: {.reading-block .my-review}
+## My Review
+
+<div class="review-body"></div>
+:::
+

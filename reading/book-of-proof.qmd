@@ -1,0 +1,24 @@
+---
+title: "Book of Proof"
+image: bp.png
+categories: [Book, Mathematics, Active]
+author: "Richard Hammack"
+date-format: "YYYY"
+date: "2009-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+::: {.reading-block .llm-summary}
+## LLM-generated summary
+
+Richard Hammack's *Book of Proof* is an undergraduate introduction to reading and writing mathematical proofs, covering logic, sets, functions, relations, induction, cardinality, and counting. It trains the move from computational mathematics to definition–theorem–proof style, with many exercises of graded difficulty. The book is a standard bridge into higher mathematics rather than a research monograph.
+:::
+
+::: {.reading-block .my-review}
+## My Review
+
+<div class="review-body"></div>
+:::
+

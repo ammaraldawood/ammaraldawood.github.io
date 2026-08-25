@@ -1,0 +1,66 @@
+project:
+  type: website
+  resources:
+    - ads.txt
+    - CNAME
+execute:
+  echo: false
+  freeze: true
+  message: false
+  warning: false
+
+website:
+  title: "Ammar Aldawood"
+  site-url: https://www.ammaraldawood.com
+  description: "Blog"
+  cookie-consent:
+    type: express
+    style: interstitial
+  navbar:
+    logo: logo.png
+    title: false
+    right:
+      - href: about.qmd
+        text: About
+      - href: projects/projects.qmd
+        text: Projects
+      - href: reading/readinglist.qmd
+        text: Reading
+      - href: blog/welcome.qmd
+        text: Blog
+      - href: /blog/welcome.xml
+        icon: rss
+    background: "#808080"
+    foreground: "#ffffff"
+  page-footer:
+    right: |
+      Website built using <a href="https://quarto.org" target="_blank">Quarto</a>, <a href="https://github.com" target="_blank">GitHub</a> & <a href="https://express.adobe.com" target="_blank">Adobe Express</a>.
+    left:
+      - text: "© 2026 Ammar Aldawood"
+    border: "#ffffff"
+    background: "#808080"
+    foreground: "#ffffff"
+  google-analytics:
+    tracking-id: "G-QC859BHLY4"
+    anonymize-ip: true
+
+format:
+  html:
+    fig-align: center
+    theme:
+      - superhero
+      - theme.scss
+    css: styles.css
+    toc: true
+    canonical-url: true
+
+adsense:
+  publisher-id: ca-pub-4576710901770304
+
+filters:
+  - adsense
+
+knitr:
+  opts_chunk:
+    dev: svg
+    dev.args: { bg: "transparent" }

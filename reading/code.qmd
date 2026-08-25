@@ -1,0 +1,24 @@
+---
+title: "Code"
+image: code.png
+categories: [Book, Computation, Completed]
+author: "Charles Petzold"
+date-format: "YYYY"
+date: "1999-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+::: {.reading-block .llm-summary}
+## LLM-generated summary
+
+Charles Petzold's *Code* explains how computers work by building them conceptually from familiar pieces: telegraph and Morse, relays, binary, logic gates, adders, memory, and finally a simple processor and programming. It is a bottom-up engineering narrative that makes machine representation and instruction execution concrete without assuming a computer-science degree. The gist is that software is not magic; it is layers of encoding on switching hardware.
+:::
+
+::: {.reading-block .my-review}
+## My Review
+
+<div class="review-body"></div>
+:::
+

@@ -1,0 +1,24 @@
+---
+title: "Linear Algebra Done Right"
+image: ladr.png
+categories: [Book, Mathematics, Active]
+author: "Sheldon Axler"
+date-format: "YYYY"
+date: "1995-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+::: {.reading-block .llm-summary}
+## LLM-generated summary
+
+Sheldon Axler's *Linear Algebra Done Right* is a proof-based course on finite-dimensional vector spaces that postpones determinants and foregrounds linear maps, eigenvalues, inner-product spaces, and operators. It is written to replace the matrix-calculation-first path with conceptual understanding suitable as a second course in linear algebra. The book is terse, exercise-driven, and aimed at mathematics students rather than engineers looking for row-reduction drills.
+:::
+
+::: {.reading-block .my-review}
+## My Review
+
+<div class="review-body"></div>
+:::
+

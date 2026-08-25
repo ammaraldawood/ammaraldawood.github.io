@@ -1,0 +1,24 @@
+---
+title: "Bayes Rules!"
+image: bayes.png
+categories: [Book, Statistics, Completed]
+author: "Alicia A. Johnson, Miles Q. Ott and Mine Dogucu"
+date-format: "YYYY"
+date: "2021-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+::: {.reading-block .llm-summary}
+## LLM-generated summary
+
+*Bayes Rules!* is an applied introduction to Bayesian modeling that teaches prior, likelihood, and posterior through real data and computation rather than a theorem-first presentation. Using R, it builds from conjugate models and MCMC to hierarchical and regression models, with an emphasis on thinking in probabilities, checking models, and communicating uncertainty. It is written as a first Bayesian course for readers who already have some statistics, not as a measure-theoretic treatment.
+:::
+
+::: {.reading-block .my-review}
+## My Review
+
+<div class="review-body"></div>
+:::
+

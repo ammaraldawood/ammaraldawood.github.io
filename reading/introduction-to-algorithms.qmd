@@ -1,0 +1,26 @@
+---
+title: "Introduction to Algorithms (CLRS)"
+image: clrs.png
+categories: [Book, Computation, Active]
+author: "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein"
+date-format: "YYYY"
+date: "1989-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+::: {.reading-block .llm-summary}
+## LLM-generated summary
+
+CLRS is the canonical algorithms textbook: it develops asymptotic analysis, data structures, sorting, graph algorithms, dynamic programming, greedy methods, NP-completeness, and a range of specialized topics in a uniform pseudocode-and-proof style. It is designed as a course book and reference rather than a light tutorial, with exercises that range from routine to research-flavored. The date on this entry marks the first edition of a text later editions expanded, but the gist is unchanged: rigorous, general-purpose algorithmics.
+:::
+
+::: {.reading-block .my-review}
+## My Review
+
+<div class="review-body"></div>
+:::
+
+
+

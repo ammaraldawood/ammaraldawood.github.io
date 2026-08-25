@@ -1,0 +1,24 @@
+---
+title: "The C Programming Language"
+image: k&r.png
+categories: [Book, Computation, Completed]
+author: "Brian Kernighan and Dennis Ritchie"
+date-format: "YYYY"
+date: "1988-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+::: {.reading-block .llm-summary}
+## LLM-generated summary
+
+Kernighan and Ritchie's *The C Programming Language* is the classic, compact introduction to C by the language's authors, covering types, control flow, functions, pointers, arrays, structures, and the standard library in a spare, example-driven style. This 1988 second edition teaches ANSI C and remains a model of how to present a systems language without padding. It is both a tutorial and a short reference for writing idiomatic C.
+:::
+
+::: {.reading-block .my-review}
+## My Review
+
+<div class="review-body"></div>
+:::
+

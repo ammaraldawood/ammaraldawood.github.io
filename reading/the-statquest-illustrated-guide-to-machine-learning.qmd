@@ -1,0 +1,24 @@
+---
+title: "The StatQuest Illustrated Guide to Machine Learning"
+image: sqml.png
+categories: [Book, Machine Learning, Completed]
+author: "Josh Starmer"
+date-format: "YYYY"
+date: "2022-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+::: {.reading-block .llm-summary}
+## LLM-generated summary
+
+Josh Starmer's illustrated guide teaches core machine-learning ideas—cross-validation, bias and variance, regression, naive Bayes, trees, and neural nets among them—through informal pictures and intuition-first explanations rather than dense linear algebra. It is a visual primer for newcomers who want to know what the algorithms are doing, not a graduate machine-learning theory text.
+:::
+
+::: {.reading-block .my-review}
+## My Review
+
+<div class="review-body"></div>
+:::
+

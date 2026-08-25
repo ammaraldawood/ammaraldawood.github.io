@@ -1,0 +1,37 @@
+# Quarto scratch/cache (regenerated on render)
+/.quarto/
+
+# Intermediate notebooks generated from .qmd files
+**/*.quarto_ipynb
+
+# Local-only project overrides (machine-specific env, secrets)
+/_*.local
+
+# Rendered website output (rebuilt by quarto render / GitHub Actions)
+/_site/
+
+# knitr cache (computational results that matter are stored in _freeze/)
+*_cache/
+
+# Temporary files created by knitr / R Markdown
+*.utf8.md
+*.knit.md
+
+# R / RStudio session and user files
+.Rproj.user
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+.Ruserdata
+
+# Jupyter checkpoints (Jupyter engine)
+.ipynb_checkpoints/
+
+# Python virtual environments (if present)
+/.venv/
+/.condaenv/
+/env/
+
+# macOS Finder metadata
+.DS_Store

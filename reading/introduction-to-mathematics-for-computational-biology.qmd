@@ -1,0 +1,24 @@
+---
+title: "Introduction to Mathematics for Computational Biology"
+image: imcb.png
+categories: [Book, Mathematics, Completed]
+author: "Bruno Carpentieri and Paola Lecca"
+date-format: "YYYY"
+date: "2023-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+::: {.reading-block .llm-summary}
+## LLM-generated summary
+
+This Springer primer explains the mathematics and algorithms behind standard data-analysis tools in systems biology, biochemistry, and biophysics, pairing each technique's background with how to use it. It starts from biological networks and graphs and continues through the quantitative methods needed to choose, run, and interpret computational analyses rather than treat software as a black box. It is aimed at life scientists who need the math of the tools, not at pure mathematicians.
+:::
+
+::: {.reading-block .my-review}
+## My Review
+
+<div class="review-body"></div>
+:::
+

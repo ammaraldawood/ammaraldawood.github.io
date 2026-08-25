@@ -1,0 +1,24 @@
+---
+title: "Precalculus"
+image: pc.png
+categories: [Book, Mathematics, Active]
+author: "James Stewart, Lothar Redlin and Saleem Watson"
+date-format: "YYYY"
+date: "1997-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+::: {.reading-block .llm-summary}
+## LLM-generated summary
+
+Stewart, Redlin, and Watson's *Precalculus* builds the algebraic, trigonometric, and functional machinery needed before calculus: functions and graphs, polynomials, exponentials and logarithms, trigonometric identities, analytic geometry, and sequences. It is a skills-and-applications textbook in the Stewart style, meant as preparation rather than as a conceptual foundations-of-analysis book.
+:::
+
+::: {.reading-block .my-review}
+## My Review
+
+<div class="review-body"></div>
+:::
+

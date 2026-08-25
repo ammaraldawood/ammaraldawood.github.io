@@ -1,0 +1,24 @@
+---
+title: "Mathematics Is Biology’s Next Microscope,  Only Better; Biology Is Mathematics’ Next  Physics, Only Better"
+image: mb.png
+categories: [Paper, Bioinformatics, Completed]
+author: "Joel E Cohen"
+date-format: "YYYY"
+date: "2004-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+::: {.reading-block .llm-summary}
+## LLM-generated summary
+
+Joel E. Cohen's PLOS Biology essay argues a two-way claim: mathematics will reveal biological structure the way the microscope revealed microbes, and biology's heterogeneity will force genuinely new mathematics the way physics once did. He traces the history of quantitative biology, maps current math–biology interactions, and lists open challenges at many scales of life. It is a manifesto for mathematical biology as mutual enrichment, not just applied calculus on living systems.
+:::
+
+::: {.reading-block .my-review}
+## My Review
+
+<div class="review-body"></div>
+:::
+

@@ -1,0 +1,24 @@
+---
+title: "A Global Perspective on Evolving Bioinformatics and Data Science Training Needs"
+image: bd.png
+categories: [Paper, Bioinformatics, Completed]
+author: "Teresa K. Attwood, Sarah Blackford, Michelle D. Brazas, Angela Davies and Maria Victoria Schneider"
+date-format: "YYYY"
+date: "2017-01-01"
+format:
+    html:
+        css: styles.css
+---
+
+::: {.reading-block .llm-summary}
+## LLM-generated summary
+
+This *Briefings in Bioinformatics* paper surveys a persistent global shortfall in bioinformatics and data-science skill among life scientists, even as computation has become intrinsic to biological research. Drawing on training-needs studies, Attwood and colleagues report that most respondents name data analysis and interpretation as the main gap, and they discuss how short courses, curriculum reform, and shared training infrastructure try to close it. The piece is a field-level argument rather than a methods paper: bioinformatics training has to scale with data, stay current as techniques shift, and reach researchers who were never trained as computational specialists.
+:::
+
+::: {.reading-block .my-review}
+## My Review
+
+<div class="review-body"></div>
+:::
+
