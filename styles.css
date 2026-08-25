@@ -56,7 +56,7 @@ h1.text-center {
 hr {
   border: none;
   height: 2px;
-  background-color: var(--bs-primary);
+  background-color: rgba(128, 128, 128, 0.4);
   width: 50%;
   margin: 3rem auto;
   opacity: 1;
@@ -88,9 +88,13 @@ span.badge {
 }
 
 .find-me-logo {
-  width: 108px;
-  height: 108px;
-  max-width: 100%;
+  width: 108px !important;
+  height: 108px !important;
+  min-width: 108px;
+  max-width: 108px !important;
+  
+  flex-shrink: 0; 
+  
   border-radius: 0.85rem;
   display: block;
   object-fit: cover;
