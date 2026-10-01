@@ -37,18 +37,6 @@ thinking process, follow along there so you you can keep current.
 :::
 
 ::: {.find-me-platform}
-<a href="https://ammaraldawood.substack.com" target="_blank" rel="noopener"><img src="substack.png" class="find-me-logo" alt="Substack"></a>
-
-### Substack
-
-Substack is where I post my long-form writing: essays and opinion pieces  
-with room to argue points. Become a subscriber and the writing lands in  
-your inbox.
-
-[Subscribe on Substack](https://ammaraldawood.substack.com){.btn .btn-primary target="_blank" rel="noopener"}
-:::
-
-::: {.find-me-platform}
 <a href="https://github.com/ammaraldawood" target="_blank" rel="noopener"><img src="github.png" class="find-me-logo" alt="GitHub"></a>
 
 ### GitHub
@@ -59,18 +47,6 @@ there might be some issue-resolving and conversations on there that may be
 of interest to you.
 
 [Follow me on GitHub](https://github.com/ammaraldawood){.btn .btn-primary target="_blank" rel="noopener"}
-:::
-
-::: {.find-me-platform}
-<a href="https://www.linkedin.com/in/ammar-aldawood/" target="_blank" rel="noopener"><img src="linkedin.png" class="find-me-logo" alt="LinkedIn"></a>
-
-### LinkedIn
-
-LinkedIn is the place to connect if you want to keep in touch about work.  
-I may also publish work-related writing on it as it happens, so  
-it's worth connecting there even if you follow me elsewhere.
-
-[Connect on LinkedIn](https://www.linkedin.com/in/ammar-aldawood/){.btn .btn-primary target="_blank" rel="noopener"}
 :::
 
 ::: {.find-me-platform}

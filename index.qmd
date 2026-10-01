@@ -8,10 +8,6 @@ about:
         text: GitHub
         href: https://github.com/ammaraldawood
         target: _blank
-      - icon: linkedin
-        text: LinkedIn
-        href: https://www.linkedin.com/in/ammar-aldawood/
-        target: _blank
       - icon: twitter-x
         text: Twitter/X
         href: https://x.com/aldawood_ammar
@@ -19,10 +15,6 @@ about:
       - icon: youtube
         text: YouTube
         href: https://www.youtube.com/@ammar_aldawood
-        target: _blank
-      - icon: substack
-        text: Substack
-        href: https://ammaraldawood.substack.com
         target: _blank
       - icon: envelope-at-fill
         text: Email

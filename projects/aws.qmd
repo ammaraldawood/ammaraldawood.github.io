@@ -1,0 +1,50 @@
+---
+title: "Personal Computer to AWS"
+description: 
+    "A user-side toolkit for moving heavy work onto AWS: plan the 
+    architecture, launch EC2 instances, and browse S3 from the terminal"
+image: aws.png
+
+categories: [
+  Shell, AWS, Mermaid
+]
+
+format:
+  html:
+    css: styles.css
+---
+
+| **Target Audience:** | People who run heavy jobs from a PC and want the most efficient AWS setup that will do it |
+| :--- | :--- |
+| **Value Proposition:** | Planning and execution of the least viable AWS architecture for an offloaded task from your PC to the cloud |
+| **Product Link:** | Not applicable |
+| **Demonstration Link:** | Blog post coming soon! |
+| **Source Repository:** | [**`github.com/ammaraldawood/aws`**](https://github.com/ammaraldawood/aws){target="_blank"} |
+
+<br>
+
+## Technology Stack
+
+* **Programming Languages:**
+  * **Shell:** Zsh scripts for planning and launching.
+
+<br>
+
+* **Core Technologies:**
+  * **Rclone:** Browses the remote S3 bucket from the terminal.
+  * **AWS CLI:** Account access, Session Manager, and instance launch.
+  * **Mermaid:** Architecture diagrams rendered from the plan.
+  * **Chafa:** Viewing approximations of images inside the terminal emulator.
+
+## Project Learnings/Skills
+
+1. **Architecture selection:** Turn a workload description into a small set of
+AWS services, then draw only the services and setup steps that were chosen.
+
+2. **Plan handoff:** Keep the recommendation and the launch in separate
+scripts, with one file between them, so a non-EC2 plan stops instead of
+launching the wrong thing.
+
+3. **LLM prompting and HITL:** The repo is mostly written by LLMs, which
+required a lot of back and forth with them to get them to understand what
+I want and how I want it to look like.
