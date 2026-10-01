@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="A user-side toolkit for moving heavy work onto AWS: plan the architecture, launch EC2 instances, and browse S3 from the terminal">
 
-<title>Who Am I? – Ammar Aldawood</title>
+<title>Personal Computer to AWS – Ammar Aldawood</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,24 +30,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e1b8b90ab5e1d631b2a9b4cec88c018a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-e1b8b90ab5e1d631b2a9b4cec88c018a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -101,23 +103,12 @@ cookieconsent.run({
 });
 </script> 
   
-<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
-<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<script src="site_libs/plotly-binding-4.12.1/plotly.js"></script>
-<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
-<script src="site_libs/jquery-3.5.1/jquery.min.js"></script>
-<link href="site_libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet">
-<script src="site_libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
-<link href="site_libs/plotly-htmlwidgets-css-2.25.2/plotly-htmlwidgets.css" rel="stylesheet">
-<script src="site_libs/plotly-main-2.25.2/plotly-latest.min.js"></script>
-<script src="site_libs/d3-3.5.6/./d3.min.js"></script>
-<link href="site_libs/circlepackeR-0.1/./style.css" rel="stylesheet">
-<script src="site_libs/circlepackeR-binding-0.0.0.9000/circlepackeR.js"></script>
 <script type="text/plain" cookie-consent="targeting" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4576710901770304" crossorigin="anonymous"></script>
 
 
+<link rel="stylesheet" href="../styles.css">
 <link rel="stylesheet" href="styles.css">
-<link rel="canonical" href="https://www.ammaraldawood.com/about.html">
+<link rel="canonical" href="https://www.ammaraldawood.com/projects/aws.html">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -127,9 +118,9 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./logo.png" alt="" class="navbar-logo light-content">
-    <img src="./logo.png" alt="" class="navbar-logo dark-content">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../logo.png" alt="" class="navbar-logo light-content">
+    <img src="../logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -139,23 +130,23 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/projects.html"> 
+    <a class="nav-link" href="../projects/projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./reading/readinglist.html"> 
+    <a class="nav-link" href="../reading/readinglist.html"> 
 <span class="menu-text">Reading</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/welcome.html"> 
+    <a class="nav-link" href="../blog/welcome.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./blog/welcome.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../blog/welcome.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -170,142 +161,116 @@ cookieconsent.run({
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Who Am I?</h1>
-                      </div>
+      <h1 class="title">Personal Computer to AWS</h1>
+                  <div>
+        <div class="description">
+          A user-side toolkit for moving heavy work onto AWS: plan the architecture, launch EC2 instances, and browse S3 from the terminal
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Shell</div>
+                <div class="quarto-category">AWS</div>
+                <div class="quarto-category">Mermaid</div>
+              </div>
+                  </div>
   </div>
+    
+  
   <div class="quarto-title-meta">
+
+      
+    
+      
     </div>
+    
+  
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
-  <li><a href="#where-you-can-find-me" id="toc-where-you-can-find-me" class="nav-link active" data-scroll-target="#where-you-can-find-me">Where You Can Find Me</a></li>
-  <li><a href="#education-learning" id="toc-education-learning" class="nav-link" data-scroll-target="#education-learning">Education &amp; Learning</a></li>
-  <li><a href="#my-tech-stack" id="toc-my-tech-stack" class="nav-link" data-scroll-target="#my-tech-stack">My Tech Stack</a></li>
-  <li><a href="#interests-hobbies" id="toc-interests-hobbies" class="nav-link" data-scroll-target="#interests-hobbies">Interests &amp; Hobbies</a></li>
+  <li><a href="#technology-stack" id="toc-technology-stack" class="nav-link active" data-scroll-target="#technology-stack">Technology Stack</a></li>
+  <li><a href="#project-learningsskills" id="toc-project-learningsskills" class="nav-link" data-scroll-target="#project-learningsskills">Project Learnings/Skills</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-jolla">
- <main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<p>I’m Ammar Aldawood, a rigorous generalist operating at the intersection of<br>
-biology, mathematics, computation, and engineering. A Medical Laboratory<br>
-Sciences alumnus from Jordan University of Science and Technology, I became<br>
-increasingly quantitative in my approach toward the life sciences.</p>
-<p>I am currently transitioning into bioengineering and computational biology.<br>
-I am actively seeking PhD positions as well as industry roles where the<br>
-environment suits the interdisciplinary problems I want to work on, and<br>
-where my skills match the problems the lab or organization needs solved.</p>
-<p>If you see that fit in my work, <a href="mailto:aldawoodammar@gmail.com">get in touch ✉</a>.</p>
-<hr>
-<section id="where-you-can-find-me" class="level2">
-<h2 data-anchor-id="where-you-can-find-me">Where You Can Find Me</h2>
-<div class="find-me-platform">
-<p><a href="https://x.com/aldawood_ammar" target="_blank" rel="noopener"><img src="x.png" class="find-me-logo" alt="X"></a></p>
-<section id="x" class="level3">
-<h3 data-anchor-id="x">X</h3>
-<p>This is the place where I’m most active. I post daily, so back-and-forth<br>
-in the replies, and posts on what I’m learning, building, and thinking<br>
-about in real time. If you want the in-progress version of my work and<br>
-thinking process, follow along there so you you can keep current.</p>
-<p><a href="https://x.com/aldawood_ammar" class="btn btn-primary" target="_blank" rel="noopener">Follow me on X</a></p>
+
+
+
+
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Target Audience:</strong></th>
+<th style="text-align: left;">People who run heavy jobs from a PC and want the most efficient AWS setup that will do it</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Value Proposition:</strong></td>
+<td style="text-align: left;">Planning and execution of the least viable AWS architecture for an offloaded task from your PC to the cloud</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Product Link:</strong></td>
+<td style="text-align: left;">Not applicable</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Demonstration Link:</strong></td>
+<td style="text-align: left;">Blog post coming soon!</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Source Repository:</strong></td>
+<td style="text-align: left;"><a href="https://github.com/ammaraldawood/aws" target="_blank"><strong><code>github.com/ammaraldawood/aws</code></strong></a></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<section id="technology-stack" class="level2">
+<h2 class="anchored" data-anchor-id="technology-stack">Technology Stack</h2>
+<ul>
+<li><strong>Programming Languages:</strong>
+<ul>
+<li><strong>Shell:</strong> Zsh scripts for planning and launching.</li>
+</ul></li>
+</ul>
+<p><br></p>
+<ul>
+<li><strong>Core Technologies:</strong>
+<ul>
+<li><strong>Rclone:</strong> Browses the remote S3 bucket from the terminal.</li>
+<li><strong>AWS CLI:</strong> Account access, Session Manager, and instance launch.</li>
+<li><strong>Mermaid:</strong> Architecture diagrams rendered from the plan.</li>
+<li><strong>Chafa:</strong> Viewing approximations of images inside the terminal emulator.</li>
+</ul></li>
+</ul>
 </section>
-</div>
-<div class="find-me-platform">
-<p><a href="https://ammaraldawood.substack.com" target="_blank" rel="noopener"><img src="substack.png" class="find-me-logo" alt="Substack"></a></p>
-<section id="substack" class="level3">
-<h3 data-anchor-id="substack">Substack</h3>
-<p>Substack is where I post my long-form writing: essays and opinion pieces<br>
-with room to argue points. Become a subscriber and the writing lands in<br>
-your inbox.</p>
-<p><a href="https://ammaraldawood.substack.com" class="btn btn-primary" target="_blank" rel="noopener">Subscribe on Substack</a></p>
-</section>
-</div>
-<div class="find-me-platform">
-<p><a href="https://github.com/ammaraldawood" target="_blank" rel="noopener"><img src="github.png" class="find-me-logo" alt="GitHub"></a></p>
-<section id="github" class="level3">
-<h3 data-anchor-id="github">GitHub</h3>
-<p>GitHub is where this website and any of my coding projects live. Follow so<br>
-new repos and commits show up when I push them. If you’re detail-oriented,<br>
-there might be some issue-resolving and conversations on there that may be<br>
-of interest to you.</p>
-<p><a href="https://github.com/ammaraldawood" class="btn btn-primary" target="_blank" rel="noopener">Follow me on GitHub</a></p>
-</section>
-</div>
-<div class="find-me-platform">
-<p><a href="https://www.linkedin.com/in/ammar-aldawood/" target="_blank" rel="noopener"><img src="linkedin.png" class="find-me-logo" alt="LinkedIn"></a></p>
-<section id="linkedin" class="level3">
-<h3 data-anchor-id="linkedin">LinkedIn</h3>
-<p>LinkedIn is the place to connect if you want to keep in touch about work.<br>
-I may also publish work-related writing on it as it happens, so<br>
-it’s worth connecting there even if you follow me elsewhere.</p>
-<p><a href="https://www.linkedin.com/in/ammar-aldawood/" class="btn btn-primary" target="_blank" rel="noopener">Connect on LinkedIn</a></p>
-</section>
-</div>
-<div class="find-me-platform">
-<p><a href="https://www.youtube.com/@ammar_aldawood" target="_blank" rel="noopener"><img src="youtube.png" class="find-me-logo" alt="YouTube"></a></p>
-<section id="youtube" class="level3">
-<h3 data-anchor-id="youtube">YouTube</h3>
-<p>The channel isn’t shipping videos yet, but it will. Subscribe now so<br>
-you’re already in the room when the first videos land.</p>
-<p><a href="https://www.youtube.com/@ammar_aldawood" class="btn btn-primary" target="_blank" rel="noopener">Subscribe on YouTube</a></p>
-</section>
-</div>
-<hr>
-</section>
-<section id="education-learning" class="level2">
-<h2 data-anchor-id="education-learning">Education &amp; Learning</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="about_files/figure-html/unnamed-chunk-1-1.svg" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p><span class="badge bg-light">Gantt chart generated using ggplot2 in R</span></p>
-<hr>
-</section>
-<section id="my-tech-stack" class="level2">
-<h2 data-anchor-id="my-tech-stack">My Tech Stack</h2>
-<section id="hover-over-nodes-to-see-more-info" class="level5">
-<h5 data-anchor-id="hover-over-nodes-to-see-more-info">Hover over nodes to see more info!</h5>
-<div class="cell">
-<div class="cell-output-display">
-<div class="plotly html-widget html-fill-item" id="htmlwidget-8a37fd34c20afff41a74" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-8a37fd34c20afff41a74">{"x":{"visdat":{"13c3d396ccea9":["function () ","plotlyVisDat"]},"cur_data":"13c3d396ccea9","attrs":{"13c3d396ccea9":{"arrangement":"snap","orientation":"v","node":{"label":["Assembly","C","C++","Python","R","Swift","SQL","Shell","Docker","Git"],"color":["steelblue","firebrick","steelblue","mistyrose","mistyrose","mistyrose","mistyrose","firebrick","mistyrose","mistyrose"],"pad":15,"customdata":["Low level programming.<br />Learned it purely to become more<br />grounded in computation and<br />understand the full picture down to hardware.<br />Skill level: ★","Mid level programming.<br />Useful for optimization and<br />high performance computing.<br />Gives the best control over embedded systems.<br />Skill level: ★★","Mid level programming.<br />A superset of C that is relevant for<br />interoperability with higher level languages.<br />Skill level: ★","High level programming.<br />Gives access to mature machine learning<br />packages such as XGBoost & PyTorch.<br />Contains the package Biopython.<br />Skill level: ★★★★","High level programming.<br />Specialized in data visualization and<br />statistical data analysis.<br />Contains the library Bioconductor.<br />Skill level: ★★★★","High level programming.<br />Native app development for more than five different platforms<br />in iOS, iPadOS, macOS, watchOS, visionOS..etc.<br />Skill level: ★★★★","Structured query language.<br />Essential for any meaningful work using big data.<br />Best way to interact with relational databases.<br />Skill level: ★★★","Command line interface.<br />Provides broad access over the system you're working on.<br />Essential for scripting and SSH-ing.<br />Skill level: ★★★★","Containerization and Reproducibility.<br />Skill level: ★★","Version Control and Reproducibility.<br />Skill level: ★★★★"],"hovertemplate":"%{customdata}<extra><\/extra>"},"link":{"source":[0,1,1,1,1,2,2,2,6,6,7,7],"target":[1,2,3,4,5,3,4,5,3,4,8,9],"value":[6,3,1,1,1,1,1,1,1,1,1,1],"color":["steelblue","firebrick","firebrick","firebrick","firebrick","steelblue","steelblue","steelblue","mistyrose","mistyrose","firebrick","firebrick"],"hoverinfo":"none"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"sankey"}},"layout":{"margin":{"b":50,"l":70,"t":50,"r":70},"title":"","paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","font":{"color":"#000000","size":12,"family":"Arial"},"hoverlabel":{"bgcolor":"rgba(255, 255, 255, 1)","bordercolor":"rgba(0, 0, 0, 1)","font":{"color":"black"}},"hovermode":"closest","showlegend":false},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"arrangement":"snap","orientation":"v","node":{"label":["Assembly","C","C++","Python","R","Swift","SQL","Shell","Docker","Git"],"color":["steelblue","firebrick","steelblue","mistyrose","mistyrose","mistyrose","mistyrose","firebrick","mistyrose","mistyrose"],"pad":15,"customdata":["Low level programming.<br />Learned it purely to become more<br />grounded in computation and<br />understand the full picture down to hardware.<br />Skill level: ★","Mid level programming.<br />Useful for optimization and<br />high performance computing.<br />Gives the best control over embedded systems.<br />Skill level: ★★","Mid level programming.<br />A superset of C that is relevant for<br />interoperability with higher level languages.<br />Skill level: ★","High level programming.<br />Gives access to mature machine learning<br />packages such as XGBoost & PyTorch.<br />Contains the package Biopython.<br />Skill level: ★★★★","High level programming.<br />Specialized in data visualization and<br />statistical data analysis.<br />Contains the library Bioconductor.<br />Skill level: ★★★★","High level programming.<br />Native app development for more than five different platforms<br />in iOS, iPadOS, macOS, watchOS, visionOS..etc.<br />Skill level: ★★★★","Structured query language.<br />Essential for any meaningful work using big data.<br />Best way to interact with relational databases.<br />Skill level: ★★★","Command line interface.<br />Provides broad access over the system you're working on.<br />Essential for scripting and SSH-ing.<br />Skill level: ★★★★","Containerization and Reproducibility.<br />Skill level: ★★","Version Control and Reproducibility.<br />Skill level: ★★★★"],"hovertemplate":"%{customdata}<extra><\/extra>"},"link":{"source":[0,1,1,1,1,2,2,2,6,6,7,7],"target":[1,2,3,4,5,3,4,5,3,4,8,9],"value":[6,3,1,1,1,1,1,1,1,1,1,1],"color":["steelblue","firebrick","firebrick","firebrick","firebrick","steelblue","steelblue","steelblue","mistyrose","mistyrose","firebrick","firebrick"],"hoverinfo":"none"},"type":"sankey","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-<p><span class="badge bg-light">Sankey diagram generated using Plotly in R</span></p>
-<hr>
-</section>
-</section>
-<section id="interests-hobbies" class="level2">
-<h2 data-anchor-id="interests-hobbies">Interests &amp; Hobbies</h2>
-<section id="click-on-the-circles-to-see-more" class="level5">
-<h5 data-anchor-id="click-on-the-circles-to-see-more">Click on the circles to see more!</h5>
-<div class="cell">
-<div class="cell-output-display">
-<div class="circlepackeR html-widget html-fill-item" id="htmlwidget-b9696da8ff66f63bcec9" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-b9696da8ff66f63bcec9">{"x":{"data":{"name":"world","children":[{"name":"Sports","children":[{"name":"Calisthenics","group":"Sports","subgroup":"Calisthenics","value":100},{"name":"Running","group":"Sports","subgroup":"Running","value":25},{"name":"Swimming","group":"Sports","subgroup":"Swimming","value":25}]},{"name":"Languages","children":[{"name":"Arabic","group":"Languages","subgroup":"Arabic","value":100},{"name":"English","group":"Languages","subgroup":"English","value":100},{"name":"Mandarin","group":"Languages","subgroup":"Mandarin","value":5}]},{"name":"Music","children":[{"name":"Playing Piano","group":"Music","subgroup":"Playing Piano","value":25},{"name":"Music Theory","group":"Music","subgroup":"Music Theory","value":25}]},{"name":"Digital Creation","children":[{"name":"Procedural 3D Simulation in SideFX Houdini","group":"Digital Creation","subgroup":"Procedural 3D Simulation in SideFX Houdini","value":50}]},{"name":"Learning","children":[{"name":"Reading","group":"Learning","subgroup":"Reading","value":100},{"name":"Research","group":"Learning","subgroup":"Research","value":100}]}]},"options":{"size":"value","color_min":"hsl(190, 80%, 60%)","color_max":"hsl(345, 80%, 35%)"}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-<p><span class="badge bg-light">Circle packing generated using circlepackeR in R</span></p>
+<section id="project-learningsskills" class="level2">
+<h2 class="anchored" data-anchor-id="project-learningsskills">Project Learnings/Skills</h2>
+<ol type="1">
+<li><p><strong>Architecture selection:</strong> Turn a workload description into a small set of AWS services, then draw only the services and setup steps that were chosen.</p></li>
+<li><p><strong>Plan handoff:</strong> Keep the recommendation and the launch in separate scripts, with one file between them, so a non-EC2 plan stops instead of launching the wrong thing.</p></li>
+<li><p><strong>LLM prompting and HITL:</strong> The repo is mostly written by LLMs, which required a lot of back and forth with them to get them to understand what I want and how I want it to look like.</p></li>
+</ol>
 
 
 </section>
-</section>
-</main>  
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
