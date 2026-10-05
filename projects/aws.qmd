@@ -1,8 +1,6 @@
 ---
-title: "Personal Computer to AWS"
-description: 
-    "A user-side toolkit for moving heavy work onto AWS: plan the 
-    architecture, launch EC2 instances, and browse S3 from the terminal"
+title: "AWS Workload Planner"
+description: "A zsh-based planner that turns AWS workload requirements into Mermaid diagrams and versioned JSON plans"
 image: aws.png
 
 categories: [
@@ -14,9 +12,9 @@ format:
     css: styles.css
 ---
 
-| **Target Audience:** | People who run heavy jobs from a PC and want the most efficient AWS setup that will do it |
+| **Target Audience:** | People who need to compare AWS compute options for demanding workloads |
 | :--- | :--- |
-| **Value Proposition:** | Planning and execution of the least viable AWS architecture for an offloaded task from your PC to the cloud |
+| **Value Proposition:** | Workload interviews that produce AWS architecture recommendations, diagrams, and versioned plans |
 | **Product Link:** | Not applicable |
 | **Demonstration Link:** | Blog post coming soon! |
 | **Source Repository:** | [**`github.com/ammaraldawood/aws`**](https://github.com/ammaraldawood/aws){target="_blank"} |
@@ -26,24 +24,23 @@ format:
 ## Technology Stack
 
 * **Programming Languages:**
-  * **Shell:** Zsh scripts for planning and launching.
+  * **Shell:** Zsh scripts for workload interviews and plan generation.
 
 <br>
 
 * **Core Technologies:**
-  * **Rclone:** Browses the remote S3 bucket from the terminal.
-  * **AWS CLI:** Account access, Session Manager, and instance launch.
-  * **Mermaid:** Architecture diagrams rendered from the plan.
-  * **Chafa:** Viewing approximations of images inside the terminal emulator.
+  * **jq:** Validates and processes planner data.
+  * **AWS CLI:** Optional Region discovery from local AWS configuration.
+  * **Mermaid CLI:** Renders architecture diagrams from Mermaid source.
+  * **Chafa:** Optional terminal image previews.
 
 ## Project Learnings/Skills
 
 1. **Architecture selection:** Turn a workload description into a small set of
 AWS services, then draw only the services and setup steps that were chosen.
 
-2. **Plan handoff:** Keep the recommendation and the launch in separate
-scripts, with one file between them, so a non-EC2 plan stops instead of
-launching the wrong thing.
+2. **Versioned plans:** Keep workload requirements, selected services, resources,
+relationships, and rationale together in a versioned JSON plan.
 
 3. **LLM prompting and HITL:** The repo is mostly written by LLMs, which
 required a lot of back and forth with them to get them to understand what
