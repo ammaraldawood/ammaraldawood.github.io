@@ -2,18 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A user-side toolkit for moving heavy work onto AWS: plan the architecture, launch EC2 instances, and browse S3 from the terminal">
+<meta name="description" content="A zsh-based planner that turns AWS workload requirements into Mermaid diagrams and versioned JSON plans">
 
-<title>Personal Computer to AWS – Ammar Aldawood</title>
+<title>AWS Workload Planner – Ammar Aldawood</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -35,15 +41,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-aaecaee38e023d460abc008f69856ce7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-e1b8b90ab5e1d631b2a9b4cec88c018a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -156,10 +161,10 @@ cookieconsent.run({
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Personal Computer to AWS</h1>
+      <h1 class="title">AWS Workload Planner</h1>
                   <div>
         <div class="description">
-          A user-side toolkit for moving heavy work onto AWS: plan the architecture, launch EC2 instances, and browse S3 from the terminal
+          A zsh-based planner that turns AWS workload requirements into Mermaid diagrams and versioned JSON plans
         </div>
       </div>
                           <div class="quarto-categories">
@@ -203,13 +208,13 @@ cookieconsent.run({
 <thead>
 <tr class="header">
 <th style="text-align: left;"><strong>Target Audience:</strong></th>
-<th style="text-align: left;">People who run heavy jobs from a PC and want the most efficient AWS setup that will do it</th>
+<th style="text-align: left;">People who need to compare AWS compute options for demanding workloads</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;"><strong>Value Proposition:</strong></td>
-<td style="text-align: left;">Planning and execution of the least viable AWS architecture for an offloaded task from your PC to the cloud</td>
+<td style="text-align: left;">Workload interviews that produce AWS architecture recommendations, diagrams, and versioned plans</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><strong>Product Link:</strong></td>
@@ -231,17 +236,17 @@ cookieconsent.run({
 <ul>
 <li><strong>Programming Languages:</strong>
 <ul>
-<li><strong>Shell:</strong> Zsh scripts for planning and launching.</li>
+<li><strong>Shell:</strong> Zsh scripts for workload interviews and plan generation.</li>
 </ul></li>
 </ul>
 <p><br></p>
 <ul>
 <li><strong>Core Technologies:</strong>
 <ul>
-<li><strong>Rclone:</strong> Browses the remote S3 bucket from the terminal.</li>
-<li><strong>AWS CLI:</strong> Account access, Session Manager, and instance launch.</li>
-<li><strong>Mermaid:</strong> Architecture diagrams rendered from the plan.</li>
-<li><strong>Chafa:</strong> Viewing approximations of images inside the terminal emulator.</li>
+<li><strong>jq:</strong> Validates and processes planner data.</li>
+<li><strong>AWS CLI:</strong> Optional Region discovery from local AWS configuration.</li>
+<li><strong>Mermaid CLI:</strong> Renders architecture diagrams from Mermaid source.</li>
+<li><strong>Chafa:</strong> Optional terminal image previews.</li>
 </ul></li>
 </ul>
 </section>
@@ -249,7 +254,7 @@ cookieconsent.run({
 <h2 class="anchored" data-anchor-id="project-learningsskills">Project Learnings/Skills</h2>
 <ol type="1">
 <li><p><strong>Architecture selection:</strong> Turn a workload description into a small set of AWS services, then draw only the services and setup steps that were chosen.</p></li>
-<li><p><strong>Plan handoff:</strong> Keep the recommendation and the launch in separate scripts, with one file between them, so a non-EC2 plan stops instead of launching the wrong thing.</p></li>
+<li><p><strong>Versioned plans:</strong> Keep workload requirements, selected services, resources, relationships, and rationale together in a versioned JSON plan.</p></li>
 <li><p><strong>LLM prompting and HITL:</strong> The repo is mostly written by LLMs, which required a lot of back and forth with them to get them to understand what I want and how I want it to look like.</p></li>
 </ol>
 

@@ -1,5 +1,61 @@
 [
   {
+    "objectID": "projects/dotfiles.html",
+    "href": "projects/dotfiles.html",
+    "title": "Dotfiles",
+    "section": "",
+    "text": "Target Audience:\nCurious tinkerers who live in the terminal and build their own workflows\n\n\n\n\nValue Proposition:\nKeyboard-centric, single monitor workflow with superior Vim Motions editing experience\n\n\nProduct Link:\nNot applicable\n\n\nDemonstration Link:\nBlog post coming soon!\n\n\nSource Repository:\ngithub.com/ammaraldawood/dotfiles\n\n\nInfluenced By:\nJosean Martinez"
+  },
+  {
+    "objectID": "projects/dotfiles.html#technology-stack",
+    "href": "projects/dotfiles.html#technology-stack",
+    "title": "Dotfiles",
+    "section": "Technology Stack",
+    "text": "Technology Stack\n\nProgramming Languages:\n\nLua: Neovim configuration language.\nShell: Zsh scripts and terminal customization.\n\n\n\n\nCore Technologies:\n\nNeovim: Text editor centered around Vim Motions.\nTmux: Terminal multiplexer and sessionizer.\nGhostty: Terminal emulator with shader support.\nGit: Version control.\nHomebrew: Package management."
+  },
+  {
+    "objectID": "projects/dotfiles.html#project-learningsskills",
+    "href": "projects/dotfiles.html#project-learningsskills",
+    "title": "Dotfiles",
+    "section": "Project Learnings/Skills",
+    "text": "Project Learnings/Skills\n\nSoftware Architecture: Managing the interplay of different programs and their respective plugins and themes, resolving conflicts and optimizing user experience. For example, installing bioSyntax which is available for Vim and making it available to Neovim through a Lua function call.\nShell Scripting: Creating aliases and custom shell functions that perform repetitive tasks and multi-step operations using a single-word command. For example, ‘cld’ which concatenates the contents of the latest downloaded file using bat.\nCommand Line Fluency: Introduced to countless terms and paradigms that I had to look up while working on this setup, some of which I might not have run into otherwise, including fuzzy search, inodes, size vs blocksize, symlinks, ripgrep, glob operators, globbing flags, aliasing, regex, environment variables and makefiles, amongst others."
+  },
+  {
+    "objectID": "projects/dataresmic.html",
+    "href": "projects/dataresmic.html",
+    "title": "Dataresmic",
+    "section": "",
+    "text": "Target Audience:\nApple’s ‘Swift Student Challenge’ judging committee\n\n\n\n\nValue Proposition:\nEducation on the emergence of antibiotic resistance due to certain practices\n\n\nProduct Link:\nNot applicable\n\n\nDemonstration Link:\nNot available yet\n\n\nSource Repository:\ngithub.com/ammaraldawood/dataresmic\n\n\nInfluenced By:\nSeveral ‘Swift Student Challenge’ applicants from previous years"
+  },
+  {
+    "objectID": "projects/dataresmic.html#technology-stack",
+    "href": "projects/dataresmic.html#technology-stack",
+    "title": "Dataresmic",
+    "section": "Technology Stack",
+    "text": "Technology Stack\n\nProgramming Languages:\n\nSwift: Used for the entirety of the project\n\n\n\n\nCore Technologies:\n\nSwiftUI: Building the user interface of the app\nSwift Charts: Used to create a pie chart to simulate infection and a scrollable chart to show the history of infection\nXcode: The main IDE used to build the project\nAdobe Illustrator: Used to create the logo, thumbnail and the mascot (Dominic)\nSF Symbols: Used to create the icons used inside the SimulationView"
+  },
+  {
+    "objectID": "projects/dataresmic.html#project-learningsskills",
+    "href": "projects/dataresmic.html#project-learningsskills",
+    "title": "Dataresmic",
+    "section": "Project Learnings/Skills",
+    "text": "Project Learnings/Skills\n\nSoftware Architecture: Managing the interplay of different files, the environment and observable attributes, and handling persistence of values.\nCharting: Creating both a live and a scrollable chart using Swift Charts.\nGraphic Design: Created the logo, thumbnail, icons and others using software external to Xcode like Adobe Illustrator and SF Symbols.\nPractical Practice: This happens to be my first coding project of any kind, and so it represents the first time I went out of ‘tutorial hell’ into ‘learning by doing’ (not including the DataCamp contest a year earlier which is more of a presentation and less of a project)"
+  },
+  {
+    "objectID": "projects/dataresmic.html#project-pitfalls",
+    "href": "projects/dataresmic.html#project-pitfalls",
+    "title": "Dataresmic",
+    "section": "Project Pitfalls",
+    "text": "Project Pitfalls\n\nScarcity of Training and Time: The project was created within 1 year and 6 months of me first beginning to learn how to program and code, and it was started on the 20th of January of 2024 and finished by the 26th of February of 2024, meaning the code, art and ideation all happened in a period of five weeks. In hindsight, the project is riddled with issues.\nDisregard for UNIX Philosophy & SOLID principles: The project contains a class object named sharedClass, which resembles what is known as a God Object in object-oriented programming, an object that handles and sees everything. The Observable macro was released in WWDC 2023 alongside pie charts and phase animators, and by trying to incorporate all three into my project, I ended up working with things I didn’t understand and which had no fixes online for when troubles came up.\nPoor Ideation: The very idea behind the app is kind of useless and non impactful. For this contest specifically, Apple seeks out project ideas that are most likely to change people’s lives. Some ideas used in previous years didn’t achieve that particularly, but the projects were written so much better than mine.\nLack of Testing: Having been so low on time working on the project, I hadn’t shown it to anyone prior to submitting it to Apple. During the next couple of days, I went to a cafe with a friend whom I asked to try and use the app. He had a hard time understanding what the app was trying to achieve, how he should act/react to its components, and finally ended up crashing it by ‘using’ an antibiotic too much, which led to a number of bacteria skyrocketing high enough that the variable used to store them crashed the app. This was because I used the Gompertz model of bacterial growth which wasn’t log transformed or handled well to prevent exponential increases in counts."
+  },
+  {
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
+    "title": "What I’ve Built",
+    "section": "",
+    "text": "If it’s something I created, learned from creating, and think could be useful to others, you’ll find it here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAWS Workload Planner\n\n\n\nShell\n\nAWS\n\nMermaid\n\n\n\nA zsh-based planner that turns AWS workload requirements into Mermaid diagrams and versioned JSON plans\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonal Website\n\n\n\nQuarto\n\nGit\n\nPython\n\nR\n\nJavaScript\n\nHTML\n\nCSS\n\nShell\n\n\n\nA digital portfolio and blog for communicating progress and insight, requiring minimal Javascript, HTML and CSS knowledge for the non-web developer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDataresmic\n\n\n\nSwift\n\n\n\nMy submission for Apple’s ‘Swift Student Challenge’ back in February of 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDataCamp Competition\n\n\n\nPython\n\nSQL\n\n\n\nMy submission for DataCamp’s ‘Everyone Can Learn Python Scholarship’ back in March of 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDotfiles\n\n\n\nLua\n\nShell\n\nGit\n\n\n\nA Ghostty, Tmux and Neovim configuration tailored for data science, machine learning and computational biology\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Who Am I?",
@@ -33,6 +89,181 @@
     "title": "Who Am I?",
     "section": "Interests & Hobbies",
     "text": "Interests & Hobbies\n\nClick on the circles to see more!\n\n\n\n\n\n\nCircle packing generated using circlepackeR in R"
+  },
+  {
+    "objectID": "reading/introduction-to-mathematics-for-computational-biology.html",
+    "href": "reading/introduction-to-mathematics-for-computational-biology.html",
+    "title": "Introduction to Mathematics for Computational Biology",
+    "section": "",
+    "text": "This Springer primer explains the mathematics and algorithms behind standard data-analysis tools in systems biology, biochemistry, and biophysics, pairing each technique’s background with how to use it. It starts from biological networks and graphs and continues through the quantitative methods needed to choose, run, and interpret computational analyses rather than treat software as a black box. It is aimed at life scientists who need the math of the tools, not at pure mathematicians."
+  },
+  {
+    "objectID": "reading/introduction-to-mathematics-for-computational-biology.html#llm-generated-summary",
+    "href": "reading/introduction-to-mathematics-for-computational-biology.html#llm-generated-summary",
+    "title": "Introduction to Mathematics for Computational Biology",
+    "section": "",
+    "text": "This Springer primer explains the mathematics and algorithms behind standard data-analysis tools in systems biology, biochemistry, and biophysics, pairing each technique’s background with how to use it. It starts from biological networks and graphs and continues through the quantitative methods needed to choose, run, and interpret computational analyses rather than treat software as a black box. It is aimed at life scientists who need the math of the tools, not at pure mathematicians."
+  },
+  {
+    "objectID": "reading/introduction-to-mathematics-for-computational-biology.html#my-review",
+    "href": "reading/introduction-to-mathematics-for-computational-biology.html#my-review",
+    "title": "Introduction to Mathematics for Computational Biology",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "reading/precalculus.html",
+    "href": "reading/precalculus.html",
+    "title": "Precalculus",
+    "section": "",
+    "text": "Stewart, Redlin, and Watson’s Precalculus builds the algebraic, trigonometric, and functional machinery needed before calculus: functions and graphs, polynomials, exponentials and logarithms, trigonometric identities, analytic geometry, and sequences. It is a skills-and-applications textbook in the Stewart style, meant as preparation rather than as a conceptual foundations-of-analysis book."
+  },
+  {
+    "objectID": "reading/precalculus.html#llm-generated-summary",
+    "href": "reading/precalculus.html#llm-generated-summary",
+    "title": "Precalculus",
+    "section": "",
+    "text": "Stewart, Redlin, and Watson’s Precalculus builds the algebraic, trigonometric, and functional machinery needed before calculus: functions and graphs, polynomials, exponentials and logarithms, trigonometric identities, analytic geometry, and sequences. It is a skills-and-applications textbook in the Stewart style, meant as preparation rather than as a conceptual foundations-of-analysis book."
+  },
+  {
+    "objectID": "reading/precalculus.html#my-review",
+    "href": "reading/precalculus.html#my-review",
+    "title": "Precalculus",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "reading/bayes-rules.html",
+    "href": "reading/bayes-rules.html",
+    "title": "Bayes Rules!",
+    "section": "",
+    "text": "Bayes Rules! is an applied introduction to Bayesian modeling that teaches prior, likelihood, and posterior through real data and computation rather than a theorem-first presentation. Using R, it builds from conjugate models and MCMC to hierarchical and regression models, with an emphasis on thinking in probabilities, checking models, and communicating uncertainty. It is written as a first Bayesian course for readers who already have some statistics, not as a measure-theoretic treatment."
+  },
+  {
+    "objectID": "reading/bayes-rules.html#llm-generated-summary",
+    "href": "reading/bayes-rules.html#llm-generated-summary",
+    "title": "Bayes Rules!",
+    "section": "",
+    "text": "Bayes Rules! is an applied introduction to Bayesian modeling that teaches prior, likelihood, and posterior through real data and computation rather than a theorem-first presentation. Using R, it builds from conjugate models and MCMC to hierarchical and regression models, with an emphasis on thinking in probabilities, checking models, and communicating uncertainty. It is written as a first Bayesian course for readers who already have some statistics, not as a measure-theoretic treatment."
+  },
+  {
+    "objectID": "reading/bayes-rules.html#my-review",
+    "href": "reading/bayes-rules.html#my-review",
+    "title": "Bayes Rules!",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "reading/all-biology-is-computational-biology.html",
+    "href": "reading/all-biology-is-computational-biology.html",
+    "title": "All Biology is Computational Biology",
+    "section": "",
+    "text": "Florian Markowetz’s PLOS Biology essay argues that computational thinking is no longer a service bolted onto “real” biology but the way modern biology is done. He shows how databases and ontologies organize knowledge, how statistics reveal patterns (such as mutational signatures) invisible in single observations, and how computation turns vague ideas into testable hypotheses. The claim is that the next synthesis in biology will absorb mathematics, statistics, and computing into ordinary biological training, after which “computational biologist” will sound as odd as “pipette biologist.”"
+  },
+  {
+    "objectID": "reading/all-biology-is-computational-biology.html#llm-generated-summary",
+    "href": "reading/all-biology-is-computational-biology.html#llm-generated-summary",
+    "title": "All Biology is Computational Biology",
+    "section": "",
+    "text": "Florian Markowetz’s PLOS Biology essay argues that computational thinking is no longer a service bolted onto “real” biology but the way modern biology is done. He shows how databases and ontologies organize knowledge, how statistics reveal patterns (such as mutational signatures) invisible in single observations, and how computation turns vague ideas into testable hypotheses. The claim is that the next synthesis in biology will absorb mathematics, statistics, and computing into ordinary biological training, after which “computational biologist” will sound as odd as “pipette biologist.”"
+  },
+  {
+    "objectID": "reading/all-biology-is-computational-biology.html#my-review",
+    "href": "reading/all-biology-is-computational-biology.html#my-review",
+    "title": "All Biology is Computational Biology",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "reading/book-of-proof.html",
+    "href": "reading/book-of-proof.html",
+    "title": "Book of Proof",
+    "section": "",
+    "text": "Richard Hammack’s Book of Proof is an undergraduate introduction to reading and writing mathematical proofs, covering logic, sets, functions, relations, induction, cardinality, and counting. It trains the move from computational mathematics to definition–theorem–proof style, with many exercises of graded difficulty. The book is a standard bridge into higher mathematics rather than a research monograph."
+  },
+  {
+    "objectID": "reading/book-of-proof.html#llm-generated-summary",
+    "href": "reading/book-of-proof.html#llm-generated-summary",
+    "title": "Book of Proof",
+    "section": "",
+    "text": "Richard Hammack’s Book of Proof is an undergraduate introduction to reading and writing mathematical proofs, covering logic, sets, functions, relations, induction, cardinality, and counting. It trains the move from computational mathematics to definition–theorem–proof style, with many exercises of graded difficulty. The book is a standard bridge into higher mathematics rather than a research monograph."
+  },
+  {
+    "objectID": "reading/book-of-proof.html#my-review",
+    "href": "reading/book-of-proof.html#my-review",
+    "title": "Book of Proof",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "reading/introduction-to-algorithms.html",
+    "href": "reading/introduction-to-algorithms.html",
+    "title": "Introduction to Algorithms (CLRS)",
+    "section": "",
+    "text": "CLRS is the canonical algorithms textbook: it develops asymptotic analysis, data structures, sorting, graph algorithms, dynamic programming, greedy methods, NP-completeness, and a range of specialized topics in a uniform pseudocode-and-proof style. It is designed as a course book and reference rather than a light tutorial, with exercises that range from routine to research-flavored. The date on this entry marks the first edition of a text later editions expanded, but the gist is unchanged: rigorous, general-purpose algorithmics."
+  },
+  {
+    "objectID": "reading/introduction-to-algorithms.html#llm-generated-summary",
+    "href": "reading/introduction-to-algorithms.html#llm-generated-summary",
+    "title": "Introduction to Algorithms (CLRS)",
+    "section": "",
+    "text": "CLRS is the canonical algorithms textbook: it develops asymptotic analysis, data structures, sorting, graph algorithms, dynamic programming, greedy methods, NP-completeness, and a range of specialized topics in a uniform pseudocode-and-proof style. It is designed as a course book and reference rather than a light tutorial, with exercises that range from routine to research-flavored. The date on this entry marks the first edition of a text later editions expanded, but the gist is unchanged: rigorous, general-purpose algorithmics."
+  },
+  {
+    "objectID": "reading/introduction-to-algorithms.html#my-review",
+    "href": "reading/introduction-to-algorithms.html#my-review",
+    "title": "Introduction to Algorithms (CLRS)",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html",
+    "href": "reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html",
+    "title": "A Global Perspective on Evolving Bioinformatics and Data Science Training Needs",
+    "section": "",
+    "text": "This Briefings in Bioinformatics paper surveys a persistent global shortfall in bioinformatics and data-science skill among life scientists, even as computation has become intrinsic to biological research. Drawing on training-needs studies, Attwood and colleagues report that most respondents name data analysis and interpretation as the main gap, and they discuss how short courses, curriculum reform, and shared training infrastructure try to close it. The piece is a field-level argument rather than a methods paper: bioinformatics training has to scale with data, stay current as techniques shift, and reach researchers who were never trained as computational specialists."
+  },
+  {
+    "objectID": "reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html#llm-generated-summary",
+    "href": "reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html#llm-generated-summary",
+    "title": "A Global Perspective on Evolving Bioinformatics and Data Science Training Needs",
+    "section": "",
+    "text": "This Briefings in Bioinformatics paper surveys a persistent global shortfall in bioinformatics and data-science skill among life scientists, even as computation has become intrinsic to biological research. Drawing on training-needs studies, Attwood and colleagues report that most respondents name data analysis and interpretation as the main gap, and they discuss how short courses, curriculum reform, and shared training infrastructure try to close it. The piece is a field-level argument rather than a methods paper: bioinformatics training has to scale with data, stay current as techniques shift, and reach researchers who were never trained as computational specialists."
+  },
+  {
+    "objectID": "reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html#my-review",
+    "href": "reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html#my-review",
+    "title": "A Global Perspective on Evolving Bioinformatics and Data Science Training Needs",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "reading/the-c-programming-language.html",
+    "href": "reading/the-c-programming-language.html",
+    "title": "The C Programming Language",
+    "section": "",
+    "text": "Kernighan and Ritchie’s The C Programming Language is the classic, compact introduction to C by the language’s authors, covering types, control flow, functions, pointers, arrays, structures, and the standard library in a spare, example-driven style. This 1988 second edition teaches ANSI C and remains a model of how to present a systems language without padding. It is both a tutorial and a short reference for writing idiomatic C."
+  },
+  {
+    "objectID": "reading/the-c-programming-language.html#llm-generated-summary",
+    "href": "reading/the-c-programming-language.html#llm-generated-summary",
+    "title": "The C Programming Language",
+    "section": "",
+    "text": "Kernighan and Ritchie’s The C Programming Language is the classic, compact introduction to C by the language’s authors, covering types, control flow, functions, pointers, arrays, structures, and the standard library in a spare, example-driven style. This 1988 second edition teaches ANSI C and remains a model of how to present a systems language without padding. It is both a tutorial and a short reference for writing idiomatic C."
+  },
+  {
+    "objectID": "reading/the-c-programming-language.html#my-review",
+    "href": "reading/the-c-programming-language.html#my-review",
+    "title": "The C Programming Language",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "blog/welcome.html",
+    "href": "blog/welcome.html",
+    "title": "What’s On My Mind",
+    "section": "",
+    "text": "Welcome to my blog! This is where I talk about my experiences and share my perspective\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy AI Didn’t Stop Me From Learning to Code\n\n\n\nMachine Learning\n\nArtificial Intelligence\n\nLearn to Code\n\n\n\nAn affirmation based on optimism and caution.\n\n\n\n\n\nSep 14, 2025\n\n\nAmmar Aldawood\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posts/2025-09-14.html",
@@ -98,32 +329,200 @@
     "text": "Footnotes\n\n\nThere are numerous papers that talk about this, here are some of them: All Biology is Computational Biology, Mathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better↩︎\nGoogle CEO Sees AI as More Profound Than Fire, Electricity - Bloomberg Television↩︎\nIs Your Red the Same as My Red - VSauce↩︎\nA Conversation with the Founder of NVIDIA: Who Will Shape the Future of AI? - World Governments Summit↩︎\nIncreased Corpus Callosum Size in Musicians↩︎\nIs Learning Computer Programming Associated with Developing Thinking Skills?↩︎\nThe Cognitive Benefits of Learning Computer Programming: A Meta-Analysis of Transfer Effects↩︎"
   },
   {
-    "objectID": "projects/dataresmic.html",
-    "href": "projects/dataresmic.html",
-    "title": "Dataresmic",
+    "objectID": "reading/linear-algebra-done-right.html",
+    "href": "reading/linear-algebra-done-right.html",
+    "title": "Linear Algebra Done Right",
     "section": "",
-    "text": "Target Audience:\nApple’s ‘Swift Student Challenge’ judging committee\n\n\n\n\nValue Proposition:\nEducation on the emergence of antibiotic resistance due to certain practices\n\n\nProduct Link:\nNot applicable\n\n\nDemonstration Link:\nNot available yet\n\n\nSource Repository:\ngithub.com/ammaraldawood/dataresmic\n\n\nInfluenced By:\nSeveral ‘Swift Student Challenge’ applicants from previous years"
+    "text": "Sheldon Axler’s Linear Algebra Done Right is a proof-based course on finite-dimensional vector spaces that postpones determinants and foregrounds linear maps, eigenvalues, inner-product spaces, and operators. It is written to replace the matrix-calculation-first path with conceptual understanding suitable as a second course in linear algebra. The book is terse, exercise-driven, and aimed at mathematics students rather than engineers looking for row-reduction drills."
   },
   {
-    "objectID": "projects/dataresmic.html#technology-stack",
-    "href": "projects/dataresmic.html#technology-stack",
-    "title": "Dataresmic",
+    "objectID": "reading/linear-algebra-done-right.html#llm-generated-summary",
+    "href": "reading/linear-algebra-done-right.html#llm-generated-summary",
+    "title": "Linear Algebra Done Right",
+    "section": "",
+    "text": "Sheldon Axler’s Linear Algebra Done Right is a proof-based course on finite-dimensional vector spaces that postpones determinants and foregrounds linear maps, eigenvalues, inner-product spaces, and operators. It is written to replace the matrix-calculation-first path with conceptual understanding suitable as a second course in linear algebra. The book is terse, exercise-driven, and aimed at mathematics students rather than engineers looking for row-reduction drills."
+  },
+  {
+    "objectID": "reading/linear-algebra-done-right.html#my-review",
+    "href": "reading/linear-algebra-done-right.html#my-review",
+    "title": "Linear Algebra Done Right",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "reading/calculus.html",
+    "href": "reading/calculus.html",
+    "title": "Calculus",
+    "section": "",
+    "text": "James Stewart’s Calculus is a mainstream calculus textbook spanning limits, derivatives, integrals, sequences and series, and multivariable calculus, with a large bank of applied problems in science and engineering. It emphasizes technique, geometric intuition, and applications over a fully rigorous real-analysis foundation. This edition is the standard university workhorse for learning to compute and use calculus."
+  },
+  {
+    "objectID": "reading/calculus.html#llm-generated-summary",
+    "href": "reading/calculus.html#llm-generated-summary",
+    "title": "Calculus",
+    "section": "",
+    "text": "James Stewart’s Calculus is a mainstream calculus textbook spanning limits, derivatives, integrals, sequences and series, and multivariable calculus, with a large bank of applied problems in science and engineering. It emphasizes technique, geometric intuition, and applications over a fully rigorous real-analysis foundation. This edition is the standard university workhorse for learning to compute and use calculus."
+  },
+  {
+    "objectID": "reading/calculus.html#my-review",
+    "href": "reading/calculus.html#my-review",
+    "title": "Calculus",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "reading/readinglist.html",
+    "href": "reading/readinglist.html",
+    "title": "What I’m Reading",
+    "section": "",
+    "text": "A collection of insightful books, papers, and writings, distinct from my broader, more arbitrary daily reading.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Mathematics for Computational Biology\n\n\n\nBook\n\nMathematics\n\nCompleted\n\n\n\n\nBruno Carpentieri and Paola Lecca\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nEssential Math for Data Science\n\n\n\nBook\n\nMathematics\n\nCompleted\n\n\n\n\nThomas Nield\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe StatQuest Illustrated Guide to Machine Learning\n\n\n\nBook\n\nMachine Learning\n\nCompleted\n\n\n\n\nJosh Starmer\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nBayes Rules!\n\n\n\nBook\n\nStatistics\n\nCompleted\n\n\n\n\nAlicia A. Johnson, Miles Q. Ott and Mine Dogucu\n\n\n2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Global Perspective on Evolving Bioinformatics and Data Science Training Needs\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\nTeresa K. Attwood, Sarah Blackford, Michelle D. Brazas, Angela Davies and Maria Victoria Schneider\n\n\n2017\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll Biology is Computational Biology\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\nFlorian Markowetz\n\n\n2017\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalculus\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\nJames Stewart\n\n\n2015\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Tour of C++\n\n\n\nBook\n\nComputation\n\nActive\n\n\n\n\nBjarne Stroustrup\n\n\n2013\n\n\n\n\n\n\n\n\n\n\n\n\n\nBook of Proof\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\nRichard Hammack\n\n\n2009\n\n\n\n\n\n\n\n\n\n\n\n\n\nMathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\nJoel E Cohen\n\n\n2004\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\n\n\n\nBook\n\nComputation\n\nCompleted\n\n\n\n\nCharles Petzold\n\n\n1999\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrecalculus\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\nJames Stewart, Lothar Redlin and Saleem Watson\n\n\n1997\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Algebra Done Right\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\nSheldon Axler\n\n\n1995\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Algorithms (CLRS)\n\n\n\nBook\n\nComputation\n\nActive\n\n\n\n\nThomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein\n\n\n1989\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe C Programming Language\n\n\n\nBook\n\nComputation\n\nCompleted\n\n\n\n\nBrian Kernighan and Dennis Ritchie\n\n\n1988\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "reading/a-tour-of-cpp.html",
+    "href": "reading/a-tour-of-cpp.html",
+    "title": "A Tour of C++",
+    "section": "",
+    "text": "Bjarne Stroustrup’s A Tour of C++ is a compact walk through the language by its designer, written for programmers who already know how to code and want the shape of modern C++ rather than a from-scratch tutorial. It moves quickly from types, objects, and functions into classes, templates, the standard library, and concurrency, showing how those pieces fit together as one language. This 2013 edition is a map of C++11-era C++ more than an encyclopedic reference: a structured overview before a fuller textbook or the standard."
+  },
+  {
+    "objectID": "reading/a-tour-of-cpp.html#llm-generated-summary",
+    "href": "reading/a-tour-of-cpp.html#llm-generated-summary",
+    "title": "A Tour of C++",
+    "section": "",
+    "text": "Bjarne Stroustrup’s A Tour of C++ is a compact walk through the language by its designer, written for programmers who already know how to code and want the shape of modern C++ rather than a from-scratch tutorial. It moves quickly from types, objects, and functions into classes, templates, the standard library, and concurrency, showing how those pieces fit together as one language. This 2013 edition is a map of C++11-era C++ more than an encyclopedic reference: a structured overview before a fuller textbook or the standard."
+  },
+  {
+    "objectID": "reading/a-tour-of-cpp.html#my-review",
+    "href": "reading/a-tour-of-cpp.html#my-review",
+    "title": "A Tour of C++",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "reading/mathematics-is-biology's-next-microscope-only-better-biology-is-math's-next-physics-only-better.html",
+    "href": "reading/mathematics-is-biology's-next-microscope-only-better-biology-is-math's-next-physics-only-better.html",
+    "title": "Mathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better",
+    "section": "",
+    "text": "Joel E. Cohen’s PLOS Biology essay argues a two-way claim: mathematics will reveal biological structure the way the microscope revealed microbes, and biology’s heterogeneity will force genuinely new mathematics the way physics once did. He traces the history of quantitative biology, maps current math–biology interactions, and lists open challenges at many scales of life. It is a manifesto for mathematical biology as mutual enrichment, not just applied calculus on living systems."
+  },
+  {
+    "objectID": "reading/mathematics-is-biology's-next-microscope-only-better-biology-is-math's-next-physics-only-better.html#llm-generated-summary",
+    "href": "reading/mathematics-is-biology's-next-microscope-only-better-biology-is-math's-next-physics-only-better.html#llm-generated-summary",
+    "title": "Mathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better",
+    "section": "",
+    "text": "Joel E. Cohen’s PLOS Biology essay argues a two-way claim: mathematics will reveal biological structure the way the microscope revealed microbes, and biology’s heterogeneity will force genuinely new mathematics the way physics once did. He traces the history of quantitative biology, maps current math–biology interactions, and lists open challenges at many scales of life. It is a manifesto for mathematical biology as mutual enrichment, not just applied calculus on living systems."
+  },
+  {
+    "objectID": "reading/mathematics-is-biology's-next-microscope-only-better-biology-is-math's-next-physics-only-better.html#my-review",
+    "href": "reading/mathematics-is-biology's-next-microscope-only-better-biology-is-math's-next-physics-only-better.html#my-review",
+    "title": "Mathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "reading/code.html",
+    "href": "reading/code.html",
+    "title": "Code",
+    "section": "",
+    "text": "Charles Petzold’s Code explains how computers work by building them conceptually from familiar pieces: telegraph and Morse, relays, binary, logic gates, adders, memory, and finally a simple processor and programming. It is a bottom-up engineering narrative that makes machine representation and instruction execution concrete without assuming a computer-science degree. The gist is that software is not magic; it is layers of encoding on switching hardware."
+  },
+  {
+    "objectID": "reading/code.html#llm-generated-summary",
+    "href": "reading/code.html#llm-generated-summary",
+    "title": "Code",
+    "section": "",
+    "text": "Charles Petzold’s Code explains how computers work by building them conceptually from familiar pieces: telegraph and Morse, relays, binary, logic gates, adders, memory, and finally a simple processor and programming. It is a bottom-up engineering narrative that makes machine representation and instruction execution concrete without assuming a computer-science degree. The gist is that software is not magic; it is layers of encoding on switching hardware."
+  },
+  {
+    "objectID": "reading/code.html#my-review",
+    "href": "reading/code.html#my-review",
+    "title": "Code",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "reading/essential-math-for-data-science.html",
+    "href": "reading/essential-math-for-data-science.html",
+    "title": "Essential Math for Data Science",
+    "section": "",
+    "text": "Thomas Nield’s Essential Math for Data Science reviews the calculus, probability, statistics, and linear algebra that sit under everyday data work, then connects them to linear and logistic regression and related machine-learning practice. It is a practitioner-oriented refresher with code, not a proof-heavy mathematics text. The aim is to make model-fitting and evaluation less of a black box for people who already write some code."
+  },
+  {
+    "objectID": "reading/essential-math-for-data-science.html#llm-generated-summary",
+    "href": "reading/essential-math-for-data-science.html#llm-generated-summary",
+    "title": "Essential Math for Data Science",
+    "section": "",
+    "text": "Thomas Nield’s Essential Math for Data Science reviews the calculus, probability, statistics, and linear algebra that sit under everyday data work, then connects them to linear and logistic regression and related machine-learning practice. It is a practitioner-oriented refresher with code, not a proof-heavy mathematics text. The aim is to make model-fitting and evaluation less of a black box for people who already write some code."
+  },
+  {
+    "objectID": "reading/essential-math-for-data-science.html#my-review",
+    "href": "reading/essential-math-for-data-science.html#my-review",
+    "title": "Essential Math for Data Science",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "reading/the-statquest-illustrated-guide-to-machine-learning.html",
+    "href": "reading/the-statquest-illustrated-guide-to-machine-learning.html",
+    "title": "The StatQuest Illustrated Guide to Machine Learning",
+    "section": "",
+    "text": "Josh Starmer’s illustrated guide teaches core machine-learning ideas—cross-validation, bias and variance, regression, naive Bayes, trees, and neural nets among them—through informal pictures and intuition-first explanations rather than dense linear algebra. It is a visual primer for newcomers who want to know what the algorithms are doing, not a graduate machine-learning theory text."
+  },
+  {
+    "objectID": "reading/the-statquest-illustrated-guide-to-machine-learning.html#llm-generated-summary",
+    "href": "reading/the-statquest-illustrated-guide-to-machine-learning.html#llm-generated-summary",
+    "title": "The StatQuest Illustrated Guide to Machine Learning",
+    "section": "",
+    "text": "Josh Starmer’s illustrated guide teaches core machine-learning ideas—cross-validation, bias and variance, regression, naive Bayes, trees, and neural nets among them—through informal pictures and intuition-first explanations rather than dense linear algebra. It is a visual primer for newcomers who want to know what the algorithms are doing, not a graduate machine-learning theory text."
+  },
+  {
+    "objectID": "reading/the-statquest-illustrated-guide-to-machine-learning.html#my-review",
+    "href": "reading/the-statquest-illustrated-guide-to-machine-learning.html#my-review",
+    "title": "The StatQuest Illustrated Guide to Machine Learning",
+    "section": "My Review",
+    "text": "My Review"
+  },
+  {
+    "objectID": "projects/aws.html",
+    "href": "projects/aws.html",
+    "title": "AWS Workload Planner",
+    "section": "",
+    "text": "Target Audience:\nPeople who need to compare AWS compute options for demanding workloads\n\n\n\n\nValue Proposition:\nWorkload interviews that produce AWS architecture recommendations, diagrams, and versioned plans\n\n\nProduct Link:\nNot applicable\n\n\nDemonstration Link:\nBlog post coming soon!\n\n\nSource Repository:\ngithub.com/ammaraldawood/aws"
+  },
+  {
+    "objectID": "projects/aws.html#technology-stack",
+    "href": "projects/aws.html#technology-stack",
+    "title": "AWS Workload Planner",
     "section": "Technology Stack",
-    "text": "Technology Stack\n\nProgramming Languages:\n\nSwift: Used for the entirety of the project\n\n\n\n\nCore Technologies:\n\nSwiftUI: Building the user interface of the app\nSwift Charts: Used to create a pie chart to simulate infection and a scrollable chart to show the history of infection\nXcode: The main IDE used to build the project\nAdobe Illustrator: Used to create the logo, thumbnail and the mascot (Dominic)\nSF Symbols: Used to create the icons used inside the SimulationView"
+    "text": "Technology Stack\n\nProgramming Languages:\n\nShell: Zsh scripts for workload interviews and plan generation.\n\n\n\n\nCore Technologies:\n\njq: Validates and processes planner data.\nAWS CLI: Optional Region discovery from local AWS configuration.\nMermaid CLI: Renders architecture diagrams from Mermaid source.\nChafa: Optional terminal image previews."
   },
   {
-    "objectID": "projects/dataresmic.html#project-learningsskills",
-    "href": "projects/dataresmic.html#project-learningsskills",
-    "title": "Dataresmic",
+    "objectID": "projects/aws.html#project-learningsskills",
+    "href": "projects/aws.html#project-learningsskills",
+    "title": "AWS Workload Planner",
     "section": "Project Learnings/Skills",
-    "text": "Project Learnings/Skills\n\nSoftware Architecture: Managing the interplay of different files, the environment and observable attributes, and handling persistence of values.\nCharting: Creating both a live and a scrollable chart using Swift Charts.\nGraphic Design: Created the logo, thumbnail, icons and others using software external to Xcode like Adobe Illustrator and SF Symbols.\nPractical Practice: This happens to be my first coding project of any kind, and so it represents the first time I went out of ‘tutorial hell’ into ‘learning by doing’ (not including the DataCamp contest a year earlier which is more of a presentation and less of a project)"
+    "text": "Project Learnings/Skills\n\nArchitecture selection: Turn a workload description into a small set of AWS services, then draw only the services and setup steps that were chosen.\nVersioned plans: Keep workload requirements, selected services, resources, relationships, and rationale together in a versioned JSON plan.\nLLM prompting and HITL: The repo is mostly written by LLMs, which required a lot of back and forth with them to get them to understand what I want and how I want it to look like."
   },
   {
-    "objectID": "projects/dataresmic.html#project-pitfalls",
-    "href": "projects/dataresmic.html#project-pitfalls",
-    "title": "Dataresmic",
-    "section": "Project Pitfalls",
-    "text": "Project Pitfalls\n\nScarcity of Training and Time: The project was created within 1 year and 6 months of me first beginning to learn how to program and code, and it was started on the 20th of January of 2024 and finished by the 26th of February of 2024, meaning the code, art and ideation all happened in a period of five weeks. In hindsight, the project is riddled with issues.\nDisregard for UNIX Philosophy & SOLID principles: The project contains a class object named sharedClass, which resembles what is known as a God Object in object-oriented programming, an object that handles and sees everything. The Observable macro was released in WWDC 2023 alongside pie charts and phase animators, and by trying to incorporate all three into my project, I ended up working with things I didn’t understand and which had no fixes online for when troubles came up.\nPoor Ideation: The very idea behind the app is kind of useless and non impactful. For this contest specifically, Apple seeks out project ideas that are most likely to change people’s lives. Some ideas used in previous years didn’t achieve that particularly, but the projects were written so much better than mine.\nLack of Testing: Having been so low on time working on the project, I hadn’t shown it to anyone prior to submitting it to Apple. During the next couple of days, I went to a cafe with a friend whom I asked to try and use the app. He had a hard time understanding what the app was trying to achieve, how he should act/react to its components, and finally ended up crashing it by ‘using’ an antibiotic too much, which led to a number of bacteria skyrocketing high enough that the variable used to store them crashed the app. This was because I used the Gompertz model of bacterial growth which wasn’t log transformed or handled well to prevent exponential increases in counts."
+    "objectID": "projects/personal-website.html",
+    "href": "projects/personal-website.html",
+    "title": "Personal Website",
+    "section": "",
+    "text": "Target Audience:\nGeneralists, computational biologists and data/machine learning scientists\n\n\n\n\nValue Proposition:\nHard-won perspectives on a plethora of different topics\n\n\nProduct Link:\nammaraldawood.com\n\n\nDemonstration Link:\nBlog post coming soon!\n\n\nSource Repository:\ngithub.com/ammaraldawood/ammaraldawood.github.io\n\n\nInfluenced By:\nSamantha Shanny-Csik"
+  },
+  {
+    "objectID": "projects/personal-website.html#technology-stack",
+    "href": "projects/personal-website.html#technology-stack",
+    "title": "Personal Website",
+    "section": "Technology Stack",
+    "text": "Technology Stack\n\nProgramming Languages:\n\nR: Visualizations and diagrams.\nJavascript: Mermaid diagrams.\nHTML: Custom buttons and website elements.\nCSS: Styling for website elements.\nShell: Quarto and Git CLI.\n\n\n\n\nCore Technologies:\n\nQuarto: Main tool used to build the website with .qmd files.\nGitHub: Hosts the website using GitHub Pages.\nGit: Version control."
+  },
+  {
+    "objectID": "projects/personal-website.html#project-learningsskills",
+    "href": "projects/personal-website.html#project-learningsskills",
+    "title": "Personal Website",
+    "section": "Project Learnings/Skills",
+    "text": "Project Learnings/Skills\n\nProgrammatic Visualization: All original diagrams and visualizations for this website and blog posts were generated programmatically (e.g., using Python/R libraries) rather than using standard graphic design tools as a self-imposed technical constraint.\nTechnical Writing Skills: Proficiency in creating and deploying code-integrated documentation. Focus on clear narrative flow and attention-grabbing storytelling.\nProject Management: Planning the overall structure of the website to suit my specific needs, avoid overlap and regurgitation between website sections and create an easily navigable experience for the visitor."
   },
   {
     "objectID": "projects/datacamp-competition.html",
@@ -152,404 +551,5 @@
     "title": "DataCamp Competition",
     "section": "Project Pitfalls",
     "text": "Project Pitfalls\n\nLack of Novelty: Not including AI and sophisticated Python libraries or SQL visualizations made the project suffer during the first phase of community voting, which probably means it never got to be judged by the DataCamp staff. Being minimally sufficient, similar to the way linear regression is sometimes the best tool to use in machine learning tasks as opposed to neural networks, was a disadvantage given that the goal was not to accomplish the given task, but rather to wow the voting community.\nMissed Visualization Best Practices: Using a form of jitter for overlapping points and varying the libraries used for visualization might have had more desired outcomes."
-  },
-  {
-    "objectID": "projects/projects.html",
-    "href": "projects/projects.html",
-    "title": "What I’ve Built",
-    "section": "",
-    "text": "If it’s something I created, learned from creating, and think could be useful to others, you’ll find it here.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonal Computer to AWS\n\n\n\nShell\n\nAWS\n\nMermaid\n\n\n\nA user-side toolkit for moving heavy work onto AWS: plan the architecture, launch EC2 instances, and browse S3 from the terminal\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPersonal Website\n\n\n\nQuarto\n\nGit\n\nPython\n\nR\n\nJavaScript\n\nHTML\n\nCSS\n\nShell\n\n\n\nA digital portfolio and blog for communicating progress and insight, requiring minimal Javascript, HTML and CSS knowledge for the non-web developer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDataCamp Competition\n\n\n\nPython\n\nSQL\n\n\n\nMy submission for DataCamp’s ‘Everyone Can Learn Python Scholarship’ back in March of 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDotfiles\n\n\n\nLua\n\nShell\n\nGit\n\n\n\nA Ghostty, Tmux and Neovim configuration tailored for data science, machine learning and computational biology\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDataresmic\n\n\n\nSwift\n\n\n\nMy submission for Apple’s ‘Swift Student Challenge’ back in February of 2024\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "reading/bayes-rules.html",
-    "href": "reading/bayes-rules.html",
-    "title": "Bayes Rules!",
-    "section": "",
-    "text": "Bayes Rules! is an applied introduction to Bayesian modeling that teaches prior, likelihood, and posterior through real data and computation rather than a theorem-first presentation. Using R, it builds from conjugate models and MCMC to hierarchical and regression models, with an emphasis on thinking in probabilities, checking models, and communicating uncertainty. It is written as a first Bayesian course for readers who already have some statistics, not as a measure-theoretic treatment."
-  },
-  {
-    "objectID": "reading/bayes-rules.html#llm-generated-summary",
-    "href": "reading/bayes-rules.html#llm-generated-summary",
-    "title": "Bayes Rules!",
-    "section": "",
-    "text": "Bayes Rules! is an applied introduction to Bayesian modeling that teaches prior, likelihood, and posterior through real data and computation rather than a theorem-first presentation. Using R, it builds from conjugate models and MCMC to hierarchical and regression models, with an emphasis on thinking in probabilities, checking models, and communicating uncertainty. It is written as a first Bayesian course for readers who already have some statistics, not as a measure-theoretic treatment."
-  },
-  {
-    "objectID": "reading/bayes-rules.html#my-review",
-    "href": "reading/bayes-rules.html#my-review",
-    "title": "Bayes Rules!",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "reading/book-of-proof.html",
-    "href": "reading/book-of-proof.html",
-    "title": "Book of Proof",
-    "section": "",
-    "text": "Richard Hammack’s Book of Proof is an undergraduate introduction to reading and writing mathematical proofs, covering logic, sets, functions, relations, induction, cardinality, and counting. It trains the move from computational mathematics to definition–theorem–proof style, with many exercises of graded difficulty. The book is a standard bridge into higher mathematics rather than a research monograph."
-  },
-  {
-    "objectID": "reading/book-of-proof.html#llm-generated-summary",
-    "href": "reading/book-of-proof.html#llm-generated-summary",
-    "title": "Book of Proof",
-    "section": "",
-    "text": "Richard Hammack’s Book of Proof is an undergraduate introduction to reading and writing mathematical proofs, covering logic, sets, functions, relations, induction, cardinality, and counting. It trains the move from computational mathematics to definition–theorem–proof style, with many exercises of graded difficulty. The book is a standard bridge into higher mathematics rather than a research monograph."
-  },
-  {
-    "objectID": "reading/book-of-proof.html#my-review",
-    "href": "reading/book-of-proof.html#my-review",
-    "title": "Book of Proof",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "reading/readinglist.html",
-    "href": "reading/readinglist.html",
-    "title": "What I’m Reading",
-    "section": "",
-    "text": "A collection of insightful books, papers, and writings, distinct from my broader, more arbitrary daily reading.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Mathematics for Computational Biology\n\n\n\nBook\n\nMathematics\n\nCompleted\n\n\n\n\nBruno Carpentieri and Paola Lecca\n\n\n2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe StatQuest Illustrated Guide to Machine Learning\n\n\n\nBook\n\nMachine Learning\n\nCompleted\n\n\n\n\nJosh Starmer\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nEssential Math for Data Science\n\n\n\nBook\n\nMathematics\n\nCompleted\n\n\n\n\nThomas Nield\n\n\n2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nBayes Rules!\n\n\n\nBook\n\nStatistics\n\nCompleted\n\n\n\n\nAlicia A. Johnson, Miles Q. Ott and Mine Dogucu\n\n\n2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nAll Biology is Computational Biology\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\nFlorian Markowetz\n\n\n2017\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Global Perspective on Evolving Bioinformatics and Data Science Training Needs\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\nTeresa K. Attwood, Sarah Blackford, Michelle D. Brazas, Angela Davies and Maria Victoria Schneider\n\n\n2017\n\n\n\n\n\n\n\n\n\n\n\n\n\nCalculus\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\nJames Stewart\n\n\n2015\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Tour of C++\n\n\n\nBook\n\nComputation\n\nActive\n\n\n\n\nBjarne Stroustrup\n\n\n2013\n\n\n\n\n\n\n\n\n\n\n\n\n\nBook of Proof\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\nRichard Hammack\n\n\n2009\n\n\n\n\n\n\n\n\n\n\n\n\n\nMathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better\n\n\n\nPaper\n\nBioinformatics\n\nCompleted\n\n\n\n\nJoel E Cohen\n\n\n2004\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\n\n\n\nBook\n\nComputation\n\nCompleted\n\n\n\n\nCharles Petzold\n\n\n1999\n\n\n\n\n\n\n\n\n\n\n\n\n\nPrecalculus\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\nJames Stewart, Lothar Redlin and Saleem Watson\n\n\n1997\n\n\n\n\n\n\n\n\n\n\n\n\n\nLinear Algebra Done Right\n\n\n\nBook\n\nMathematics\n\nActive\n\n\n\n\nSheldon Axler\n\n\n1995\n\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Algorithms (CLRS)\n\n\n\nBook\n\nComputation\n\nActive\n\n\n\n\nThomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein\n\n\n1989\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe C Programming Language\n\n\n\nBook\n\nComputation\n\nCompleted\n\n\n\n\nBrian Kernighan and Dennis Ritchie\n\n\n1988\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "reading/all-biology-is-computational-biology.html",
-    "href": "reading/all-biology-is-computational-biology.html",
-    "title": "All Biology is Computational Biology",
-    "section": "",
-    "text": "Florian Markowetz’s PLOS Biology essay argues that computational thinking is no longer a service bolted onto “real” biology but the way modern biology is done. He shows how databases and ontologies organize knowledge, how statistics reveal patterns (such as mutational signatures) invisible in single observations, and how computation turns vague ideas into testable hypotheses. The claim is that the next synthesis in biology will absorb mathematics, statistics, and computing into ordinary biological training, after which “computational biologist” will sound as odd as “pipette biologist.”"
-  },
-  {
-    "objectID": "reading/all-biology-is-computational-biology.html#llm-generated-summary",
-    "href": "reading/all-biology-is-computational-biology.html#llm-generated-summary",
-    "title": "All Biology is Computational Biology",
-    "section": "",
-    "text": "Florian Markowetz’s PLOS Biology essay argues that computational thinking is no longer a service bolted onto “real” biology but the way modern biology is done. He shows how databases and ontologies organize knowledge, how statistics reveal patterns (such as mutational signatures) invisible in single observations, and how computation turns vague ideas into testable hypotheses. The claim is that the next synthesis in biology will absorb mathematics, statistics, and computing into ordinary biological training, after which “computational biologist” will sound as odd as “pipette biologist.”"
-  },
-  {
-    "objectID": "reading/all-biology-is-computational-biology.html#my-review",
-    "href": "reading/all-biology-is-computational-biology.html#my-review",
-    "title": "All Biology is Computational Biology",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "reading/linear-algebra-done-right.html",
-    "href": "reading/linear-algebra-done-right.html",
-    "title": "Linear Algebra Done Right",
-    "section": "",
-    "text": "Sheldon Axler’s Linear Algebra Done Right is a proof-based course on finite-dimensional vector spaces that postpones determinants and foregrounds linear maps, eigenvalues, inner-product spaces, and operators. It is written to replace the matrix-calculation-first path with conceptual understanding suitable as a second course in linear algebra. The book is terse, exercise-driven, and aimed at mathematics students rather than engineers looking for row-reduction drills."
-  },
-  {
-    "objectID": "reading/linear-algebra-done-right.html#llm-generated-summary",
-    "href": "reading/linear-algebra-done-right.html#llm-generated-summary",
-    "title": "Linear Algebra Done Right",
-    "section": "",
-    "text": "Sheldon Axler’s Linear Algebra Done Right is a proof-based course on finite-dimensional vector spaces that postpones determinants and foregrounds linear maps, eigenvalues, inner-product spaces, and operators. It is written to replace the matrix-calculation-first path with conceptual understanding suitable as a second course in linear algebra. The book is terse, exercise-driven, and aimed at mathematics students rather than engineers looking for row-reduction drills."
-  },
-  {
-    "objectID": "reading/linear-algebra-done-right.html#my-review",
-    "href": "reading/linear-algebra-done-right.html#my-review",
-    "title": "Linear Algebra Done Right",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "reading/the-c-programming-language.html",
-    "href": "reading/the-c-programming-language.html",
-    "title": "The C Programming Language",
-    "section": "",
-    "text": "Kernighan and Ritchie’s The C Programming Language is the classic, compact introduction to C by the language’s authors, covering types, control flow, functions, pointers, arrays, structures, and the standard library in a spare, example-driven style. This 1988 second edition teaches ANSI C and remains a model of how to present a systems language without padding. It is both a tutorial and a short reference for writing idiomatic C."
-  },
-  {
-    "objectID": "reading/the-c-programming-language.html#llm-generated-summary",
-    "href": "reading/the-c-programming-language.html#llm-generated-summary",
-    "title": "The C Programming Language",
-    "section": "",
-    "text": "Kernighan and Ritchie’s The C Programming Language is the classic, compact introduction to C by the language’s authors, covering types, control flow, functions, pointers, arrays, structures, and the standard library in a spare, example-driven style. This 1988 second edition teaches ANSI C and remains a model of how to present a systems language without padding. It is both a tutorial and a short reference for writing idiomatic C."
-  },
-  {
-    "objectID": "reading/the-c-programming-language.html#my-review",
-    "href": "reading/the-c-programming-language.html#my-review",
-    "title": "The C Programming Language",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "reading/introduction-to-mathematics-for-computational-biology.html",
-    "href": "reading/introduction-to-mathematics-for-computational-biology.html",
-    "title": "Introduction to Mathematics for Computational Biology",
-    "section": "",
-    "text": "This Springer primer explains the mathematics and algorithms behind standard data-analysis tools in systems biology, biochemistry, and biophysics, pairing each technique’s background with how to use it. It starts from biological networks and graphs and continues through the quantitative methods needed to choose, run, and interpret computational analyses rather than treat software as a black box. It is aimed at life scientists who need the math of the tools, not at pure mathematicians."
-  },
-  {
-    "objectID": "reading/introduction-to-mathematics-for-computational-biology.html#llm-generated-summary",
-    "href": "reading/introduction-to-mathematics-for-computational-biology.html#llm-generated-summary",
-    "title": "Introduction to Mathematics for Computational Biology",
-    "section": "",
-    "text": "This Springer primer explains the mathematics and algorithms behind standard data-analysis tools in systems biology, biochemistry, and biophysics, pairing each technique’s background with how to use it. It starts from biological networks and graphs and continues through the quantitative methods needed to choose, run, and interpret computational analyses rather than treat software as a black box. It is aimed at life scientists who need the math of the tools, not at pure mathematicians."
-  },
-  {
-    "objectID": "reading/introduction-to-mathematics-for-computational-biology.html#my-review",
-    "href": "reading/introduction-to-mathematics-for-computational-biology.html#my-review",
-    "title": "Introduction to Mathematics for Computational Biology",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "reading/calculus.html",
-    "href": "reading/calculus.html",
-    "title": "Calculus",
-    "section": "",
-    "text": "James Stewart’s Calculus is a mainstream calculus textbook spanning limits, derivatives, integrals, sequences and series, and multivariable calculus, with a large bank of applied problems in science and engineering. It emphasizes technique, geometric intuition, and applications over a fully rigorous real-analysis foundation. This edition is the standard university workhorse for learning to compute and use calculus."
-  },
-  {
-    "objectID": "reading/calculus.html#llm-generated-summary",
-    "href": "reading/calculus.html#llm-generated-summary",
-    "title": "Calculus",
-    "section": "",
-    "text": "James Stewart’s Calculus is a mainstream calculus textbook spanning limits, derivatives, integrals, sequences and series, and multivariable calculus, with a large bank of applied problems in science and engineering. It emphasizes technique, geometric intuition, and applications over a fully rigorous real-analysis foundation. This edition is the standard university workhorse for learning to compute and use calculus."
-  },
-  {
-    "objectID": "reading/calculus.html#my-review",
-    "href": "reading/calculus.html#my-review",
-    "title": "Calculus",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "reading/precalculus.html",
-    "href": "reading/precalculus.html",
-    "title": "Precalculus",
-    "section": "",
-    "text": "Stewart, Redlin, and Watson’s Precalculus builds the algebraic, trigonometric, and functional machinery needed before calculus: functions and graphs, polynomials, exponentials and logarithms, trigonometric identities, analytic geometry, and sequences. It is a skills-and-applications textbook in the Stewart style, meant as preparation rather than as a conceptual foundations-of-analysis book."
-  },
-  {
-    "objectID": "reading/precalculus.html#llm-generated-summary",
-    "href": "reading/precalculus.html#llm-generated-summary",
-    "title": "Precalculus",
-    "section": "",
-    "text": "Stewart, Redlin, and Watson’s Precalculus builds the algebraic, trigonometric, and functional machinery needed before calculus: functions and graphs, polynomials, exponentials and logarithms, trigonometric identities, analytic geometry, and sequences. It is a skills-and-applications textbook in the Stewart style, meant as preparation rather than as a conceptual foundations-of-analysis book."
-  },
-  {
-    "objectID": "reading/precalculus.html#my-review",
-    "href": "reading/precalculus.html#my-review",
-    "title": "Precalculus",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "reading/a-tour-of-cpp.html",
-    "href": "reading/a-tour-of-cpp.html",
-    "title": "A Tour of C++",
-    "section": "",
-    "text": "Bjarne Stroustrup’s A Tour of C++ is a compact walk through the language by its designer, written for programmers who already know how to code and want the shape of modern C++ rather than a from-scratch tutorial. It moves quickly from types, objects, and functions into classes, templates, the standard library, and concurrency, showing how those pieces fit together as one language. This 2013 edition is a map of C++11-era C++ more than an encyclopedic reference: a structured overview before a fuller textbook or the standard."
-  },
-  {
-    "objectID": "reading/a-tour-of-cpp.html#llm-generated-summary",
-    "href": "reading/a-tour-of-cpp.html#llm-generated-summary",
-    "title": "A Tour of C++",
-    "section": "",
-    "text": "Bjarne Stroustrup’s A Tour of C++ is a compact walk through the language by its designer, written for programmers who already know how to code and want the shape of modern C++ rather than a from-scratch tutorial. It moves quickly from types, objects, and functions into classes, templates, the standard library, and concurrency, showing how those pieces fit together as one language. This 2013 edition is a map of C++11-era C++ more than an encyclopedic reference: a structured overview before a fuller textbook or the standard."
-  },
-  {
-    "objectID": "reading/a-tour-of-cpp.html#my-review",
-    "href": "reading/a-tour-of-cpp.html#my-review",
-    "title": "A Tour of C++",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "reading/the-statquest-illustrated-guide-to-machine-learning.html",
-    "href": "reading/the-statquest-illustrated-guide-to-machine-learning.html",
-    "title": "The StatQuest Illustrated Guide to Machine Learning",
-    "section": "",
-    "text": "Josh Starmer’s illustrated guide teaches core machine-learning ideas—cross-validation, bias and variance, regression, naive Bayes, trees, and neural nets among them—through informal pictures and intuition-first explanations rather than dense linear algebra. It is a visual primer for newcomers who want to know what the algorithms are doing, not a graduate machine-learning theory text."
-  },
-  {
-    "objectID": "reading/the-statquest-illustrated-guide-to-machine-learning.html#llm-generated-summary",
-    "href": "reading/the-statquest-illustrated-guide-to-machine-learning.html#llm-generated-summary",
-    "title": "The StatQuest Illustrated Guide to Machine Learning",
-    "section": "",
-    "text": "Josh Starmer’s illustrated guide teaches core machine-learning ideas—cross-validation, bias and variance, regression, naive Bayes, trees, and neural nets among them—through informal pictures and intuition-first explanations rather than dense linear algebra. It is a visual primer for newcomers who want to know what the algorithms are doing, not a graduate machine-learning theory text."
-  },
-  {
-    "objectID": "reading/the-statquest-illustrated-guide-to-machine-learning.html#my-review",
-    "href": "reading/the-statquest-illustrated-guide-to-machine-learning.html#my-review",
-    "title": "The StatQuest Illustrated Guide to Machine Learning",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "reading/code.html",
-    "href": "reading/code.html",
-    "title": "Code",
-    "section": "",
-    "text": "Charles Petzold’s Code explains how computers work by building them conceptually from familiar pieces: telegraph and Morse, relays, binary, logic gates, adders, memory, and finally a simple processor and programming. It is a bottom-up engineering narrative that makes machine representation and instruction execution concrete without assuming a computer-science degree. The gist is that software is not magic; it is layers of encoding on switching hardware."
-  },
-  {
-    "objectID": "reading/code.html#llm-generated-summary",
-    "href": "reading/code.html#llm-generated-summary",
-    "title": "Code",
-    "section": "",
-    "text": "Charles Petzold’s Code explains how computers work by building them conceptually from familiar pieces: telegraph and Morse, relays, binary, logic gates, adders, memory, and finally a simple processor and programming. It is a bottom-up engineering narrative that makes machine representation and instruction execution concrete without assuming a computer-science degree. The gist is that software is not magic; it is layers of encoding on switching hardware."
-  },
-  {
-    "objectID": "reading/code.html#my-review",
-    "href": "reading/code.html#my-review",
-    "title": "Code",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html",
-    "href": "reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html",
-    "title": "A Global Perspective on Evolving Bioinformatics and Data Science Training Needs",
-    "section": "",
-    "text": "This Briefings in Bioinformatics paper surveys a persistent global shortfall in bioinformatics and data-science skill among life scientists, even as computation has become intrinsic to biological research. Drawing on training-needs studies, Attwood and colleagues report that most respondents name data analysis and interpretation as the main gap, and they discuss how short courses, curriculum reform, and shared training infrastructure try to close it. The piece is a field-level argument rather than a methods paper: bioinformatics training has to scale with data, stay current as techniques shift, and reach researchers who were never trained as computational specialists."
-  },
-  {
-    "objectID": "reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html#llm-generated-summary",
-    "href": "reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html#llm-generated-summary",
-    "title": "A Global Perspective on Evolving Bioinformatics and Data Science Training Needs",
-    "section": "",
-    "text": "This Briefings in Bioinformatics paper surveys a persistent global shortfall in bioinformatics and data-science skill among life scientists, even as computation has become intrinsic to biological research. Drawing on training-needs studies, Attwood and colleagues report that most respondents name data analysis and interpretation as the main gap, and they discuss how short courses, curriculum reform, and shared training infrastructure try to close it. The piece is a field-level argument rather than a methods paper: bioinformatics training has to scale with data, stay current as techniques shift, and reach researchers who were never trained as computational specialists."
-  },
-  {
-    "objectID": "reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html#my-review",
-    "href": "reading/a-global-perspective-on-evolving-bioinformatics-and-data-science-training-needs.html#my-review",
-    "title": "A Global Perspective on Evolving Bioinformatics and Data Science Training Needs",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "reading/introduction-to-algorithms.html",
-    "href": "reading/introduction-to-algorithms.html",
-    "title": "Introduction to Algorithms (CLRS)",
-    "section": "",
-    "text": "CLRS is the canonical algorithms textbook: it develops asymptotic analysis, data structures, sorting, graph algorithms, dynamic programming, greedy methods, NP-completeness, and a range of specialized topics in a uniform pseudocode-and-proof style. It is designed as a course book and reference rather than a light tutorial, with exercises that range from routine to research-flavored. The date on this entry marks the first edition of a text later editions expanded, but the gist is unchanged: rigorous, general-purpose algorithmics."
-  },
-  {
-    "objectID": "reading/introduction-to-algorithms.html#llm-generated-summary",
-    "href": "reading/introduction-to-algorithms.html#llm-generated-summary",
-    "title": "Introduction to Algorithms (CLRS)",
-    "section": "",
-    "text": "CLRS is the canonical algorithms textbook: it develops asymptotic analysis, data structures, sorting, graph algorithms, dynamic programming, greedy methods, NP-completeness, and a range of specialized topics in a uniform pseudocode-and-proof style. It is designed as a course book and reference rather than a light tutorial, with exercises that range from routine to research-flavored. The date on this entry marks the first edition of a text later editions expanded, but the gist is unchanged: rigorous, general-purpose algorithmics."
-  },
-  {
-    "objectID": "reading/introduction-to-algorithms.html#my-review",
-    "href": "reading/introduction-to-algorithms.html#my-review",
-    "title": "Introduction to Algorithms (CLRS)",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "reading/mathematics-is-biology's-next-microscope-only-better-biology-is-math's-next-physics-only-better.html",
-    "href": "reading/mathematics-is-biology's-next-microscope-only-better-biology-is-math's-next-physics-only-better.html",
-    "title": "Mathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better",
-    "section": "",
-    "text": "Joel E. Cohen’s PLOS Biology essay argues a two-way claim: mathematics will reveal biological structure the way the microscope revealed microbes, and biology’s heterogeneity will force genuinely new mathematics the way physics once did. He traces the history of quantitative biology, maps current math–biology interactions, and lists open challenges at many scales of life. It is a manifesto for mathematical biology as mutual enrichment, not just applied calculus on living systems."
-  },
-  {
-    "objectID": "reading/mathematics-is-biology's-next-microscope-only-better-biology-is-math's-next-physics-only-better.html#llm-generated-summary",
-    "href": "reading/mathematics-is-biology's-next-microscope-only-better-biology-is-math's-next-physics-only-better.html#llm-generated-summary",
-    "title": "Mathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better",
-    "section": "",
-    "text": "Joel E. Cohen’s PLOS Biology essay argues a two-way claim: mathematics will reveal biological structure the way the microscope revealed microbes, and biology’s heterogeneity will force genuinely new mathematics the way physics once did. He traces the history of quantitative biology, maps current math–biology interactions, and lists open challenges at many scales of life. It is a manifesto for mathematical biology as mutual enrichment, not just applied calculus on living systems."
-  },
-  {
-    "objectID": "reading/mathematics-is-biology's-next-microscope-only-better-biology-is-math's-next-physics-only-better.html#my-review",
-    "href": "reading/mathematics-is-biology's-next-microscope-only-better-biology-is-math's-next-physics-only-better.html#my-review",
-    "title": "Mathematics Is Biology’s Next Microscope, Only Better; Biology Is Mathematics’ Next Physics, Only Better",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "reading/essential-math-for-data-science.html",
-    "href": "reading/essential-math-for-data-science.html",
-    "title": "Essential Math for Data Science",
-    "section": "",
-    "text": "Thomas Nield’s Essential Math for Data Science reviews the calculus, probability, statistics, and linear algebra that sit under everyday data work, then connects them to linear and logistic regression and related machine-learning practice. It is a practitioner-oriented refresher with code, not a proof-heavy mathematics text. The aim is to make model-fitting and evaluation less of a black box for people who already write some code."
-  },
-  {
-    "objectID": "reading/essential-math-for-data-science.html#llm-generated-summary",
-    "href": "reading/essential-math-for-data-science.html#llm-generated-summary",
-    "title": "Essential Math for Data Science",
-    "section": "",
-    "text": "Thomas Nield’s Essential Math for Data Science reviews the calculus, probability, statistics, and linear algebra that sit under everyday data work, then connects them to linear and logistic regression and related machine-learning practice. It is a practitioner-oriented refresher with code, not a proof-heavy mathematics text. The aim is to make model-fitting and evaluation less of a black box for people who already write some code."
-  },
-  {
-    "objectID": "reading/essential-math-for-data-science.html#my-review",
-    "href": "reading/essential-math-for-data-science.html#my-review",
-    "title": "Essential Math for Data Science",
-    "section": "My Review",
-    "text": "My Review"
-  },
-  {
-    "objectID": "projects/aws.html",
-    "href": "projects/aws.html",
-    "title": "Personal Computer to AWS",
-    "section": "",
-    "text": "Target Audience:\nPeople who run heavy jobs from a PC and want the most efficient AWS setup that will do it\n\n\n\n\nValue Proposition:\nPlanning and execution of the least viable AWS architecture for an offloaded task from your PC to the cloud\n\n\nProduct Link:\nNot applicable\n\n\nDemonstration Link:\nBlog post coming soon!\n\n\nSource Repository:\ngithub.com/ammaraldawood/aws"
-  },
-  {
-    "objectID": "projects/aws.html#technology-stack",
-    "href": "projects/aws.html#technology-stack",
-    "title": "Personal Computer to AWS",
-    "section": "Technology Stack",
-    "text": "Technology Stack\n\nProgramming Languages:\n\nShell: Zsh scripts for planning and launching.\n\n\n\n\nCore Technologies:\n\nRclone: Browses the remote S3 bucket from the terminal.\nAWS CLI: Account access, Session Manager, and instance launch.\nMermaid: Architecture diagrams rendered from the plan.\nChafa: Viewing approximations of images inside the terminal emulator."
-  },
-  {
-    "objectID": "projects/aws.html#project-learningsskills",
-    "href": "projects/aws.html#project-learningsskills",
-    "title": "Personal Computer to AWS",
-    "section": "Project Learnings/Skills",
-    "text": "Project Learnings/Skills\n\nArchitecture selection: Turn a workload description into a small set of AWS services, then draw only the services and setup steps that were chosen.\nPlan handoff: Keep the recommendation and the launch in separate scripts, with one file between them, so a non-EC2 plan stops instead of launching the wrong thing.\nLLM prompting and HITL: The repo is mostly written by LLMs, which required a lot of back and forth with them to get them to understand what I want and how I want it to look like."
-  },
-  {
-    "objectID": "projects/personal-website.html",
-    "href": "projects/personal-website.html",
-    "title": "Personal Website",
-    "section": "",
-    "text": "Target Audience:\nGeneralists, computational biologists and data/machine learning scientists\n\n\n\n\nValue Proposition:\nHard-won perspectives on a plethora of different topics\n\n\nProduct Link:\nammaraldawood.com\n\n\nDemonstration Link:\nBlog post coming soon!\n\n\nSource Repository:\ngithub.com/ammaraldawood/ammaraldawood.github.io\n\n\nInfluenced By:\nSamantha Shanny-Csik"
-  },
-  {
-    "objectID": "projects/personal-website.html#technology-stack",
-    "href": "projects/personal-website.html#technology-stack",
-    "title": "Personal Website",
-    "section": "Technology Stack",
-    "text": "Technology Stack\n\nProgramming Languages:\n\nR: Visualizations and diagrams.\nJavascript: Mermaid diagrams.\nHTML: Custom buttons and website elements.\nCSS: Styling for website elements.\nShell: Quarto and Git CLI.\n\n\n\n\nCore Technologies:\n\nQuarto: Main tool used to build the website with .qmd files.\nGitHub: Hosts the website using GitHub Pages.\nGit: Version control."
-  },
-  {
-    "objectID": "projects/personal-website.html#project-learningsskills",
-    "href": "projects/personal-website.html#project-learningsskills",
-    "title": "Personal Website",
-    "section": "Project Learnings/Skills",
-    "text": "Project Learnings/Skills\n\nProgrammatic Visualization: All original diagrams and visualizations for this website and blog posts were generated programmatically (e.g., using Python/R libraries) rather than using standard graphic design tools as a self-imposed technical constraint.\nTechnical Writing Skills: Proficiency in creating and deploying code-integrated documentation. Focus on clear narrative flow and attention-grabbing storytelling.\nProject Management: Planning the overall structure of the website to suit my specific needs, avoid overlap and regurgitation between website sections and create an easily navigable experience for the visitor."
-  },
-  {
-    "objectID": "projects/dotfiles.html",
-    "href": "projects/dotfiles.html",
-    "title": "Dotfiles",
-    "section": "",
-    "text": "Target Audience:\nCurious tinkerers who live in the terminal and build their own workflows\n\n\n\n\nValue Proposition:\nKeyboard-centric, single monitor workflow with superior Vim Motions editing experience\n\n\nProduct Link:\nNot applicable\n\n\nDemonstration Link:\nBlog post coming soon!\n\n\nSource Repository:\ngithub.com/ammaraldawood/dotfiles\n\n\nInfluenced By:\nJosean Martinez"
-  },
-  {
-    "objectID": "projects/dotfiles.html#technology-stack",
-    "href": "projects/dotfiles.html#technology-stack",
-    "title": "Dotfiles",
-    "section": "Technology Stack",
-    "text": "Technology Stack\n\nProgramming Languages:\n\nLua: Neovim configuration language.\nShell: Zsh scripts and terminal customization.\n\n\n\n\nCore Technologies:\n\nNeovim: Text editor centered around Vim Motions.\nTmux: Terminal multiplexer and sessionizer.\nGhostty: Terminal emulator with shader support.\nGit: Version control.\nHomebrew: Package management."
-  },
-  {
-    "objectID": "projects/dotfiles.html#project-learningsskills",
-    "href": "projects/dotfiles.html#project-learningsskills",
-    "title": "Dotfiles",
-    "section": "Project Learnings/Skills",
-    "text": "Project Learnings/Skills\n\nSoftware Architecture: Managing the interplay of different programs and their respective plugins and themes, resolving conflicts and optimizing user experience. For example, installing bioSyntax which is available for Vim and making it available to Neovim through a Lua function call.\nShell Scripting: Creating aliases and custom shell functions that perform repetitive tasks and multi-step operations using a single-word command. For example, ‘cld’ which concatenates the contents of the latest downloaded file using bat.\nCommand Line Fluency: Introduced to countless terms and paradigms that I had to look up while working on this setup, some of which I might not have run into otherwise, including fuzzy search, inodes, size vs blocksize, symlinks, ripgrep, glob operators, globbing flags, aliasing, regex, environment variables and makefiles, amongst others."
-  },
-  {
-    "objectID": "blog/welcome.html",
-    "href": "blog/welcome.html",
-    "title": "What’s On My Mind",
-    "section": "",
-    "text": "Welcome to my blog! This is where I talk about my experiences and share my perspective\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWhy AI Didn’t Stop Me From Learning to Code\n\n\n\nMachine Learning\n\nArtificial Intelligence\n\nLearn to Code\n\n\n\nAn affirmation based on optimism and caution.\n\n\n\n\n\nSep 14, 2025\n\n\nAmmar Aldawood\n\n\n\n\n\nNo matching items"
   }
 ]
