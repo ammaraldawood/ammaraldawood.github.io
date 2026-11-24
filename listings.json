@@ -2,17 +2,12 @@
   {
     "listing": "/projects/projects.html",
     "items": [
-      "/projects/aws.html",
       "/projects/personal-website.html",
+      "/projects/aws.html",
       "/projects/dataresmic.html",
       "/projects/datacamp-competition.html",
-      "/projects/dotfiles.html"
-    ]
-  },
-  {
-    "listing": "/blog/welcome.html",
-    "items": [
-      "/blog/posts/2025-09-14.html"
+      "/projects/dotfiles.html",
+      "/projects/rexplain.html"
     ]
   },
   {
@@ -33,6 +28,12 @@
       "/reading/linear-algebra-done-right.html",
       "/reading/introduction-to-algorithms.html",
       "/reading/the-c-programming-language.html"
+    ]
+  },
+  {
+    "listing": "/blog/welcome.html",
+    "items": [
+      "/blog/posts/2025-09-14.html"
     ]
   }
 ]

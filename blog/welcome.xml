@@ -9,7 +9,7 @@
 <link>https://www.ammaraldawood.com/blog/welcome.html</link>
 <atom:link href="https://www.ammaraldawood.com/blog/welcome.xml" rel="self" type="application/rss+xml"/>
 <description>Blog</description>
-<generator>quarto-1.10.18</generator>
+<generator>quarto-1.11.9</generator>
 <lastBuildDate>Sun, 14 Sep 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Why AI Didn’t Stop Me From Learning to Code</title>
@@ -58,6 +58,7 @@
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
+
 <pre class="mermaid mermaid-js">%%{init: {'themeVariables': {'textColor': '#ffffff'}}}%%
 sequenceDiagram
 box rgb(13, 71, 161) Fundamental
@@ -107,6 +108,7 @@ end
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
+
 <pre class="mermaid mermaid-js">%%{init: {'themeVariables': {'textColor': '#ffffff'}}}%%
 sequenceDiagram
 box rgb(39, 111, 39) Formal
@@ -232,14 +234,14 @@ end
 <li id="fn6"><p><a href="https://solportal.ibe-unesco.org/articles/is-learning-computer-programming-associated-with-developing-thinking-skills/" target="_blank">Is Learning Computer Programming Associated with Developing Thinking Skills?</a>↩︎</p></li>
 <li id="fn7"><p><a href="https://www.researchgate.net/publication/328527684_The_Cognitive_Benefits_of_Learning_Computer_Programming_A_Meta-Analysis_of_Transfer_Effects" target="_blank">The Cognitive Benefits of Learning Computer Programming: A Meta-Analysis of Transfer Effects</a>↩︎</p></li>
 </ol>
-</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{aldawood2025,
+</section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><div class="code-copy-outer-scaffold"><pre class="sourceCode quarto-appendix-bibtex code-with-copy"><code class="sourceCode bibtex">@online{aldawood2025,
   author = {Aldawood, Ammar},
   title = {Why {AI} {Didn’t} {Stop} {Me} {From} {Learning} to {Code}},
   date = {2025-09-14},
   url = {https://ammaraldawood.com/blog/posts/2025-09-14},
   langid = {en}
 }
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-aldawood2025" class="csl-entry quarto-appendix-citeas">
+</code></pre></div><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-aldawood2025" class="csl-entry quarto-appendix-citeas">
 Aldawood, Ammar. 2025. <span>“Why AI Didn’t Stop Me From Learning to
 Code.”</span> September 14. <a href="https://ammaraldawood.com/blog/posts/2025-09-14">https://ammaraldawood.com/blog/posts/2025-09-14</a>.
 </div></div></section></div> ]]></description>
