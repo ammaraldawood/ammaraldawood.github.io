@@ -1,0 +1,49 @@
+---
+title: "Rexplain"
+description: "An on-demand local technical explainer for Rex and Neovim powered by Apple's on-device Foundation Model and local MLX models"
+image: rexplain.png
+
+categories: [
+  Swift, Lua, Shell, MLX
+]
+
+format:
+  html:
+    css: styles.css
+---
+
+| **Target Audience:** | Developers, students, and researchers working in Rex and Neovim who want fast, local explanations of technical material |
+| :--- | :--- |
+| **Value Proposition:** | One consistent shortcut (`Shift + Cmd + E`) to get structured explanations of strictly selected text from Apple's on-device Foundation Model or any local MLX model without a background daemon |
+| **Product Link:** | Not applicable |
+| **Demonstration Link:** | Blog post coming soon! |
+| **Source Repository:** | [**`github.com/ammaraldawood/rexplain`**](https://github.com/ammaraldawood/rexplain){target="_blank"} |
+
+<br>
+
+## Technology Stack
+
+* **Programming Languages:**
+  * **Swift:** On-demand CLI, worker loop, Apple Foundation Models integration, and local MLX CLI orchestration.
+  * **Lua:** Native Rex actions/UI pickers and Neovim Visual-mode floating Markdown popup adapter (`:RexplainModel`).
+  * **Shell:** Zsh visual-mode widget, macOS install/uninstall scripts, and unified test runner.
+  * **Python:** Direct streaming bridge into installed `mlx-lm` and `mlx-vlm` local model environments.
+
+<br>
+
+* **Core Technologies:**
+  * **Apple Foundation Models:** Strictly on-device `SystemLanguageModel.default` inference with prewarming while the effort picker is open.
+  * **Apple MLX:** Optional direct CLI support (`mlx-lm` and `mlx-vlm` with automatic runner routing and Hugging Face cache discovery) for any local model.
+  * **Rex:** Named actions (`Rexplain: Explain Selection`, `Rexplain: Select Model`), effort pickers, floating layer management, and focus routing.
+  * **Neovim:** Floating Markdown popup (`<F13>`) with strictly selection-only, register-preserving Visual selection capture and `q`/`<Esc>` dismissal.
+  * **Swift Testing & LuaJIT:** Automated testing across Swift core logic, Rex Lua actions, and headless Neovim.
+
+## Project Learnings/Skills
+
+1. **On-demand architecture over background daemons:** Replacing a persistent LaunchAgent and loopback TCP socket service with an ephemeral CLI/worker spawned per request, using FMF prewarming while the effort picker is open and XDG configuration (`~/.config/rexplain/config.json`) outside the plugin repository.
+
+2. **Cross-tool shortcut routing:** Dispatching one physical macOS shortcut (`Shift + Cmd + E`) through Rex named actions into either a focused Rex floating pane or Neovim Visual mode via `<F13>`, sending only the exact selected text without surrounding lines, metadata, or Vim register mutations.
+
+3. **Prompt simplicity & local model tradeoffs:** Discovering that dense template rules and duplicated surrounding context cause small on-device models to repeat symbols or leak scaffolding, then stripping prompts down to plain natural instructions paired with explicit nucleus sampling and wide MLX repetition windows—while clearly labeling `On-device` (Apple FMF) separately from `Local · <Model>` (MLX).
+
+4. **End-to-end verification across runtimes:** Combining Swift Testing, LuaJIT, and headless Neovim test suites with live inference checks, release builds, and automated model discovery.
